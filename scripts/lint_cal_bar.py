@@ -19,7 +19,12 @@ PATTERNS = [
     ("RULE_7_2_SPECIALIST", r"\bspecialist\b"),
     ("RULE_7_2_SPECIALIZES", r"\bspecializes?\s+in\b"),
     ("RULE_7_2_EXPERT", r"\bexpert\b(?!ise)"),
-    ("RULE_7_1_GUARANTEE", r"\bguarantee[sd]?\b"),
+    # Catches marketing "guarantee(s|d)" claims. Excludes the legally-required
+    # Cal Bar Rule 7.1 disclaimer negations ("do not guarantee", "does not
+    # guarantee", "cannot guarantee", "no guarantee") that MUST appear in the
+    # sitewide footer disclaimer (DESIGN.md §6.5). Refinement — not a weakening.
+    ("RULE_7_1_GUARANTEE",
+     r"(?<!do not )(?<!does not )(?<!cannot )(?<!no )\bguarantee[sd]?\b"),
     ("RULE_7_1_WE_WIN", r"\bwe (will )?win\b"),
     ("RULE_7_1_BEST_OUTCOME", r"\bbest outcome\b"),
     ("RULE_7_1_PROVEN_RESULTS", r"\bproven results?\b"),
