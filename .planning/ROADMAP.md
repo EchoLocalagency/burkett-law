@@ -131,7 +131,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation + Design System + Validators | 0/TBD | Not started | - |
+| 1. Foundation + Design System + Validators | 0/5 | In Progress (Plan 01 awaiting Netlify checkpoint) | - |
 | 2. Bio + Homepage + Contact | 0/TBD | Not started | - |
 | 3. Practice Pillar Pages | 0/TBD | Not started | - |
 | 4. Location Pages | 0/TBD | Not started | - |
