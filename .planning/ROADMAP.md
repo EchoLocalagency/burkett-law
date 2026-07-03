@@ -35,7 +35,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. Legal pages ship — `/privacy.html` (CCPA/CPRA notice), `/terms.html`, `/disclaimer.html` (Cal Bar attorney advertising) — all linked from footer and human-reviewed for California jurisdiction accuracy
 **Plans**: 5 plans
 - [x] 01-PLAN.md — Repo scaffold + Netlify infra (netlify.toml pretty_urls=false, _headers, _redirects, robots.txt/sitemap.xml/llms.txt/security.txt) + placeholder homepage + GitHub push + auto-deploy verify (FND-01, FND-02, FND-03, FND-09)
-- [ ] 02-PLAN.md — Design tokens CSS (DESIGN.md §13 verbatim) + self-hosted Fraunces + Inter WOFF2 + base HTML template (FND-04, FND-05, FND-06)
+- [x] 02-PLAN.md — Design tokens CSS (DESIGN.md §13 verbatim) + self-hosted Fraunces + Inter WOFF2 + base HTML template (FND-04, FND-05, FND-06)
 - [x] 03-PLAN.md — Content-fabrication validator + Cal Bar Rule 7.1-7.5 lint + identity guard + pre-commit hook + test fixtures (FND-11, FND-12)
 - [ ] 04-PLAN.md — Universal header + footer with character-identical NAP + Cal Bar disclaimer band + nav.js mobile drawer (FND-07, FND-08)
 - [ ] 05-PLAN.md — Legal pages (privacy.html CCPA/CPRA + terms.html + disclaimer.html Cal Bar Rule 7.1-7.5) (FND-10)
