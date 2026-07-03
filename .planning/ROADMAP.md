@@ -33,7 +33,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Every page renders universal header (logo + 4-item nav + sticky `tel:6192502683` button) and footer (character-identical NAP `591 Camino De La Reina, Suite 821, San Diego, CA 92108` / `(619) 250-2683`, hours, and Cal Bar Rule 7.1 sitewide disclaimer band)
   4. Running `scripts/validate_fabrication.py` + `scripts/lint_cal_bar.py` on a copy that violates rules (contains `specialist`, `guaranteed`, `our team`, invented `500+ cases`) exits non-zero and blocks commit via pre-commit hook; running on clean copy exits zero
   5. Legal pages ship — `/privacy.html` (CCPA/CPRA notice), `/terms.html`, `/disclaimer.html` (Cal Bar attorney advertising) — all linked from footer and human-reviewed for California jurisdiction accuracy
-**Plans**: TBD
+**Plans**: 5 plans
+- [ ] 01-PLAN.md — Repo scaffold + Netlify infra (netlify.toml pretty_urls=false, _headers, _redirects, robots.txt/sitemap.xml/llms.txt/security.txt) + placeholder homepage + GitHub push + auto-deploy verify (FND-01, FND-02, FND-03, FND-09)
+- [ ] 02-PLAN.md — Design tokens CSS (DESIGN.md §13 verbatim) + self-hosted Fraunces + Inter WOFF2 + base HTML template (FND-04, FND-05, FND-06)
+- [ ] 03-PLAN.md — Content-fabrication validator + Cal Bar Rule 7.1-7.5 lint + identity guard + pre-commit hook + test fixtures (FND-11, FND-12)
+- [ ] 04-PLAN.md — Universal header + footer with character-identical NAP + Cal Bar disclaimer band + nav.js mobile drawer (FND-07, FND-08)
+- [ ] 05-PLAN.md — Legal pages (privacy.html CCPA/CPRA + terms.html + disclaimer.html Cal Bar Rule 7.1-7.5) (FND-10)
 
 ### Phase 2: Bio + Homepage + Contact (E-E-A-T Taproot & CTA Trio)
 **Goal**: Ship the E-E-A-T taproot (bio page with verifiable credentials + Person schema carrying a canonical `@id` that every downstream authored page references), plus the two pages that carry the site's only `LocalBusiness` schema instances (homepage + contact). Homepage CTA trio (phone + GHL calendar embed + Netlify contact form) works end-to-end with form submission landing in Burkett + brian@echolocalagency.com inboxes.
