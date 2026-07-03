@@ -189,28 +189,139 @@ Explicitly excluded. Documented to prevent scope creep.
 
 ## Traceability
 
-Which phases cover which requirements. Updated during roadmap creation.
+Which phases cover which requirements. Updated during roadmap creation (2026-07-03).
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FND-01 through FND-12 | Phase 1 | Pending |
-| BIO-01 through BIO-07 | Phase 2 | Pending |
-| HOME-01 through HOME-09 | Phase 2 | Pending |
-| CON-01 through CON-07 | Phase 2 | Pending |
-| PA-01 through PA-11 | Phase 3 | Pending |
-| LOC-01 through LOC-06 | Phase 4 | Pending |
-| BLOG-01 through BLOG-08 | Phase 5 | Pending |
-| SEO-01 through SEO-10 | Phase 6 | Pending |
-| ANL-01 through ANL-05 | Phase 6 | Pending |
-| CUT-01 through CUT-07 | Phase 7 | Pending |
-| GBP-01 through GBP-07 | Phase 8 | Pending |
-| ADS-01 through ADS-06 | Phase 8 | Pending |
+| FND-01 | Phase 1 | Pending |
+| FND-02 | Phase 1 | Pending |
+| FND-03 | Phase 1 | Pending |
+| FND-04 | Phase 1 | Pending |
+| FND-05 | Phase 1 | Pending |
+| FND-06 | Phase 1 | Pending |
+| FND-07 | Phase 1 | Pending |
+| FND-08 | Phase 1 | Pending |
+| FND-09 | Phase 1 | Pending |
+| FND-10 | Phase 1 | Pending |
+| FND-11 | Phase 1 | Pending |
+| FND-12 | Phase 1 | Pending |
+| BIO-01 | Phase 2 | Pending |
+| BIO-02 | Phase 2 | Pending |
+| BIO-03 | Phase 2 | Pending |
+| BIO-04 | Phase 2 | Pending |
+| BIO-05 | Phase 2 | Pending |
+| BIO-06 | Phase 2 | Pending |
+| BIO-07 | Phase 2 | Pending |
+| HOME-01 | Phase 2 | Pending |
+| HOME-02 | Phase 2 | Pending |
+| HOME-03 | Phase 2 | Pending |
+| HOME-04 | Phase 2 | Pending |
+| HOME-05 | Phase 2 | Pending |
+| HOME-06 | Phase 2 | Pending |
+| HOME-07 | Phase 2 | Pending |
+| HOME-08 | Phase 2 | Pending |
+| HOME-09 | Phase 2 | Pending |
+| CON-01 | Phase 2 | Pending |
+| CON-02 | Phase 2 | Pending |
+| CON-03 | Phase 2 | Pending |
+| CON-04 | Phase 2 | Pending |
+| CON-05 | Phase 2 | Pending |
+| CON-06 | Phase 2 | Pending |
+| CON-07 | Phase 2 | Pending |
+| PA-01 | Phase 3 | Pending |
+| PA-02 | Phase 3 | Pending |
+| PA-03 | Phase 3 | Pending |
+| PA-04 | Phase 3 | Pending |
+| PA-05 | Phase 3 | Pending |
+| PA-06 | Phase 3 | Pending |
+| PA-07 | Phase 3 | Pending |
+| PA-08 | Phase 3 | Pending |
+| PA-09 | Phase 3 | Pending |
+| PA-10 | Phase 3 | Pending |
+| PA-11 | Phase 3 | Pending |
+| LOC-01 | Phase 4 | Pending |
+| LOC-02 | Phase 4 | Pending |
+| LOC-03 | Phase 4 | Pending |
+| LOC-04 | Phase 4 | Pending |
+| LOC-05 | Phase 4 | Pending |
+| LOC-06 | Phase 4 | Pending |
+| BLOG-01 | Phase 5 | Pending |
+| BLOG-02 | Phase 5 | Pending |
+| BLOG-03 | Phase 5 | Pending |
+| BLOG-04 | Phase 5 | Pending |
+| BLOG-05 | Phase 5 | Pending |
+| BLOG-06 | Phase 5 | Pending |
+| BLOG-07 | Phase 5 | Pending |
+| BLOG-08 | Phase 5 | Pending |
+| SEO-01 | Phase 6 | Pending |
+| SEO-02 | Phase 6 | Pending |
+| SEO-03 | Phase 6 | Pending |
+| SEO-04 | Phase 6 | Pending |
+| SEO-05 | Phase 6 | Pending |
+| SEO-06 | Phase 6 | Pending |
+| SEO-07 | Phase 6 | Pending |
+| SEO-08 | Phase 6 | Pending |
+| SEO-09 | Phase 6 | Pending |
+| SEO-10 | Phase 6 | Pending |
+| ANL-01 | Phase 6 | Pending |
+| ANL-02 | Phase 6 | Pending |
+| ANL-03 | Phase 6 | Pending |
+| ANL-04 | Phase 6 | Pending |
+| ANL-05 | Phase 6 | Pending |
+| CUT-01 | Phase 7 | Pending |
+| CUT-02 | Phase 7 | Pending |
+| CUT-03 | Phase 7 | Pending |
+| CUT-04 | Phase 7 | Pending |
+| CUT-05 | Phase 7 | Pending |
+| CUT-06 | Phase 7 | Pending |
+| CUT-07 | Phase 7 | Pending |
+| GBP-01 | Phase 8 | Pending |
+| GBP-02 | Phase 8 | Pending |
+| GBP-03 | Phase 8 | Pending |
+| GBP-04 | Phase 8 | Pending |
+| GBP-05 | Phase 8 | Pending |
+| GBP-06 | Phase 8 | Pending |
+| GBP-07 | Phase 8 | Pending |
+| ADS-01 | Phase 8 | Pending |
+| ADS-02 | Phase 8 | Pending |
+| ADS-03 | Phase 8 | Pending |
+| ADS-04 | Phase 8 | Pending |
+| ADS-05 | Phase 8 | Pending |
+| ADS-06 | Phase 8 | Pending |
 | CIT-01 | Phase 8 | Pending |
 
 **Coverage:**
-- v1 requirements: 87 total
-- Mapped to phases: 87
+- v1 requirements: 96 total (recounted during roadmap creation; the earlier "87" was a miscount)
+- Mapped to phases: 96
 - Unmapped: 0 ✓
+- Phases: 8
+
+**Requirement count by category:**
+- FND: 12 (FND-01 to FND-12)
+- BIO: 7 (BIO-01 to BIO-07)
+- HOME: 9 (HOME-01 to HOME-09)
+- CON: 7 (CON-01 to CON-07)
+- PA: 11 (PA-01 to PA-11)
+- LOC: 6 (LOC-01 to LOC-06)
+- BLOG: 8 (BLOG-01 to BLOG-08)
+- SEO: 10 (SEO-01 to SEO-10)
+- ANL: 5 (ANL-01 to ANL-05)
+- CUT: 7 (CUT-01 to CUT-07)
+- GBP: 7 (GBP-01 to GBP-07)
+- ADS: 6 (ADS-01 to ADS-06)
+- CIT: 1 (CIT-01)
+- Total: 96
+
+**Requirement count by phase:**
+- Phase 1 (Foundation + Design System + Validators): 12 (FND)
+- Phase 2 (Bio + Homepage + Contact): 23 (BIO + HOME + CON)
+- Phase 3 (Practice Pillar Pages): 11 (PA)
+- Phase 4 (Location Pages): 6 (LOC)
+- Phase 5 (Blog): 8 (BLOG)
+- Phase 6 (Technical SEO + Analytics + Justia Redirect Map): 15 (SEO + ANL)
+- Phase 7 (Cutover): 7 (CUT)
+- Phase 8 (GBP + Google Ads + Citations): 14 (GBP + ADS + CIT)
+- Total: 96 ✓
 
 ---
 *Requirements defined: 2026-07-03*
