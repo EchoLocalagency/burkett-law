@@ -1,0 +1,11 @@
+# Netlify _redirects scaffold — Law Office of Brian Burkett
+#
+# Justia URL 301 map lands in Phase 6 (Technical SEO + Analytics + Justia Redirect Map).
+# Add www -> apex canonical decision here at Phase 7 T-14 (cutover).
+#
+# Rules:
+# - Do NOT add wildcard rules that catch new URLs (PITFALLS.md Pitfall 10).
+# - Every redirect must be an exact-URL 301 to a real, live target.
+# - Verify each redirect with `curl -I` against the Netlify preview before committing.
+#
+# (No active rules yet.)

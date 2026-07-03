@@ -1,0 +1,17 @@
+# Netlify configuration for Law Office of Brian Burkett (childcustodyanddivorce.com)
+# Deploy via git push only (see CLAUDE.md — never run `netlify deploy`).
+
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[build.processing.html]
+  # CRITICAL: pretty_urls MUST stay false.
+  # SoCal Artificial Turfs, Ecosystem Lands, and Mr Green all hit a mass-deindex bug when
+  # Netlify's default pretty_urls stripped `.html` from served internal links while the
+  # canonical + sitemap kept `.html` — Google starved the canonical pages of internal-link
+  # support and marked them "Discovered/Crawled - not indexed."
+  # Fixed on 2026-06-16 with this one-line change. Never remove.
+  pretty_urls = false
