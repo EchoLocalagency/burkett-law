@@ -1,0 +1,19 @@
+#!/bin/bash
+# Pre-commit hook for burkett-law: runs the three validators on staged HTML files.
+# Bypass in emergency with `git commit --no-verify` (do NOT normalize this — track it).
+
+set -o pipefail
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+STAGED_HTML=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.html?$' || true)
+
+if [ -z "$STAGED_HTML" ]; then
+  exit 0
+fi
+
+# Convert to absolute paths for run_all_validators.sh
+ABS_FILES=""
+for f in $STAGED_HTML; do
+  ABS_FILES="$ABS_FILES $REPO_ROOT/$f"
+done
+
+bash "$REPO_ROOT/scripts/run_all_validators.sh" $ABS_FILES
