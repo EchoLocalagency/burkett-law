@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- TITLE + META (unique per page) -->
+  <title>{{ page_title }} — Law Office of Brian Burkett</title>
+  <meta name="description" content="{{ page_description }}">
+  <link rel="canonical" href="https://childcustodyanddivorce.com{{ page_path }}">
+
+  <!-- Open Graph (unique per page, image slot per page) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:url" content="https://childcustodyanddivorce.com{{ page_path }}">
+  <meta property="og:image" content="https://childcustodyanddivorce.com{{ og_image_path }}">
+  <meta property="og:site_name" content="Law Office of Brian Burkett">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Preload above-the-fold fonts (LCP win per DESIGN.md §2.2) -->
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/InterVariable.woff2" crossorigin>
+
+  <!-- Design tokens + base styles -->
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+
+  <!-- GA4 slot — MUST inject the site-specific measurement ID from clients.json.
+       NEVER hardcode a GA4 id in this template (cross-client pollution incident,
+       PITFALLS.md Pitfall 11). Phase 6 wires the real id. Placeholder below. -->
+  <!-- GA4-BEGIN
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BURKETT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BURKETT_ID');
+  </script>
+  GA4-END -->
+
+  <!-- Schema slot — per-page JSON-LD block goes here. Phase 2 wires bio + LocalBusiness; Phase 3 wires Service+FAQPage per pillar. -->
+  <!-- SCHEMA-BEGIN
+  <script type="application/ld+json">{ ... }</script>
+  SCHEMA-END -->
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <!-- Universal header (logo + 4-item nav + tel: chip) lands in Plan 04. Placeholder. -->
+    <div class="container-xl">
+      <p><em>Header component lands in phase 01 Plan 04.</em></p>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Page content goes here -->
+    <div class="container-lg">
+      <h1>{{ page_h1 }}</h1>
+      <p class="prose">{{ page_lead }}</p>
+    </div>
+  </main>
+
+  <footer role="contentinfo">
+    <!-- Universal footer (NAP + hours + disclaimer + legal links) lands in Plan 04. Placeholder. -->
+    <div class="container-xl">
+      <p><em>Footer component lands in phase 01 Plan 04.</em></p>
+    </div>
+  </footer>
+
+  <!-- Progressive-enhancement JS (nav toggle, form spam filter, calendar lazy-mount).
+       Add as needed per page. Never blocking. -->
+</body>
+</html>
