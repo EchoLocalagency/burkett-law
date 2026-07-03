@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-07-02)
 ## Current Position
 
 Phase: 1 of 8 (Foundation + Design System + Validators)
-Plan: 1 of 5 in current phase (executing)
-Status: Awaiting human-verify checkpoint (Netlify site connect)
-Last activity: 2026-07-03 — Plan 01 pre-checkpoint tasks complete: repo scaffold + placeholder homepage pushed to EchoLocalagency/burkett-law (commit eb0ca89). Awaiting Netlify OAuth connect + first-deploy verification.
+Plan: 3 of 5 complete (01 + 03 done; 02 in parallel; 04 + 05 pending)
+Status: Validators live and gating commits; pre-commit hook installed
+Last activity: 2026-07-03 — Plan 03 complete: three content validators (lint_cal_bar.py, validate_fabrication.py, identity_guard.py) + clients.json + content_facts.md allowlist + 4 fixtures + test_validators.sh (6/6 assertions passing) + pre-commit hook installed via scripts/git-hooks/pre-commit + install_hooks.sh. End-to-end verified: bad commit blocked with specific violations, clean commit passes. Commits 1ff496e / 5915d24 / 299fa9e on main.
 
-Progress: [█░░░░░░░░░] 10%
+Progress: [███░░░░░░░] 25%
 
 ## Performance Metrics
 
@@ -48,7 +48,11 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 
 ### Pending Todos
 
-- **Plan 01 checkpoint (blocking Phase 2)**: Brian to connect Netlify to EchoLocalagency/burkett-law, verify first auto-deploy renders warm palette (cream bg, navy H1, gold CTA), verify all 6 security headers on preview URL, verify robots.txt + sitemap.xml served. Repo + commit already live; only Netlify OAuth + verification remains.
+- **Plan 02 (parallel)**: Design tokens CSS + self-hosted Fraunces + Inter WOFF2 + base HTML template (running in sibling agent). Writes assets/css + assets/fonts + templates/.
+- **Plan 04**: Universal header + footer with character-identical NAP + Cal Bar disclaimer band + nav.js mobile drawer (FND-07, FND-08). Depends on Plan 02.
+- **Plan 05**: Legal pages (privacy.html CCPA/CPRA + terms.html + disclaimer.html Cal Bar Rule 7.1-7.5) (FND-10).
+- **Phase 2 blocker**: `scripts/content_facts.md` is deliberately empty. Phase 2 (bio) MUST fill it with Burkett's bar admission year, bar number, JD school, undergrad, and any verified experience claims before the bio page can pass the fabrication validator.
+- **Fresh clone bootstrap**: Every new local clone must run `bash scripts/install_hooks.sh` — `.git/hooks/` isn't tracked by git.
 
 ### Blockers/Concerns
 
@@ -58,5 +62,5 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 ## Session Continuity
 
 Last session: 2026-07-03
-Stopped at: Plan 01 Tasks 1-2 complete + pushed (commit eb0ca89 on EchoLocalagency/burkett-law main). Awaiting Task 3 human-verify checkpoint (Netlify OAuth connect + first-deploy verification).
-Resume file: .planning/phases/01-foundation-design-system-validators/01-PLAN.md (Task 3: checkpoint:human-verify)
+Stopped at: Plan 03 complete — content validators + pre-commit hook live. Plan 02 (design tokens + fonts + base template) running in parallel sibling agent. Next: after Plan 02 lands, execute Plan 04 (universal header + footer) then Plan 05 (legal pages) to close Phase 1.
+Resume file: .planning/phases/01-foundation-design-system-validators/04-PLAN.md (once 02 confirmed complete)
