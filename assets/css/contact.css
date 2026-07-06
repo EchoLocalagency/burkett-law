@@ -1,0 +1,446 @@
+/*
+ * Contact page + thank-you page styles.
+ * Sourced from DESIGN.md §6.3 (contact form) + §6.6 (thank-you).
+ * All values reference tokens.css; hardcoded fallbacks marked inline.
+ *
+ * Includes .cta-card base styles so contact.html is self-sufficient even if
+ * assets/css/bio.css (defined in Plan 02-01) hasn't shipped yet. Bio.css
+ * loads BEFORE contact.css in the head, so its rules cascade first and this
+ * file's overrides (if any) win ties without breakage either way.
+ */
+
+/* ---------- Layout wrapper ---------- */
+.contact {
+  padding-block: var(--space-16);
+}
+
+/* ---------- Hero ---------- */
+.contact__hero {
+  text-align: center;
+  padding-block: var(--space-12) var(--space-8);
+}
+
+.contact__eyebrow {
+  font-family: var(--font-body);
+  font-size: var(--fs-overline);
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-accent-text);
+  margin: 0 0 var(--space-3);
+}
+
+.contact__hero h1 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-text);
+  margin: 0 0 var(--space-4);
+}
+
+.contact__lead {
+  font-family: var(--font-body);
+  font-size: var(--fs-lead);
+  line-height: var(--lh-body);
+  color: var(--color-text-muted);
+  max-width: 60ch;
+  margin: 0 auto var(--space-8);
+}
+
+/* ---------- CTA trio ---------- */
+.contact__cta-trio {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+}
+
+@media (min-width: 768px) {
+  .contact__cta-trio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* .cta-card base — mirrored here for standalone rendering.
+   bio.css (Plan 02-01) may define richer variants; those load first + cascade. */
+.cta-card {
+  display: block;
+  padding: var(--space-6);
+  background: var(--color-bg-elev-2);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color var(--duration-fast) var(--ease-out),
+              box-shadow var(--duration-fast) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out);
+  text-align: center;
+}
+
+.cta-card:hover,
+.cta-card:focus-visible {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.cta-card__label {
+  font-family: var(--font-body);
+  font-size: var(--fs-overline);
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-accent-text);
+  margin: 0 0 var(--space-2);
+}
+
+.cta-card__value {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  line-height: var(--lh-heading);
+  color: var(--color-text);
+  margin: 0 0 var(--space-2);
+}
+
+.cta-card__note {
+  font-size: var(--fs-caption);
+  color: var(--color-text-subtle);
+  margin: 0;
+}
+
+/* ---------- NAP block + map ---------- */
+.contact__nap {
+  padding-block: var(--space-12);
+}
+
+.contact__nap-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-10);
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .contact__nap-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contact__nap-block h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-heading);
+  color: var(--color-text);
+  margin: 0 0 var(--space-6);
+}
+
+.contact__address {
+  font-style: normal;
+  line-height: var(--lh-loose);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-6);
+}
+
+.contact__address p {
+  margin: 0 0 var(--space-1);
+}
+
+.contact__address p strong {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.contact__address a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 3px;
+}
+
+.contact__address a:hover,
+.contact__address a:focus-visible {
+  color: var(--color-accent);
+  outline: none;
+}
+
+.contact__hours,
+.contact__parking {
+  font-family: var(--font-body);
+  font-size: var(--fs-body-sm);
+  line-height: var(--lh-body);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-3);
+}
+
+.contact__hours strong {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.contact__map iframe {
+  width: 100%;
+  min-height: 360px;
+  border: 0;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+/* ---------- Booking (calendar slot) ---------- */
+.contact__booking {
+  padding: var(--space-8);
+  margin-block: var(--space-12);
+  background: var(--color-bg-elev-1);
+  border-radius: var(--radius-xl);
+}
+
+.contact__booking h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-heading);
+  color: var(--color-text);
+  margin: 0 0 var(--space-3);
+}
+
+.contact__booking > p {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-6);
+  max-width: 60ch;
+}
+
+.contact__calendar-slot {
+  min-height: 400px; /* reserves space; prevents CLS when GHL iframe injects */
+  background: var(--paper-0);
+  border: 1.5px dashed var(--color-border-strong);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8);
+}
+
+.contact__calendar-fallback {
+  max-width: 40ch;
+  color: var(--color-text-muted);
+  text-align: center;
+  font-size: var(--fs-body-sm);
+  line-height: var(--lh-body);
+  margin: 0;
+}
+
+.contact__calendar-fallback a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 3px;
+}
+
+.contact__calendar-fallback a:hover,
+.contact__calendar-fallback a:focus-visible {
+  color: var(--color-accent);
+  outline: none;
+}
+
+/* ---------- Form wrapper ---------- */
+.contact__form-wrap {
+  padding-block: var(--space-16);
+}
+
+.contact__form-wrap h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-heading);
+  color: var(--color-text);
+  margin: 0 0 var(--space-3);
+}
+
+.contact__form-lead {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-8);
+  max-width: 60ch;
+}
+
+/* ---------- Form ---------- */
+.contact-form {
+  display: grid;
+  gap: var(--space-6);
+}
+
+/* Honeypot: visually hidden but readable to bots. */
+.contact-form__honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.contact-form__field label {
+  display: block;
+  font-family: var(--font-body);
+  font-size: var(--fs-body-sm);
+  font-weight: 600;
+  color: var(--ink-800);
+  margin-bottom: var(--space-2);
+}
+
+.contact-form__req {
+  color: var(--gold-700);
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+.contact-form__field input,
+.contact-form__field select,
+.contact-form__field textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: var(--space-3) var(--space-4);
+  background: var(--paper-0);
+  border: 1.5px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 1rem; /* 16px — prevents iOS zoom on focus */
+  line-height: var(--lh-body);
+  color: var(--color-text);
+  transition: border-color var(--duration-fast) var(--ease-out),
+              box-shadow var(--duration-fast) var(--ease-out);
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.contact-form__field textarea {
+  min-height: 140px;
+  resize: vertical;
+  font-family: var(--font-body);
+}
+
+.contact-form__field input:focus,
+.contact-form__field select:focus,
+.contact-form__field textarea:focus {
+  border-color: var(--gold-600);
+  box-shadow: var(--shadow-focus);
+  outline: none;
+}
+
+.contact-form__field select {
+  background-image: linear-gradient(45deg, transparent 50%, var(--color-text-muted) 50%),
+                    linear-gradient(135deg, var(--color-text-muted) 50%, transparent 50%);
+  background-position: calc(100% - 20px) center, calc(100% - 15px) center;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: var(--space-10);
+}
+
+.contact-form__submit {
+  justify-self: start;
+  background: var(--gold-600);
+  color: var(--cream-50);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: var(--space-4) var(--space-8);
+  min-height: 48px;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background-color var(--duration-fast) var(--ease-out),
+              box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.contact-form__submit:hover {
+  background: var(--gold-500);
+}
+
+.contact-form__submit:focus-visible {
+  outline: 3px solid var(--gold-500);
+  outline-offset: 2px;
+}
+
+.contact-form__disclaimer {
+  margin: var(--space-6) 0 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-caption);
+  line-height: var(--lh-body);
+  color: var(--color-text-subtle);
+  max-width: 60ch;
+}
+
+/* ---------- Thank-you page ---------- */
+.thanks {
+  padding-block: var(--space-16);
+  text-align: center;
+}
+
+.thanks h1 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-heading);
+  color: var(--color-text);
+  margin: 0 0 var(--space-6);
+}
+
+.thanks__lead {
+  font-family: var(--font-body);
+  font-size: var(--fs-lead);
+  line-height: var(--lh-body);
+  color: var(--color-text-muted);
+  max-width: 55ch;
+  margin: 0 auto var(--space-8);
+}
+
+.thanks__note {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: var(--fs-body-sm);
+  line-height: var(--lh-body);
+  color: var(--color-text-subtle);
+  max-width: 50ch;
+  margin: var(--space-8) auto;
+}
+
+.thanks__actions {
+  margin: var(--space-10) 0 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+}
+
+.thanks__link {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 3px;
+  margin: 0 var(--space-3);
+}
+
+.thanks__link:hover,
+.thanks__link:focus-visible {
+  color: var(--color-accent);
+  outline: none;
+}
+
+/* ---------- Motion-reduction ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .cta-card,
+  .contact-form__field input,
+  .contact-form__field select,
+  .contact-form__field textarea,
+  .contact-form__submit,
+  .thanks__link {
+    transition: none;
+  }
+  .cta-card:hover,
+  .cta-card:focus-visible {
+    transform: none;
+  }
+}
