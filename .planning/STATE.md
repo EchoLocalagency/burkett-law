@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in_progress
-last_updated: "2026-07-06T17:00:00.000Z"
+last_updated: "2026-07-06T17:15:00.000Z"
 progress:
   total_phases: 8
   completed_phases: 1
   total_plans: 8
-  completed_plans: 6
+  completed_plans: 7
 ---
 
 # Project State
@@ -23,9 +23,9 @@ See: .planning/PROJECT.md (updated 2026-07-02)
 ## Current Position
 
 Phase: 2 of 8 (Bio + Homepage + Contact)
-Plan: 02-01 complete, 02-02 complete (parallel sibling), 02-03 next (Wave 2 — homepage + sitewide nav-path cutover)
-Status: Bio taproot shipped. `/about.html` live with canonical Person `@id` = `https://childcustodyanddivorce.com/about.html#brian-burkett` — every future authored page (blog posts Phase 5, practice pillars Phase 3) will reference this exact @id. Reusable `.cta-card` component class shipped in bio.css.
-Last activity: 2026-07-06 — Plan 02-01 complete: `about.html` (395 lines, real 800x800 Burkett headshot as LCP hero, Person JSON-LD with hasCredential [JD Thomas Jefferson + CA Bar 220343 admitted 2002] + alumniOf [Pepperdine + Thomas Jefferson] + memberOf [State Bar of California] + worksFor LegalService), `assets/css/bio.css` (346 lines, all values via tokens.css, reusable `.cta-card` component, prefers-reduced-motion honored), sitemap.xml updated with `/about.html` at lastmod 2026-07-06. All three validators pass. Commits `6776e4a` + `4477b65` + `1997228` pushed to main. One deviation: reworded three occurrences of "24 years of practice" → "24 years of family-law practice" to match the content_facts.md whitelist substring. Sibling agent Plan 02-02 shipped `/contact.html` + `/thanks.html` + form spam filter + contact.css concurrently (commit `c647449`).
+Plan: 02-01 complete, 02-02 complete, 02-03 next (Wave 2 — homepage + sitewide nav-path cutover)
+Status: Bio taproot + contact/thanks conversion surface shipped. `/about.html` live with canonical Person `@id` = `https://childcustodyanddivorce.com/about.html#brian-burkett`. `/contact.html` carries the canonical LegalService+LocalBusiness JSON-LD (single NAP source) with `founder` + `employee` @id-referencing the bio Person node — entity-graph glue closed. Reusable `.cta-card` class shipped in both bio.css and contact.css (contact.css version acts as standalone fallback; bio.css loads first so cascade is safe).
+Last activity: 2026-07-06 — Plan 02-02 complete: `contact.html` (391 lines, LegalService+LocalBusiness multi-type JSON-LD, canonical NAP block + map iframe + CTA trio + GHL calendar slot placeholder + Netlify form with 8 fields including honeypot + Cal Bar 7.1 disclaimer directly below submit), `thanks.html` (164 lines, noindex terminal + universal chrome + commented GA4 form_submit slot + commented AW conversion slot), `assets/js/form.js` (68 lines, 8 unrolled `.test()` spam checks + honeypot check, silent redirect to `/` on match), `assets/css/contact.css` (446 lines, tokenized, prefers-reduced-motion gated, includes standalone `.cta-card` fallback), sitemap.xml updated with `/contact.html`. Three validators pass on both new HTML files. Commits `23df8f2` + `c647449` + `90a9067` pushed to main. Prior wave 1: Plan 02-01 also complete (`6776e4a` + `4477b65` + `1997228`).
 
 Progress: [███████░░░] 75%
 
@@ -64,6 +64,11 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 - **Plan 02-01 — Reusable `.cta-card` component**: defined in bio.css. Homepage (02-03) and practice pages (Phase 3) will re-use this class. Any hover/focus/color tweak ripples across the site.
 - **Plan 02-01 — Header nav intentionally still stale**: `/attorney-bio/` and `/contact/` will be swapped to `/about.html` + `/contact.html` in one sitewide commit as part of Plan 02-03. Do NOT fix piecemeal in Wave 1 pages.
 - **Plan 02-01 — Fabrication validator substring rule**: the validator's whitelist check is substring-based. "24 years of practice" fails; "24 years of family-law practice" passes because the whitelist line contains it. Always mirror the exact content_facts.md phrasing.
+- **Plan 02-02 — LegalService+LocalBusiness founder/employee @id glue**: contact page's LegalService node references the bio Person `@id` via both `founder` AND `employee`. This is the single-entity graph pattern — resolve Burkett as one Person across all schema types. Homepage (Plan 02-03) will use the same @id in its own Organization + LocalBusiness graph.
+- **Plan 02-02 — Two LocalBusiness instances sitewide**: contact.html (canonical NAP) + homepage (Plan 02-03). NO other pages get LocalBusiness — practice pillars use `Service`, location pages use `Service + areaServed: City`, blog posts use `Article + LegalService`. This is PITFALLS §6 enforcement.
+- **Plan 02-02 — Spam filter unrolled**: 8 explicit `.test()` calls (not a loop over an array) so each pattern is grep-auditable + verify-contract-safe. Adapted Echo Local pattern with `law firm seo` + `debt recovery agent` additions for legal-vertical solicitation.
+- **Plan 02-02 — GHL calendar slot placeholder pattern**: min-height 400px dashed-border container reserves layout for the future GHL iframe inject (Phase 8) so no CLS shift when it lands. Fallback CTA copy inside keeps the section useful pre-inject.
+- **Plan 02-02 — Netlify subject_template UI step**: Post-first-deploy manual step in Netlify UI. Subject must be `[{site_name}] New {form_name} submission` — NO `{{ field }}` variables (Netlify silently ships literal `{{ name }}` text; repeat of the 12 broken hooks fixed 2026-06-09). See PITFALLS §10 and 02-02-SUMMARY User Setup Required.
 
 ### Pending Todos
 
@@ -72,6 +77,8 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 - **Phase 2 blocker**: `includes/footer.html` BIO-VERIFY comment slot in credentials column must be filled with verified bar admission year + CA Bar number in Phase 2. Both include file AND every consuming page (index.html + privacy.html + terms.html + disclaimer.html) must update in the same commit.
 - **Phase 2 privacy refresh trigger**: If Phase 2+ wires any additional third-party (Segment, Hotjar, Facebook Pixel, retargeting pixel, etc.), privacy.html Third-Party Services + Information We Collect sections must be updated BEFORE the new tool ships.
 - **Fresh clone bootstrap**: Every new local clone must run `bash scripts/install_hooks.sh` — `.git/hooks/` isn't tracked by git.
+- **Post-Plan-02-02 Netlify UI step** (single, one-time, cannot be automated — `updateHook` 422 bug): After first Netlify deploy detects the `contact` form, configure email notification in the Netlify Dashboard → Forms → contact → Notifications with recipients `attorneyburkett@sbcglobal.net` + `brian@echolocalagency.com` and subject template `[{site_name}] New {form_name} submission` (variable-only — no `{{ field }}`). See `.planning/phases/02-bio-homepage-contact/02-02-SUMMARY.md` User Setup Required.
+- **Plan 02-03 nav-path cutover**: sitewide nav-link rewrite `/attorney-bio/` → `/about.html` and `/contact/` → `/contact.html` in `includes/header.html` + `includes/footer.html` + every deployed HTML page (index / privacy / terms / disclaimer / about / contact / thanks) in a SINGLE commit. Do not fix piecemeal.
 
 ### Blockers/Concerns
 
@@ -81,5 +88,5 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 ## Session Continuity
 
 Last session: 2026-07-06
-Stopped at: Completed Plan 02-01 (bio). `/about.html` + `assets/css/bio.css` + sitemap.xml update pushed to main (`6776e4a` + `4477b65` + `1997228`). Sibling Plan 02-02 also complete (`c647449`). Plan 02-03 (homepage + sitewide nav-path cutover from `/attorney-bio/` → `/about.html` and `/contact/` → `/contact.html`) is next — Wave 2, blocked on Waves 1 completion which just landed. Resume file: None (all commits pushed, working tree clean).
-Resume file: None (Phase 1 complete)
+Stopped at: Completed BOTH Wave 1 plans of Phase 2 — Plan 02-01 (bio) and Plan 02-02 (contact + thanks + form). All 5 commits pushed to main (`6776e4a`, `4477b65`, `1997228`, `23df8f2`, `c647449`, `90a9067`). Working tree clean. Plan 02-03 (homepage + sitewide nav-path cutover from `/attorney-bio/` → `/about.html` and `/contact/` → `/contact.html`) is next — Wave 2, unblocked. Both Wave 1 pages ship with the correct Person `@id` anchor and the entity graph is now closed on the LegalService side (contact.html carries founder+employee references to about.html Person node).
+Resume file: None
