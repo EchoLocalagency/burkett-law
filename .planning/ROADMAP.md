@@ -51,8 +51,8 @@ Decimal phases appear between their surrounding integers in numeric order.
   4. Contact page ships the canonical `LocalBusiness` schema (single sitewide NAP source), map embed, hours, CTA trio, and the "Submitting this form does not create an attorney-client relationship" disclaimer directly under the form
   5. Every page passes fabrication validator + Cal Bar lint + identity guard (correct GA4 id from `clients.json`, no Mr Green / Arcadian / Ecosystem contamination) before commit
 **Plans**: 3 plans
-- [ ] 02-01-PLAN.md — Attorney bio at `/about.html` with Person schema `@id` anchor, hasCredential for JD + bar admission, alumniOf, memberOf, real headshot, approach section, CTA trio (BIO-01..07)
-- [ ] 02-02-PLAN.md — Contact page at `/contact.html` with LocalBusiness+LegalService JSON-LD (canonical NAP source), map embed, Netlify form + intake pre-qualifier (matter type / urgency / county / opposing-counsel) + honeypot + 8 spam regexes + Cal Bar 7.1 disclaimer, plus `/thanks.html` with GA4 form_submit slot (CON-01..07)
+- [x] 02-01-PLAN.md — Attorney bio at `/about.html` with Person schema `@id` anchor, hasCredential for JD + bar admission, alumniOf, memberOf, real headshot, approach section, CTA trio (BIO-01..07)
+- [x] 02-02-PLAN.md — Contact page at `/contact.html` with LocalBusiness+LegalService JSON-LD (canonical NAP source), map embed, Netlify form + intake pre-qualifier (matter type / urgency / county / opposing-counsel) + honeypot + 8 spam regexes + Cal Bar 7.1 disclaimer, plus `/thanks.html` with GA4 form_submit slot (CON-01..07)
 - [ ] 02-03-PLAN.md — Homepage `/index.html` with hero + CTA trio, 8-card practice grid, Meet Brian teaser, 4-step how-it-works, 6-Q FAQ (visible + FAQPage schema), San Diego County service-area block, bottom CTA trio, LegalService+LocalBusiness+FAQPage+WebSite `@graph`, plus sitewide nav-path cutover from Phase 1 placeholders (`/attorney-bio/`, `/contact/`) to Phase 2 URLs (`/about.html`, `/contact.html`) (HOME-01..09)
 
 ### Phase 3: Practice Pillar Pages (8 Cluster Hubs)
@@ -135,7 +135,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation + Design System + Validators | 5/5 | Complete (awaiting human-verify sign-off on Plan 05) | 2026-07-06 |
-| 2. Bio + Homepage + Contact | 0/TBD | Not started | - |
+| 2. Bio + Homepage + Contact | 2/3 | In Progress | - |
 | 3. Practice Pillar Pages | 0/TBD | Not started | - |
 | 4. Location Pages | 0/TBD | Not started | - |
 | 5. Blog | 0/TBD | Not started | - |
