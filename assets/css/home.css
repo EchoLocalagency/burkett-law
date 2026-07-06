@@ -1,0 +1,487 @@
+/*
+ * Homepage component styles — mirrors DESIGN.md §6 patterns.
+ * All values reference tokens.css custom properties.
+ * .cta-card + .bio__chip + .bio__eyebrow are reused from bio.css.
+ */
+
+/* -------------------------------------------------------------------------
+   Home wrapper
+   ------------------------------------------------------------------------- */
+
+.home {
+  background: var(--color-bg);
+}
+
+/* -------------------------------------------------------------------------
+   Hero (copy left, photo right on desktop; stacks on mobile)
+   ------------------------------------------------------------------------- */
+
+.home__hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-10);
+  align-items: center;
+  padding-block: var(--space-16) var(--space-12);
+}
+
+@media (min-width: 1024px) {
+  .home__hero {
+    grid-template-columns: 1.2fr 1fr;
+    gap: var(--space-12);
+  }
+}
+
+.home__eyebrow {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-caption);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-accent-text);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.home__hero-copy h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 4vw + 1rem, 4rem);
+  font-weight: 500;
+  line-height: var(--lh-tight);
+  color: var(--color-text);
+  margin: 0 0 var(--space-6) 0;
+  text-wrap: balance;
+  letter-spacing: var(--tracking-tight);
+}
+
+.home__lead {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  max-width: 60ch;
+  margin: 0 0 var(--space-8) 0;
+}
+
+.home__hero-photo img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-2xl);
+  object-fit: cover;
+  box-shadow: var(--shadow-lg);
+  display: block;
+}
+
+/* -------------------------------------------------------------------------
+   CTA trio (hero + bottom variants)
+   ------------------------------------------------------------------------- */
+
+.home__cta-trio {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+@media (min-width: 768px) {
+  .home__cta-trio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.home__cta-trio--hero .cta-card {
+  min-height: 140px;
+  padding: var(--space-6);
+}
+
+/* -------------------------------------------------------------------------
+   Practice-area grid (8 cards)
+   ------------------------------------------------------------------------- */
+
+.home__practice {
+  padding-block: var(--space-16);
+}
+
+.home__practice h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 2.5vw + 1rem, 2.75rem);
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0 0 var(--space-4) 0;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.home__section-lead {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  max-width: 55ch;
+  margin: 0 auto var(--space-10);
+  text-align: center;
+  line-height: var(--lh-body);
+}
+
+.home__practice-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+
+@media (min-width: 640px) {
+  .home__practice-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .home__practice-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.practice-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--paper-0);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  transition:
+    border-color var(--duration-base) var(--ease-out),
+    box-shadow var(--duration-base) var(--ease-out),
+    transform var(--duration-base) var(--ease-out);
+  height: 100%;
+}
+
+.practice-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+}
+
+.practice-card:focus-visible {
+  outline: 3px solid var(--color-focus-ring);
+  outline-offset: 2px;
+}
+
+.practice-card h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--color-text);
+  margin: 0 0 var(--space-2) 0;
+}
+
+.practice-card p {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* -------------------------------------------------------------------------
+   Meet Brian teaser (cream band)
+   ------------------------------------------------------------------------- */
+
+.home__meet {
+  padding-block: var(--space-16);
+  padding-inline: var(--space-8);
+  background: var(--color-bg-elev-1);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-10);
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .home__meet {
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--space-12);
+  }
+}
+
+.home__meet-photo img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-round);
+  object-fit: cover;
+  max-width: 360px;
+  margin-inline: auto;
+  display: block;
+  box-shadow: var(--shadow-md);
+}
+
+.home__meet-copy h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.5rem);
+  color: var(--color-text);
+  margin: 0 0 var(--space-4) 0;
+  text-wrap: balance;
+  line-height: var(--lh-heading);
+}
+
+.home__meet-copy p {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  line-height: var(--lh-body);
+  margin: 0 0 var(--space-4) 0;
+  max-width: 62ch;
+}
+
+.home__meet-chips {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-4) 0;
+}
+
+.home__meet-link {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.home__meet-link:hover {
+  text-decoration-color: var(--color-accent-hover);
+}
+
+/* -------------------------------------------------------------------------
+   How it works (numbered steps)
+   ------------------------------------------------------------------------- */
+
+.home__how {
+  padding-block: var(--space-16);
+}
+
+.home__how h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 2.5vw + 1rem, 2.75rem);
+  font-weight: 500;
+  color: var(--color-text);
+  text-align: center;
+  margin: 0 0 var(--space-10) 0;
+  text-wrap: balance;
+}
+
+.home__steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+}
+
+@media (min-width: 640px) {
+  .home__steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .home__steps {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.home__steps li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--gold-600);
+  color: var(--cream-50);
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 var(--space-4) 0;
+}
+
+.home__steps h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--color-text);
+  margin: 0 0 var(--space-2) 0;
+}
+
+.home__steps p {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  margin: 0;
+  max-width: 26ch;
+}
+
+/* -------------------------------------------------------------------------
+   FAQ (details accordion)
+   ------------------------------------------------------------------------- */
+
+.home__faq {
+  padding-block: var(--space-16);
+}
+
+.home__faq h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.5rem);
+  color: var(--color-text);
+  text-align: center;
+  margin: 0 0 var(--space-10) 0;
+  text-wrap: balance;
+}
+
+.home__faq-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.home__faq-item {
+  background: var(--paper-0);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  transition: border-color var(--duration-base) var(--ease-out);
+}
+
+.home__faq-item[open] {
+  border-color: var(--color-accent);
+}
+
+.home__faq-item summary {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--color-text);
+  cursor: pointer;
+  list-style-position: inside;
+  margin: 0;
+}
+
+.home__faq-item summary:focus-visible {
+  outline: 3px solid var(--color-focus-ring);
+  outline-offset: 2px;
+}
+
+.home__faq-item p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: var(--lh-body);
+  color: var(--color-text-muted);
+  margin: var(--space-4) 0 0 0;
+}
+
+/* -------------------------------------------------------------------------
+   Service area block
+   ------------------------------------------------------------------------- */
+
+.home__service-area {
+  padding-block: var(--space-12) var(--space-16);
+  padding-inline: var(--space-8);
+  background: var(--color-bg-elev-1);
+  border-radius: var(--radius-xl);
+}
+
+.home__service-area h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.5rem);
+  color: var(--color-text);
+  margin: 0 0 var(--space-6) 0;
+  text-wrap: balance;
+}
+
+.home__service-area p {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  line-height: var(--lh-body);
+  margin: 0 0 var(--space-4) 0;
+  max-width: 65ch;
+}
+
+/* -------------------------------------------------------------------------
+   Bottom CTA on navy
+   ------------------------------------------------------------------------- */
+
+.home__cta-bottom {
+  padding-block: var(--space-16);
+  text-align: center;
+  background: var(--ink-800);
+  color: var(--cream-50);
+}
+
+.home__cta-bottom-inner {
+  margin-inline: auto;
+}
+
+.home__cta-bottom h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(2rem, 2.5vw + 1rem, 3rem);
+  color: var(--cream-50);
+  margin: 0 0 var(--space-4) 0;
+  text-wrap: balance;
+}
+
+.home__cta-bottom > .home__cta-bottom-inner > p {
+  color: var(--cream-50);
+  opacity: 0.85;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  margin: 0 auto var(--space-8);
+  max-width: 45ch;
+}
+
+.home__cta-bottom .home__cta-trio {
+  max-width: var(--container-xl);
+  margin: 0 auto;
+  gap: var(--space-6);
+}
+
+.home__cta-bottom .cta-card {
+  background: var(--paper-0);
+  border-color: transparent;
+}
+
+.home__cta-disclaimer {
+  margin: var(--space-10) auto 0;
+  color: var(--cream-50);
+  opacity: 0.65;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: var(--lh-body);
+  max-width: 60ch;
+}
+
+/* -------------------------------------------------------------------------
+   Reduced motion
+   ------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .practice-card,
+  .home__faq-item,
+  .cta-card {
+    transition: none;
+  }
+}

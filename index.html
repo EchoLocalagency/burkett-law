@@ -3,49 +3,508 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Law Office of Brian Burkett — San Diego Family Law</title>
-  <meta name="description" content="Placeholder — full site launches before 2026-07-31.">
-  <meta name="robots" content="noindex">
-  <style>
-    body {
-      background: #FBF8F3;
-      color: #0B1F3A;
-      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-      margin: 0;
-    }
-    main {
-      max-width: 640px;
-      margin: 4rem auto;
-      padding: 2rem;
-    }
-    h1 {
-      color: #12294A;
-      font-size: 2.5rem;
-      margin: 0 0 1rem;
-      line-height: 1.1;
-    }
-    p {
-      font-size: 1.125rem;
-      line-height: 1.6;
-      margin: 0 0 1.5rem;
-    }
-    a[href^="tel:"] {
-      display: inline-block;
-      background: #B45309;
-      color: #FBF8F3;
-      padding: 0.75rem 1.5rem;
-      border-radius: 8px;
-      text-decoration: none;
-      margin-top: 1rem;
-      font-weight: 600;
-    }
-  </style>
+
+  <!-- TITLE + META (unique per page) -->
+  <title>San Diego Family Law Attorney — Brian Burkett</title>
+  <meta name="description" content="Solo San Diego family law attorney. 24 years of family-law practice. Divorce, custody, support, mediation. Call (619) 250-2683 or book online.">
+  <link rel="canonical" href="https://childcustodyanddivorce.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="San Diego Family Law Attorney — Brian Burkett">
+  <meta property="og:description" content="Solo San Diego family law attorney. 24 years of family-law practice. Divorce, custody, support, mediation. Call (619) 250-2683 or book online.">
+  <meta property="og:url" content="https://childcustodyanddivorce.com/">
+  <meta property="og:image" content="https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg">
+  <meta property="og:site_name" content="Law Office of Brian Burkett">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Preload above-the-fold fonts (LCP win per DESIGN.md §2.2) -->
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/InterVariable.woff2" crossorigin>
+
+  <!-- Design tokens + base styles -->
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="/assets/css/bio.css">
+  <link rel="stylesheet" href="/assets/css/contact.css">
+  <link rel="stylesheet" href="/assets/css/home.css">
+
+  <!-- GA4 slot — Phase 6 wires the real id. -->
+  <!-- GA4-BEGIN
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BURKETT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BURKETT_ID');
+  </script>
+  GA4-END -->
+
+  <!-- Homepage @graph: WebSite + LegalService+LocalBusiness (canonical NAP, matches contact.html @id) + FAQPage.
+       LegalService founder + employee reference the bio Person @id from /about.html. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://childcustodyanddivorce.com/#website",
+        "url": "https://childcustodyanddivorce.com/",
+        "name": "Law Office of Brian Burkett",
+        "publisher": { "@id": "https://childcustodyanddivorce.com/#legalservice" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": ["LegalService", "LocalBusiness"],
+        "@id": "https://childcustodyanddivorce.com/#legalservice",
+        "name": "Law Office of Brian Burkett",
+        "url": "https://childcustodyanddivorce.com/",
+        "telephone": "+16192502683",
+        "email": "attorneyburkett@sbcglobal.net",
+        "image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+        "priceRange": "$$",
+        "paymentAccepted": "Check, Credit Card",
+        "currenciesAccepted": "USD",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "591 Camino De La Reina, Suite 821",
+          "addressLocality": "San Diego",
+          "addressRegion": "CA",
+          "postalCode": "92108",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 32.7710,
+          "longitude": -117.1497
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=591+Camino+De+La+Reina+Suite+821+San+Diego+CA+92108",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          }
+        ],
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "San Diego County, California"
+        },
+        "founder": { "@id": "https://childcustodyanddivorce.com/about.html#brian-burkett" },
+        "employee": { "@id": "https://childcustodyanddivorce.com/about.html#brian-burkett" },
+        "sameAs": [
+          "https://apps.calbar.ca.gov/attorney/Licensee/Detail/220343"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://childcustodyanddivorce.com/#faqpage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long does divorce take in California?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "California has a mandatory six-month waiting period from the date of service before a divorce can be finalized. Uncontested divorces often finalize soon after that six-month mark. Contested divorces routinely take twelve to twenty-four months, depending on the complexity of property, custody, and support issues."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need a lawyer for a divorce in San Diego?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You are not required to use an attorney. Many people file simple uncontested divorces without one. If your matter involves children, a house, retirement accounts, business interests, or an ex-spouse who has already hired counsel, working with an attorney will usually save you money and prevent orders you did not intend to agree to."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is child custody decided in California?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "California family courts decide custody based on the best interest of the child, weighing factors such as the child's health, safety, welfare, the history of each parent's involvement, and the ability of each parent to provide a stable home. Custody has two parts: legal custody (decision-making) and physical custody (where the child lives). Either can be joint or sole."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does hiring a family-law attorney cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "My hourly rate is $295, and my retainer for a new case typically ranges from $3,500 to $5,000. The retainer is deposited in a trust account and drawn against as work is done. The total cost of a matter depends on complexity — an uncontested divorce usually stays inside the retainer; a contested custody trial does not."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where do family-law cases get filed in San Diego County?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "San Diego County has four family-law courthouses: Downtown (Central), Vista (North County), El Cajon (East County), and Chula Vista (South County). Which courthouse hears your case depends on where the parties live and where the matter was originally filed. I appear regularly at all four."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between legal separation and divorce?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both let you resolve custody, support, and property division through a court order. Divorce ends the marriage; legal separation does not. Some clients choose legal separation for religious reasons, for benefits eligibility, or when they want to preserve the marriage on paper while still separating their finances and parenting."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
+
 <body>
-  <main>
-    <h1>Law Office of Brian Burkett</h1>
-    <p>San Diego family law — site coming soon. Please call (619) 250-2683.</p>
-    <a href="tel:+16192502683">Call (619) 250-2683</a>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Universal header. Copy verbatim from includes/header.html. -->
+  <header role="banner">
+<div class="site-header container-xl">
+  <a href="/" class="site-header__logo" aria-label="Law Office of Brian Burkett — Home">
+    <span class="site-header__logo-mark">BURKETT</span>
+    <span class="site-header__logo-divider" aria-hidden="true">|</span>
+    <span class="site-header__logo-caption">family law</span>
+  </a>
+
+  <button type="button" class="site-header__hamburger" id="nav-toggle"
+          aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+    <span class="site-header__hamburger-bar" aria-hidden="true"></span>
+    <span class="site-header__hamburger-bar" aria-hidden="true"></span>
+    <span class="site-header__hamburger-bar" aria-hidden="true"></span>
+  </button>
+
+  <nav id="site-nav" class="site-header__nav" aria-label="Primary">
+    <ul class="site-header__nav-list">
+      <li><a href="/practice-areas/">Practice Areas</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <a href="tel:+16192502683" class="site-header__phone" aria-label="Call the Law Office of Brian Burkett at (619) 250-2683">
+    <svg class="site-header__phone-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+    <span>(619) 250-2683</span>
+  </a>
+</div>
+
+<script defer src="/assets/js/nav.js"></script>
+  </header>
+
+  <main id="main">
+    <article class="home">
+
+      <!-- HERO + CTA TRIO ABOVE THE FOLD -->
+      <section class="home__hero container-xl">
+        <div class="home__hero-copy">
+          <p class="home__eyebrow">San Diego Family Law</p>
+          <h1>A San Diego family law attorney who returns your call.</h1>
+          <p class="home__lead">
+            I am Brian Burkett &mdash; a solo family-law practitioner with 24 years of
+            family-law practice in San Diego County family court. My practice is devoted
+            entirely to divorce, child custody, support, mediation, and the other matters
+            California families work through. You will not be handed off to an associate.
+            You will not be lost in a queue. You will talk to me.
+          </p>
+          <div class="home__cta-trio home__cta-trio--hero">
+            <a href="tel:+16192502683" class="cta-card cta-card--phone">
+              <p class="cta-card__label">Call Directly</p>
+              <p class="cta-card__value">(619) 250-2683</p>
+              <p class="cta-card__note">Mon-Fri 9am-6pm</p>
+            </a>
+            <a href="/contact.html#booking" class="cta-card cta-card--calendar">
+              <p class="cta-card__label">Book a Consultation</p>
+              <p class="cta-card__value">Schedule online</p>
+              <p class="cta-card__note">15-minute intake call</p>
+            </a>
+            <a href="/contact.html#form" class="cta-card cta-card--form">
+              <p class="cta-card__label">Send a Message</p>
+              <p class="cta-card__value">Contact form</p>
+              <p class="cta-card__note">Response within 1 business day</p>
+            </a>
+          </div>
+        </div>
+        <div class="home__hero-photo">
+          <img src="/assets/img/brian-burkett-headshot.jpg"
+               alt="Brian Burkett, San Diego family law attorney"
+               width="800" height="800"
+               loading="eager" fetchpriority="high" decoding="async">
+        </div>
+      </section>
+
+      <!-- PRACTICE-AREA GRID (8 CARDS) -->
+      <section class="home__practice container-xl" aria-labelledby="practice-heading">
+        <h2 id="practice-heading">Family Law, Every Angle</h2>
+        <p class="home__section-lead">
+          My practice is devoted entirely to family law. If your matter falls in one of these
+          areas, I have handled it before.
+        </p>
+        <ul class="home__practice-grid">
+          <li>
+            <a href="/practice-areas/divorce/" class="practice-card">
+              <h3>Divorce</h3>
+              <p>Uncontested, contested, and higher-asset dissolutions under California law.</p>
+            </a>
+          </li>
+          <li>
+            <a href="/practice-areas/child-custody/" class="practice-card">
+              <h3>Child Custody</h3>
+              <p>Legal and physical custody, parenting plans, modifications, move-away cases.</p>
+            </a>
+          </li>
+          <li>
+            <a href="/practice-areas/child-support/" class="practice-card">
+              <h3>Child Support</h3>
+              <p>California guideline calculations, modifications, and enforcement.</p>
+            </a>
+          </li>
+          <li>
+            <a href="/practice-areas/spousal-support/" class="practice-card">
+              <h3>Spousal Support</h3>
+              <p>Temporary and long-term spousal support orders and modifications.</p>
+            </a>
+          </li>
+          <li>
+            <a href="/practice-areas/mediation/" class="practice-card">
+              <h3>Mediation</h3>
+              <p>Mediating disputes as neutral or representing you at mediation.</p>
+            </a>
+          </li>
+          <li>
+            <a href="/practice-areas/domestic-violence/" class="practice-card">
+              <h3>Domestic Violence</h3>
+              <p>Domestic-violence restraining orders and the family-law issues that follow.</p>
+            </a>
+          </li>
+          <li>
+            <a href="/practice-areas/guardianship/" class="practice-card">
+              <h3>Guardianship</h3>
+              <p>Probate and juvenile guardianship of minors in San Diego.</p>
+            </a>
+          </li>
+          <li>
+            <a href="/practice-areas/family-court/" class="practice-card">
+              <h3>Family Court</h3>
+              <p>Help navigating the family-law court process itself.</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- MEET BRIAN TEASER -->
+      <section class="home__meet container-xl" aria-labelledby="meet-heading">
+        <div class="home__meet-photo">
+          <img src="/assets/img/brian-burkett-headshot.jpg"
+               alt="Brian Burkett headshot"
+               width="800" height="800"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="home__meet-copy">
+          <p class="home__eyebrow">Meet Brian</p>
+          <h2 id="meet-heading">24 years of California family law.</h2>
+          <p>
+            I have practiced family law in San Diego from the year I was admitted to the
+            California Bar in 2002 through today. I appear regularly at all four San Diego
+            County family-law courthouses (Downtown, Vista, El Cajon, Chula Vista) and I
+            focus my practice on the matters California families run into most: divorce,
+            custody, support, mediation, and restraining orders.
+          </p>
+          <ul class="home__meet-chips" aria-label="Credentials">
+            <li class="bio__chip">CA Bar No. 220343</li>
+            <li class="bio__chip">Admitted 2002</li>
+            <li class="bio__chip">Solo Practitioner</li>
+          </ul>
+          <p><a href="/about.html" class="home__meet-link">Learn more about Brian &rarr;</a></p>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="home__how container-lg" aria-labelledby="how-heading">
+        <h2 id="how-heading">How Working Together Starts</h2>
+        <ol class="home__steps">
+          <li>
+            <span class="home__step-number">1</span>
+            <h3>Reach out</h3>
+            <p>Call, book a slot, or send a message. Whichever is easiest.</p>
+          </li>
+          <li>
+            <span class="home__step-number">2</span>
+            <h3>Free 15-minute intake</h3>
+            <p>We talk through the situation. I answer questions and tell you honestly whether I can help.</p>
+          </li>
+          <li>
+            <span class="home__step-number">3</span>
+            <h3>Engagement letter</h3>
+            <p>If we agree to work together, I send an engagement letter that spells out scope, fees, and the retainer.</p>
+          </li>
+          <li>
+            <span class="home__step-number">4</span>
+            <h3>Steady representation</h3>
+            <p>From the first filing to the final order, I stay accessible and keep you informed at every step.</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- FAQ (mirrors FAQPage schema in head) -->
+      <section class="home__faq container-md" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">Questions I Get Often</h2>
+        <div class="home__faq-list">
+          <details class="home__faq-item">
+            <summary>How long does divorce take in California?</summary>
+            <p>California has a mandatory six-month waiting period from the date of service before a divorce can be finalized. Uncontested divorces often finalize soon after that six-month mark. Contested divorces routinely take twelve to twenty-four months, depending on the complexity of property, custody, and support issues.</p>
+          </details>
+          <details class="home__faq-item">
+            <summary>Do I need a lawyer for a divorce in San Diego?</summary>
+            <p>You are not required to use an attorney. Many people file simple uncontested divorces without one. If your matter involves children, a house, retirement accounts, business interests, or an ex-spouse who has already hired counsel, working with an attorney will usually save you money and prevent orders you did not intend to agree to.</p>
+          </details>
+          <details class="home__faq-item">
+            <summary>How is child custody decided in California?</summary>
+            <p>California family courts decide custody based on the best interest of the child, weighing factors such as the child's health, safety, welfare, the history of each parent's involvement, and the ability of each parent to provide a stable home. Custody has two parts: legal custody (decision-making) and physical custody (where the child lives). Either can be joint or sole.</p>
+          </details>
+          <details class="home__faq-item">
+            <summary>How much does hiring a family-law attorney cost?</summary>
+            <p>My hourly rate is $295, and my retainer for a new case typically ranges from $3,500 to $5,000. The retainer is deposited in a trust account and drawn against as work is done. The total cost of a matter depends on complexity &mdash; an uncontested divorce usually stays inside the retainer; a contested custody trial does not.</p>
+          </details>
+          <details class="home__faq-item">
+            <summary>Where do family-law cases get filed in San Diego County?</summary>
+            <p>San Diego County has four family-law courthouses: Downtown (Central), Vista (North County), El Cajon (East County), and Chula Vista (South County). Which courthouse hears your case depends on where the parties live and where the matter was originally filed. I appear regularly at all four.</p>
+          </details>
+          <details class="home__faq-item">
+            <summary>What is the difference between legal separation and divorce?</summary>
+            <p>Both let you resolve custody, support, and property division through a court order. Divorce ends the marriage; legal separation does not. Some clients choose legal separation for religious reasons, for benefits eligibility, or when they want to preserve the marriage on paper while still separating their finances and parenting.</p>
+          </details>
+        </div>
+      </section>
+
+      <!-- SERVICE-AREA / SAN DIEGO COUNTY BLOCK -->
+      <section class="home__service-area container-lg" aria-labelledby="area-heading">
+        <h2 id="area-heading">Serving San Diego County</h2>
+        <p>
+          From the Mission Valley office, I take cases across San Diego County &mdash; including
+          the North County (Vista, Carlsbad, Escondido, Oceanside), East County (El Cajon,
+          La Mesa, Santee, Lakeside), South County (Chula Vista, National City, Imperial
+          Beach), and the coastal and central San Diego neighborhoods (La Jolla, Del Mar,
+          Coronado, Point Loma, downtown).
+        </p>
+        <p>
+          Because San Diego County has four family-law courthouses, the courthouse that
+          hears your matter depends on where you live and where the case was filed. I
+          appear at all four.
+        </p>
+      </section>
+
+      <!-- BOTTOM CTA TRIO -->
+      <section class="home__cta-bottom" id="cta-bottom">
+        <div class="home__cta-bottom-inner container-xl">
+          <h2>Ready to Talk?</h2>
+          <p>Three ways to reach me. Pick whichever is easiest.</p>
+          <div class="home__cta-trio">
+            <a href="tel:+16192502683" class="cta-card cta-card--phone">
+              <p class="cta-card__label">Call Directly</p>
+              <p class="cta-card__value">(619) 250-2683</p>
+              <p class="cta-card__note">Mon-Fri 9am-6pm</p>
+            </a>
+            <a href="/contact.html#booking" class="cta-card cta-card--calendar">
+              <p class="cta-card__label">Book a Consultation</p>
+              <p class="cta-card__value">Schedule online</p>
+              <p class="cta-card__note">15-minute intake call</p>
+            </a>
+            <a href="/contact.html#form" class="cta-card cta-card--form">
+              <p class="cta-card__label">Send a Message</p>
+              <p class="cta-card__value">Contact form</p>
+              <p class="cta-card__note">Response within 1 business day</p>
+            </a>
+          </div>
+          <p class="home__cta-disclaimer">
+            Contacting the Law Office of Brian Burkett does not create an attorney-client
+            relationship. Please do not include confidential or sensitive information in a
+            first message.
+          </p>
+        </div>
+      </section>
+
+    </article>
   </main>
+
+  <!-- Universal footer. Copy verbatim from includes/footer.html. -->
+  <footer role="contentinfo">
+<div class="site-footer container-xl">
+  <div class="site-footer__grid">
+
+    <div class="site-footer__col site-footer__col--firm">
+      <p class="site-footer__wordmark">
+        <span class="site-footer__mark">BURKETT</span>
+        <span class="site-footer__caption">family law</span>
+      </p>
+      <address class="site-footer__nap">
+        <span class="site-footer__nap-line">591 Camino De La Reina, Suite 821</span>
+        <span class="site-footer__nap-line">San Diego, CA 92108</span>
+        <a href="tel:+16192502683" class="site-footer__nap-link">(619) 250-2683</a>
+      </address>
+      <p class="site-footer__hours">Mon-Fri 9am-6pm</p>
+    </div>
+
+    <div class="site-footer__col site-footer__col--practice">
+      <p class="site-footer__col-heading">Practice Areas</p>
+      <ul class="site-footer__col-list">
+        <li><a href="/practice-areas/divorce/">Divorce</a></li>
+        <li><a href="/practice-areas/child-custody/">Child Custody</a></li>
+        <li><a href="/practice-areas/child-support/">Child Support</a></li>
+        <li><a href="/practice-areas/spousal-support/">Spousal Support</a></li>
+        <li><a href="/practice-areas/mediation/">Mediation</a></li>
+        <li><a href="/practice-areas/domestic-violence/">Domestic Violence</a></li>
+        <li><a href="/practice-areas/guardianship/">Guardianship</a></li>
+        <li><a href="/practice-areas/family-court/">Family Court</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--links">
+      <p class="site-footer__col-heading">Firm</p>
+      <ul class="site-footer__col-list">
+        <li><a href="/about.html">About Brian Burkett</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/privacy.html">Privacy Policy</a></li>
+        <li><a href="/terms.html">Terms of Use</a></li>
+        <li><a href="/disclaimer.html">Attorney Advertising Disclaimer</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--credentials">
+      <p class="site-footer__col-heading">Credentials</p>
+      <ul class="site-footer__col-list">
+        <li>Licensed in California only</li>
+        <li>State Bar of California, No. 220343 &mdash; admitted 2002</li>
+        <li>San Diego family law focus</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="site-footer__disclaimer">
+    <p>
+      This website is attorney advertising. Information on this site is not legal advice.
+      Contacting the Law Office of Brian Burkett does not create an attorney-client relationship.
+      Past results do not guarantee a similar outcome. Licensed in California only.
+    </p>
+  </div>
+
+  <div class="site-footer__copyright">
+    <p>&copy; 2026 Law Office of Brian Burkett. All rights reserved.</p>
+  </div>
+</div>
+  </footer>
 </body>
 </html>
