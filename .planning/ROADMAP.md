@@ -12,7 +12,7 @@ Build a YMYL-grade static family-law website for Brian Burkett (San Diego) on ch
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation + Design System + Validators** - Repo, Netlify infra, tokens, self-hosted fonts, legal pages, and the content-fabrication + Cal Bar Rule 7.1 lints that gate every subsequent content-generation phase
+- [x] **Phase 1: Foundation + Design System + Validators** - Repo, Netlify infra, tokens, self-hosted fonts, legal pages, and the content-fabrication + Cal Bar Rule 7.1 lints that gate every subsequent content-generation phase
 - [ ] **Phase 2: Bio + Homepage + Contact (E-E-A-T Taproot & CTA Trio)** - Ship the bio (Person schema `@id` referenced by every downstream author), homepage w/ LegalService+LocalBusiness schema + CTA trio, and contact page as canonical NAP
 - [ ] **Phase 3: Practice Pillar Pages (8 Cluster Hubs)** - Ship the practice hub and 8 practice pillar pages (divorce, child custody, child support, spousal support, mediation, domestic violence, guardianship, family court) with Service + FAQPage schema
 - [ ] **Phase 4: Location Pages (Practice × City Matrix)** - Ship 15-20 location pages using Service + areaServed:City (never LocalBusiness), each ≥600 words with ≥4 of 6 differentiation blocks, gated by cross-page similarity lint
@@ -37,8 +37,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] 01-PLAN.md — Repo scaffold + Netlify infra (netlify.toml pretty_urls=false, _headers, _redirects, robots.txt/sitemap.xml/llms.txt/security.txt) + placeholder homepage + GitHub push + auto-deploy verify (FND-01, FND-02, FND-03, FND-09)
 - [x] 02-PLAN.md — Design tokens CSS (DESIGN.md §13 verbatim) + self-hosted Fraunces + Inter WOFF2 + base HTML template (FND-04, FND-05, FND-06)
 - [x] 03-PLAN.md — Content-fabrication validator + Cal Bar Rule 7.1-7.5 lint + identity guard + pre-commit hook + test fixtures (FND-11, FND-12)
-- [ ] 04-PLAN.md — Universal header + footer with character-identical NAP + Cal Bar disclaimer band + nav.js mobile drawer (FND-07, FND-08)
-- [ ] 05-PLAN.md — Legal pages (privacy.html CCPA/CPRA + terms.html + disclaimer.html Cal Bar Rule 7.1-7.5) (FND-10)
+- [x] 04-PLAN.md — Universal header + footer with character-identical NAP + Cal Bar disclaimer band + nav.js mobile drawer (FND-07, FND-08)
+- [x] 05-PLAN.md — Legal pages (privacy.html CCPA/CPRA + terms.html + disclaimer.html Cal Bar Rule 7.1-7.5) (FND-10)
 
 ### Phase 2: Bio + Homepage + Contact (E-E-A-T Taproot & CTA Trio)
 **Goal**: Ship the E-E-A-T taproot (bio page with verifiable credentials + Person schema carrying a canonical `@id` that every downstream authored page references), plus the two pages that carry the site's only `LocalBusiness` schema instances (homepage + contact). Homepage CTA trio (phone + GHL calendar embed + Netlify contact form) works end-to-end with form submission landing in Burkett + brian@echolocalagency.com inboxes.
@@ -131,7 +131,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation + Design System + Validators | 2/5 | In Progress (Plans 01+03 complete; 02+04+05 pending) | - |
+| 1. Foundation + Design System + Validators | 5/5 | Complete (awaiting human-verify sign-off on Plan 05) | 2026-07-06 |
 | 2. Bio + Homepage + Contact | 0/TBD | Not started | - |
 | 3. Practice Pillar Pages | 0/TBD | Not started | - |
 | 4. Location Pages | 0/TBD | Not started | - |
