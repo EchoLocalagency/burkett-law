@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-07-07T21:41:19.868Z"
+last_updated: "2026-07-07T22:31:09.011Z"
 progress:
-  total_phases: 2
-  completed_phases: 2
-  total_plans: 8
-  completed_plans: 8
+  total_phases: 3
+  completed_phases: 3
+  total_plans: 11
+  completed_plans: 11
 ---
 
 # Project State
@@ -18,16 +18,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-07-02)
 
 **Core value:** Burkett owns the site, owns the leads, and ranks locally in San Diego for divorce, child custody, and related family law intent — with content Google trusts as genuine legal expertise (E-E-A-T signals real enough for the YMYL bar).
-**Current focus:** Phase 2 COMPLETE (all 3 plans shipped). Phase 3 (practice pillar pages) is next and unblocked.
+**Current focus:** Phase 3 COMPLETE (all 3 waves shipped — 9 URLs live). Phase 4 (location pages / practice × city matrix) is next and unblocked — pillar cluster hubs it depends on are now landed.
 
 ## Current Position
 
-Phase: 2 of 8 (Bio + Homepage + Contact) — COMPLETE
-Plan: 02-01 complete, 02-02 complete, 02-03 complete (Wave 2 shipped)
-Status: All three E-E-A-T pillars of Phase 2 are live. `/about.html` carries the canonical Person `@id` = `https://childcustodyanddivorce.com/about.html#brian-burkett`. `/contact.html` + `/index.html` both carry the LegalService+LocalBusiness JSON-LD node with matching `@id` = `https://childcustodyanddivorce.com/#legalservice` (character-for-character single-entity resolution). founder + employee on both LegalService nodes reference the bio Person `@id` — full entity-graph loop closed across bio + homepage + contact. Homepage @graph adds WebSite + FAQPage. Sitewide nav paths cut over from Phase 1 placeholders (`/attorney-bio/`, `/contact/`) to real Phase 2 URLs (`/about.html`, `/contact.html`) across 9 HTML files in a single sweep commit.
-Last activity: 2026-07-06 — Plan 02-03 complete: `index.html` (450 lines replacing Phase 1 placeholder; hero + CTA trio + 8-card practice-area grid linking to `/practice-areas/{slug}/` for Phase 3 to fulfill + Meet Brian teaser + 4-step how-it-works + 6-Q FAQ (visible details + FAQPage schema mirroring verbatim) + San Diego service-area block + bottom CTA trio on navy; @graph JSON-LD with WebSite + LegalService+LocalBusiness + FAQPage nodes), `assets/css/home.css` (487 lines, tokenized, prefers-reduced-motion gated), and sitewide nav-path sweep across 9 files (includes/header.html, includes/footer.html, templates/base.html, privacy.html, terms.html, disclaimer.html, about.html, contact.html, thanks.html). sitemap.xml root lastmod refreshed to 2026-07-06. Three validators pass on every touched HTML file. Commit `b7e22bb` pushed to main. Prior waves: 02-01 (`6776e4a` + `4477b65` + `1997228`) + 02-02 (`23df8f2` + `c647449` + `90a9067`).
+Phase: 3 of 8 (Practice Pillar Pages) — COMPLETE
+Plan: 03-01 complete (Wave 1: hub + divorce + child-custody + child-support), 03-02 complete (Wave 2: spousal-support + mediation + domestic-violence), 03-03 complete (Wave 3: guardianship + family-court)
+Status: All 9 practice-area URLs live and validated. `/practice-areas/` hub ships CollectionPage + BreadcrumbList + ItemList of the 8 pillars with 40-60 word teasers each. All 8 pillars ship Service + FAQPage + BreadcrumbList in a single `@graph`, with the Service `provider.@id` resolving to homepage `#legalservice` and the `author.@id` resolving to bio Person `about.html#brian-burkett` — full E-E-A-T loop closed on YMYL content. Every pillar is 1190-1478 words, mentions California + San Diego (and cites the specific SDSC courthouse and statute), and carries the CTA trio inline + at bottom. Homepage practice grid + footer practice column now all resolve — no 404s. `assets/css/practice.css` (~370 lines) added as a page-type stylesheet reusing the `.cta-card` component from bio.css. Copy for divorce/child-custody/child-support rewritten first-person from Justia archive; spousal-support/mediation/domestic-violence/guardianship/family-court written from scratch as descriptive California family-law procedure with real statutory anchors (no fabricated outcomes). All 9 files pass lint_cal_bar.py + validate_fabrication.py + identity_guard.py.
+Last activity: 2026-07-07 — Wave 3 (`bd88875`) pushed to main. All 3 Phase 3 commits pushed: `b963ca4` (Wave 1) + `bb8574b` (Wave 2) + `bd88875` (Wave 3). Working tree clean. Awaiting human-verify checkpoint on Netlify preview to confirm rich results.
 
-Progress: [██████████] 100% of Phase 2 — 8/8 total plans complete (Phase 1 + Phase 2)
+Progress: [██████████] 100% of Phase 3 — 11/11 total plans complete (Phase 1 + Phase 2 + Phase 3)
 
 ## Performance Metrics
 
@@ -73,6 +73,10 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 - **Plan 02-03 — LegalService @id matches contact.html character-for-character**: `https://childcustodyanddivorce.com/#legalservice`. This is the intended single-entity pattern — Google merges both LocalBusiness declarations into ONE entity because the @id string matches exactly. Any future change to the @id string must be made in BOTH files.
 - **Plan 02-03 — Sitewide nav-path cutover in a single commit**: swept `/attorney-bio/` -> `/about.html` and `/contact/` -> `/contact.html` across all 9 existing HTML files (includes + templates + repo root pages) in one commit rather than piecemeal. Homepage was written by Task 1 with the correct paths baked in from the start.
 - **Plan 02-03 — Practice-area URL contract locked**: homepage practice-area grid links to `/practice-areas/{divorce,child-custody,child-support,spousal-support,mediation,domestic-violence,guardianship,family-court}/`. Phase 3 MUST land exactly these 8 URLs. Changing a slug means updating the homepage grid + about.html practice-list + footer practice column simultaneously.
+- **Plan 03-01 — Directory-style URL pattern chosen**: `/practice-areas/{slug}/index.html` (matches homepage grid's trailing-slash links) rather than `.html`. Pretty_urls stays false so Netlify serves `index.html` inside each directory verbatim. Location pages in Phase 4 will follow the same pattern (`/san-diego/{slug}/{city}/index.html`).
+- **Plan 03-01 — Service provider @id single-source**: Every pillar's `Service.provider.@id` resolves to homepage `#legalservice`, so Google merges all 8 pillars into the one LegalService entity. Changing that @id string breaks all 8 pillars — locked.
+- **Plan 03-02 — Zero-Justia pillars written from statutory description only**: Spousal-support / mediation / domestic-violence / guardianship / family-court had no dedicated Justia source page. Copy is purely descriptive procedure with real statutory citations. Any specific outcome, statistic, or case count would trip the fabrication validator.
+- **Plan 03-03 — practice.css reused for Phase 4 location pages**: `assets/css/practice.css` is the page-type stylesheet for pillar pages AND location pages (both need the same hero + prose section + inline-CTA + FAQ + bottom-CTA layout). Any restyle affects both page types.
 
 ### Pending Todos
 
@@ -83,7 +87,9 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 - **Fresh clone bootstrap**: Every new local clone must run `bash scripts/install_hooks.sh` — `.git/hooks/` isn't tracked by git.
 - **Post-Plan-02-02 Netlify UI step** (single, one-time, cannot be automated — `updateHook` 422 bug): After first Netlify deploy detects the `contact` form, configure email notification in the Netlify Dashboard → Forms → contact → Notifications with recipients `attorneyburkett@sbcglobal.net` + `brian@echolocalagency.com` and subject template `[{site_name}] New {form_name} submission` (variable-only — no `{{ field }}`). See `.planning/phases/02-bio-homepage-contact/02-02-SUMMARY.md` User Setup Required.
 - **Phase 2 human-verify checkpoint**: 6-point manual QA on the Netlify preview URL after `b7e22bb` auto-deploys — homepage renders hero + CTA trio + practice grid + Meet Brian + how-it-works + FAQ + service-area + bottom CTA trio + universal chrome; all 3 CTA trios (hero + bottom) have working `tel:+16192502683` on mobile; Meet Brian link resolves to `/about.html`; header nav "About" and "Contact" resolve to `/about.html` + `/contact.html`; view-source shows the WebSite + LegalService+LocalBusiness + FAQPage @graph; Rich Results Test on the homepage passes with all three rich result types recognized (LocalBusiness/LegalService, FAQ, Website). Type "approved" to flip Phase 2 checkbox to [x] in ROADMAP.md.
-- **Phase 3 unblocked**: practice pillar pages at the 8 URLs the homepage grid now links to. Slugs are locked (divorce, child-custody, child-support, spousal-support, mediation, domestic-violence, guardianship, family-court). Every pillar must ship Service + FAQPage + BreadcrumbList schema with `author.@id` -> bio Person node.
+- **Phase 3 unblocked**: practice pillar pages at the 8 URLs the homepage grid now links to. Slugs are locked (divorce, child-custody, child-support, spousal-support, mediation, domestic-violence, guardianship, family-court). Every pillar must ship Service + FAQPage + BreadcrumbList schema with `author.@id` -> bio Person node.  *(SHIPPED — Phase 3 complete 2026-07-07.)*
+- **Phase 3 human-verify checkpoint**: 5-point QA on Netlify preview once `bd88875` auto-deploys — (1) `/practice-areas/` hub renders with 8 teaser cards, (2) 3 sample pillars render with hero + prose + FAQ accordion + CTA trio, (3) header nav "Practice Areas" resolves (no 404), (4) footer practice-areas column resolves 8/8, (5) Google Rich Results Test on 3 sample pillars recognizes Service + FAQPage + BreadcrumbList. Type "approved" to flip Phase 3 checkbox to [x] in ROADMAP.md.
+- **Phase 4 unblocked**: location pages at `/san-diego/{practice-role}/{city}/`. Depends on Phase 3 pillars (already live) for cluster-hub link-up + the `.practice__*` CSS component library. Final city list needs to be finalized before Wave 1.
 
 ### Blockers/Concerns
 
@@ -92,6 +98,6 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 
 ## Session Continuity
 
-Last session: 2026-07-06
-Stopped at: **Phase 2 fully complete.** All 3 plans (02-01 bio, 02-02 contact/thanks/form, 02-03 homepage + nav cutover) shipped. 7 commits pushed to main across the phase (`6776e4a`, `4477b65`, `1997228`, `23df8f2`, `c647449`, `90a9067`, `b7e22bb`). Working tree clean. Entity graph closed sitewide: bio Person `@id` = `https://childcustodyanddivorce.com/about.html#brian-burkett`; LegalService+LocalBusiness `@id` = `https://childcustodyanddivorce.com/#legalservice` (duplicated character-for-character across index.html and contact.html so Google resolves one entity); homepage @graph adds WebSite + FAQPage. All 9 existing HTML files at repo root + includes + templates have the Phase 2 real URLs. Awaiting human-verify checkpoint on Netlify preview to flip Phase 2 checkbox to [x] in ROADMAP.md. Phase 3 (practice pillar pages) is next and unblocked — the 8 URLs the homepage grid points at are the URLs Phase 3 must fulfill.
+Last session: 2026-07-07
+Stopped at: **Phase 3 fully complete.** All 3 waves shipped end to end in a single execution session — 03-01 (hub + divorce + child-custody + child-support), 03-02 (spousal-support + mediation + domestic-violence), 03-03 (guardianship + family-court). 3 commits pushed to main across the phase: `b963ca4` (Wave 1), `bb8574b` (Wave 2), `bd88875` (Wave 3). Working tree clean. 9 new URLs live at `/practice-areas/` + 8 pillar subdirectories. Every pillar carries Service + FAQPage + BreadcrumbList schema with `author.@id` -> bio Person node and `provider.@id` -> homepage `#legalservice`, closing the E-E-A-T entity loop for the first tranche of YMYL content. `assets/css/practice.css` added (~370 lines). Homepage practice grid + footer practice column now all resolve — no 404s. All 9 pages pass lint_cal_bar.py + validate_fabrication.py + identity_guard.py. Awaiting human-verify checkpoint on Netlify preview to confirm Rich Results Test recognition. Phase 4 (location pages / practice × city matrix) is next and unblocked — pillar cluster hubs the location pages attach to are now live.
 Resume file: None

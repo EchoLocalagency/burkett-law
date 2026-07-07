@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation + Design System + Validators** - Repo, Netlify infra, tokens, self-hosted fonts, legal pages, and the content-fabrication + Cal Bar Rule 7.1 lints that gate every subsequent content-generation phase
 - [ ] **Phase 2: Bio + Homepage + Contact (E-E-A-T Taproot & CTA Trio)** - Ship the bio (Person schema `@id` referenced by every downstream author), homepage w/ LegalService+LocalBusiness schema + CTA trio, and contact page as canonical NAP
-- [ ] **Phase 3: Practice Pillar Pages (8 Cluster Hubs)** - Ship the practice hub and 8 practice pillar pages (divorce, child custody, child support, spousal support, mediation, domestic violence, guardianship, family court) with Service + FAQPage schema
+- [x] **Phase 3: Practice Pillar Pages (8 Cluster Hubs)** - Ship the practice hub and 8 practice pillar pages (divorce, child custody, child support, spousal support, mediation, domestic violence, guardianship, family court) with Service + FAQPage schema
 - [ ] **Phase 4: Location Pages (Practice × City Matrix)** - Ship 15-20 location pages using Service + areaServed:City (never LocalBusiness), each ≥600 words with ≥4 of 6 differentiation blocks, gated by cross-page similarity lint
 - [ ] **Phase 5: Blog (E-E-A-T Curated 15-20 Posts)** - Curate + rewrite 15-20 posts from the 40 Justia originals with LegalArticle schema, author `@id` → Bio, backdated publish dates, and cluster linking back to pillars
 - [ ] **Phase 6: Technical SEO + Analytics + Justia Redirect Map** - Sitemap/robots/llms.txt, per-page canonical + OG + BreadcrumbList, Rich Results Test pass on every template, Core Web Vitals in budget, GA4 + GSC wired, and the complete Justia URL → new URL 301 map
@@ -65,7 +65,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Every pillar page ships Service + FAQPage + BreadcrumbList schema; `author.@id` resolves to the bio Person node (verified in Rich Results Test on 3 sample pillars)
   4. Every pillar page mentions "California" AND "San Diego" (or a specific SD sub-region / Superior Court branch) in body copy, verified by a jurisdiction lint pass
   5. Every pillar page passes fabrication validator + Cal Bar Rule 7.1 lint (no `specialist`, `expert`, `guaranteed`, `best`, `our team`) before commit
-**Plans**: TBD
+**Plans**: 3 plans
+- [x] 03-01-PLAN.md — Wave 1: hub + divorce + child-custody + child-support pillars + `assets/css/practice.css` (Service+FAQPage+BreadcrumbList schema, CTA trio inline+bottom, 1190-1414 words each) (PA-01, PA-02, PA-03, PA-04, PA-05)
+- [x] 03-02-PLAN.md — Wave 2: spousal-support + mediation + domestic-violence pillars (Family Code §§ 3600/4320/4336, § 3170 + Evidence Code § 1119, DVPA §§ 6200-6460 + § 3044; 1223-1335 words each) (PA-06, PA-07, PA-08)
+- [x] 03-03-PLAN.md — Wave 3: guardianship + family-court pillars (Probate Code §§ 1500-1611 + Family Code § 3041 + WIC § 360; CRC 5.151 + all 4 SDSC courthouses with addresses + 4th DCA Div One; 1410-1478 words) (PA-09, PA-10, PA-11)
 
 ### Phase 4: Location Pages (Practice × City Matrix)
 **Goal**: Ship 15-20 practice × city location pages at `/san-diego/[practice-role]/[city]/` — the highest thin-content + fabrication risk phase. Each page is ≥600 words, uses `Service` + `areaServed: City` (NEVER `LocalBusiness` — only Mission Valley home + contact carry that), carries 4+ of 6 differentiation blocks (SD Superior Court branch, driving from Mission Valley, city-specific demographic/jurisdiction note, city-anchored FAQ, city-specific practice callout, sourceable fact), and passes a cross-page similarity lint (no pair >70% similar excluding chrome).
@@ -135,8 +138,8 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation + Design System + Validators | 5/5 | Complete (awaiting human-verify sign-off on Plan 05) | 2026-07-06 |
-| 2. Bio + Homepage + Contact | 2/3 | In Progress | - |
-| 3. Practice Pillar Pages | 0/TBD | Not started | - |
+| 2. Bio + Homepage + Contact | 3/3 | Complete (awaiting human-verify sign-off) | 2026-07-06 |
+| 3. Practice Pillar Pages | 3/3 | Complete (awaiting human-verify sign-off) | 2026-07-07 |
 | 4. Location Pages | 0/TBD | Not started | - |
 | 5. Blog | 0/TBD | Not started | - |
 | 6. Technical SEO + Analytics + Justia Redirect Map | 0/TBD | Not started | - |
