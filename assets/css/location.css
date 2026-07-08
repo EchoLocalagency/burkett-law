@@ -1,0 +1,195 @@
+/*
+ * Location page component styles.
+ * Layered on top of practice.css — location pages reuse .practice, .practice__hero,
+ * .practice__section, .practice__inline-cta, .practice__faq, .practice__cta wrappers.
+ * This file adds the courthouse block, neighborhood block, and distance panel that
+ * are unique to city landing pages.
+ */
+
+/* -------------------------------------------------------------------------
+   Courthouse block — the SDSC courthouse that hears cases for this city
+   ------------------------------------------------------------------------- */
+
+.loc__courthouse {
+  margin-block: var(--space-10);
+  padding: var(--space-8);
+  background: var(--color-bg-elev-2);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  max-width: 68ch;
+}
+
+.loc__courthouse-label {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-caption);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent-text);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.loc__courthouse-name {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.loc__courthouse-address {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--color-text-muted);
+  font-style: normal;
+  margin: 0 0 var(--space-4) 0;
+  line-height: 1.55;
+}
+
+.loc__courthouse-note {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--color-text-muted);
+  line-height: var(--lh-body);
+  margin: 0;
+}
+
+/* -------------------------------------------------------------------------
+   Neighborhood block
+   ------------------------------------------------------------------------- */
+
+.loc__neighborhood {
+  padding-block: var(--space-10);
+}
+
+.loc__neighborhood h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0 0 var(--space-6) 0;
+}
+
+.loc__neighborhood p {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--color-text-muted);
+  max-width: 68ch;
+  margin: 0 0 var(--space-4) 0;
+}
+
+/* -------------------------------------------------------------------------
+   Distance / logistics panel — from the Mission Valley office
+   ------------------------------------------------------------------------- */
+
+.loc__distance {
+  margin-block: var(--space-10);
+  padding: var(--space-6) var(--space-8);
+  border-left: 4px solid var(--color-border);
+  background: transparent;
+  max-width: 68ch;
+}
+
+.loc__distance-label {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-caption);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.loc__distance p {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--color-text-muted);
+  line-height: var(--lh-body);
+  margin: 0;
+}
+
+/* -------------------------------------------------------------------------
+   Related-cities strip on practice pillar pages
+   ------------------------------------------------------------------------- */
+
+.practice__cities {
+  margin-block: var(--space-12);
+  padding: var(--space-8);
+  background: var(--color-bg-elev-1);
+  border-radius: var(--radius-xl);
+}
+
+.practice__cities h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0 0 var(--space-4) 0;
+}
+
+.practice__cities p {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-4) 0;
+  max-width: 68ch;
+}
+
+.practice__cities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.practice__cities-list a {
+  display: inline-block;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--fs-caption);
+  color: var(--color-accent-text);
+  text-decoration: none;
+  transition: background var(--duration-base) var(--ease-out),
+              border-color var(--duration-base) var(--ease-out);
+}
+
+.practice__cities-list a:hover,
+.practice__cities-list a:focus-visible {
+  background: var(--color-bg-elev-2);
+  border-color: var(--color-accent);
+}
+
+/* -------------------------------------------------------------------------
+   Homepage service-area featured-city links
+   ------------------------------------------------------------------------- */
+
+.home__service-area-featured {
+  margin-top: var(--space-6);
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.home__service-area-featured a {
+  display: inline-block;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--fs-caption);
+  color: var(--color-accent-text);
+  text-decoration: none;
+}
+
+.home__service-area-featured a:hover,
+.home__service-area-featured a:focus-visible {
+  background: var(--color-bg-elev-1);
+  border-color: var(--color-accent);
+}
