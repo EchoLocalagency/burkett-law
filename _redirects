@@ -76,3 +76,38 @@
 /blog/categories/child-custody/                                                                                         /blog/                                                                       301!
 /blog/categories/divorce/                                                                                               /blog/                                                                       301!
 /blog/categories/uncategorized/                                                                                         /blog/                                                                       301!
+
+# =============================================================================
+# Justia legacy STATIC PAGE URLs -> new site (Phase 6)
+# =============================================================================
+
+# Marketing / firm pages
+/home/                                                                                                                  /                                                                            301!
+/contact-us/                                                                                                            /contact.html                                                                301!
+/client-reviews/                                                                                                        /about.html                                                                  301!
+/our-videos/                                                                                                            /about.html                                                                  301!
+/sitemap/                                                                                                               /sitemap.xml                                                                 301!
+
+# Attorney profile pages -> bio
+/lawyers/                                                                                                               /about.html                                                                  301!
+/lawyers/brian-burkett/                                                                                                  /about.html                                                                  301!
+/lawyers/319-2/                                                                                                          /about.html                                                                  301!
+
+# Practice area pages -> pillars
+/san-diego-family-law/                                                                                                  /practice-areas/                                                             301!
+/san-diego-family-law/divorce/                                                                                          /practice-areas/divorce/                                                     301!
+/san-diego-family-law/divorce/contested-v-uncontested-divorce-law-office-of-brian-burkett/                              /practice-areas/divorce/                                                     301!
+/san-diego-family-law/child-custody/                                                                                    /practice-areas/child-custody/                                               301!
+/san-diego-family-law/child-support/                                                                                    /practice-areas/child-support/                                               301!
+/san-diego-family-law/paternity/                                                                                        /practice-areas/child-custody/                                               301!
+
+# Legacy legal / policy pages
+/disclaimer/                                                                                                            /disclaimer.html                                                             301!
+/privacy-policy/                                                                                                        /privacy.html                                                                301!
+/cookie-policy/                                                                                                         /privacy.html                                                                301!
+/your-privacy-choices/                                                                                                  /privacy.html                                                                301!
+
+# Blog root variants (blog.html was Justia's blog landing)
+/blog/index.html                                                                                                        /blog/                                                                       301!
+
+# Non-www -> canonical apex (Phase 7 T-14 adds host-based rule too; this is HTTP-path-only)
