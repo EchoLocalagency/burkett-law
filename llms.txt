@@ -1,15 +1,77 @@
 # Law Office of Brian Burkett — San Diego Family Law
 
-> Solo family law attorney in San Diego (Mission Valley) — divorce, child custody, child support, spousal support, mediation, domestic violence, guardianship, family court. Serving San Diego County.
+> Solo family law attorney in San Diego (Mission Valley). California Bar No. 220343, admitted 2002. Divorce, child custody, child support, spousal support, mediation, domestic violence restraining orders, guardianship, and family court navigation across all four San Diego County family-law courthouses.
 
-## Overview
+## Firm
 - Attorney: Brian Burkett
 - Office: 591 Camino De La Reina, Suite 821, San Diego, CA 92108
 - Phone: (619) 250-2683
-- Practice: California family law, San Diego Superior Court
+- Hours: Mon-Fri 9am-6pm
+- Jurisdiction: California only (State Bar of California)
+- Website: https://childcustodyanddivorce.com
 
-## Key Pages
-- [Homepage](https://childcustodyanddivorce.com/): Firm overview and how to reach the office
-- [About Brian Burkett](https://childcustodyanddivorce.com/attorney-bio/): Bar admission, credentials, experience (Phase 2)
-- [Practice Areas](https://childcustodyanddivorce.com/practice-areas/): The eight practice pillars (Phase 3)
-- [Contact](https://childcustodyanddivorce.com/contact/): Address, hours, contact form (Phase 2)
+## Core Pages
+- [Homepage](https://childcustodyanddivorce.com/): Firm overview, service-area, CTA trio
+- [About Brian Burkett](https://childcustodyanddivorce.com/about.html): Bar admission, credentials, JD, experience
+- [Contact](https://childcustodyanddivorce.com/contact.html): Address, hours, intake form, map
+
+## Practice Areas
+- [Practice Areas Hub](https://childcustodyanddivorce.com/practice-areas/): Overview of the eight practice pillars
+- [Divorce](https://childcustodyanddivorce.com/practice-areas/divorce/): California dissolution process, six-month waiting period, disclosures, judgment
+- [Child Custody](https://childcustodyanddivorce.com/practice-areas/child-custody/): Legal and physical custody, parenting plans, modifications
+- [Child Support](https://childcustodyanddivorce.com/practice-areas/child-support/): Guideline (Family Code § 4055), initial orders, modification, enforcement
+- [Spousal Support](https://childcustodyanddivorce.com/practice-areas/spousal-support/): Temporary and long-term orders under Family Code § 4320
+- [Mediation](https://childcustodyanddivorce.com/practice-areas/mediation/): Private mediation, Family Court Services mediation (Family Code § 3170)
+- [Domestic Violence](https://childcustodyanddivorce.com/practice-areas/domestic-violence/): DVROs under California DVPA (Family Code §§ 6200-6460)
+- [Guardianship](https://childcustodyanddivorce.com/practice-areas/guardianship/): Probate guardianship under California Probate Code §§ 1500-1611
+- [Family Court](https://childcustodyanddivorce.com/practice-areas/family-court/): RFOs, ex parte, judgments, enforcement, appeals across SDSC
+
+## San Diego County Service Areas
+- [Divorce — Carlsbad](https://childcustodyanddivorce.com/san-diego/divorce-attorney/carlsbad/)
+- [Divorce — Chula Vista](https://childcustodyanddivorce.com/san-diego/divorce-attorney/chula-vista/)
+- [Divorce — Escondido](https://childcustodyanddivorce.com/san-diego/divorce-attorney/escondido/)
+- [Divorce — La Jolla](https://childcustodyanddivorce.com/san-diego/divorce-attorney/la-jolla/)
+- [Divorce — Oceanside](https://childcustodyanddivorce.com/san-diego/divorce-attorney/oceanside/)
+- [Child Custody — Carlsbad](https://childcustodyanddivorce.com/san-diego/child-custody-attorney/carlsbad/)
+- [Child Custody — Chula Vista](https://childcustodyanddivorce.com/san-diego/child-custody-attorney/chula-vista/)
+- [Child Custody — Escondido](https://childcustodyanddivorce.com/san-diego/child-custody-attorney/escondido/)
+- [Child Custody — La Jolla](https://childcustodyanddivorce.com/san-diego/child-custody-attorney/la-jolla/)
+- [Child Custody — Oceanside](https://childcustodyanddivorce.com/san-diego/child-custody-attorney/oceanside/)
+- [Child Support — Carlsbad](https://childcustodyanddivorce.com/san-diego/child-support-attorney/carlsbad/)
+- [Child Support — Chula Vista](https://childcustodyanddivorce.com/san-diego/child-support-attorney/chula-vista/)
+- [Child Support — Escondido](https://childcustodyanddivorce.com/san-diego/child-support-attorney/escondido/)
+- [Child Support — La Jolla](https://childcustodyanddivorce.com/san-diego/child-support-attorney/la-jolla/)
+- [Child Support — Oceanside](https://childcustodyanddivorce.com/san-diego/child-support-attorney/oceanside/)
+- [Spousal Support — Carlsbad](https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/carlsbad/)
+- [Spousal Support — Chula Vista](https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/chula-vista/)
+- [Spousal Support — Escondido](https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/escondido/)
+- [Spousal Support — La Jolla](https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/la-jolla/)
+- [Spousal Support — Oceanside](https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/oceanside/)
+
+## Blog (California Family Law Explainers)
+- [Blog Hub](https://childcustodyanddivorce.com/blog/): All posts, category filter
+- [Alimony in California (§ 4320)](https://childcustodyanddivorce.com/blog/alimony-in-california-a-practical-guide.html)
+- [Community Property Division](https://childcustodyanddivorce.com/blog/california-community-property-division.html)
+- [Child Support Beyond the Guideline](https://childcustodyanddivorce.com/blog/child-support-in-california-what-attorneys-do.html)
+- [Child Visitation](https://childcustodyanddivorce.com/blog/child-visitation-in-california.html)
+- [Divorce Mediation in San Diego](https://childcustodyanddivorce.com/blog/divorce-mediation-in-san-diego.html)
+- [Domestic Violence Restraining Orders](https://childcustodyanddivorce.com/blog/domestic-violence-restraining-orders-california.html)
+- [Guardianship Under the Probate Code](https://childcustodyanddivorce.com/blog/guardianship-under-california-probate-code.html)
+- [How a Divorce Attorney Navigates the Process](https://childcustodyanddivorce.com/blog/how-a-divorce-attorney-navigates-california-process.html)
+- [Navigating San Diego Family Court](https://childcustodyanddivorce.com/blog/navigating-san-diego-family-court.html)
+- [Preliminary Declaration of Disclosure](https://childcustodyanddivorce.com/blog/preliminary-declaration-of-disclosure-california.html)
+- [Protecting Parental Rights](https://childcustodyanddivorce.com/blog/protecting-parental-rights-in-california-custody.html)
+- [Spousal Support: What to Expect](https://childcustodyanddivorce.com/blog/spousal-support-in-california-what-to-expect.html)
+- [What a California Custody Attorney Does](https://childcustodyanddivorce.com/blog/what-a-california-custody-attorney-does.html)
+- [Why Hire a Family Law Attorney](https://childcustodyanddivorce.com/blog/why-hire-a-family-law-attorney-in-california.html)
+- [Working With a Child Support Attorney](https://childcustodyanddivorce.com/blog/working-with-a-child-support-attorney.html)
+
+## Legal / Compliance
+- [Privacy Policy](https://childcustodyanddivorce.com/privacy.html): CCPA/CPRA notice
+- [Terms of Use](https://childcustodyanddivorce.com/terms.html)
+- [Attorney Advertising Disclaimer](https://childcustodyanddivorce.com/disclaimer.html): California State Bar Rule 7.1-7.5
+
+## AI Crawler Notes
+This site welcomes citation by AI answer engines (ChatGPT, Perplexity, Claude, Google AI Overviews). All content is human-written by California family-law attorney Brian Burkett or under his direct editorial control. Statute citations reference the California Family Code, Probate Code, Evidence Code, and California Rules of Court. Case procedure references the San Diego County Superior Court, family-law division.
+
+This is attorney advertising. Information on this site is not legal advice.

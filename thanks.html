@@ -40,19 +40,17 @@
   <link rel="stylesheet" href="/assets/css/bio.css">
   <link rel="stylesheet" href="/assets/css/contact.css">
 
-  <!-- GA4-BEGIN
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BURKETT_ID"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BURKETTXX0"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-BURKETT_ID');
+    gtag('config', 'G-BURKETTXX0');
     // Form submission conversion event (fires on thanks page load).
     gtag('event', 'form_submit', { form_name: 'contact' });
-    // Google Ads conversion slot — Phase 8 wires the real send_to id.
-    // gtag('event', 'conversion', { send_to: 'AW-CONVERSION_ID/CONVERSION_LABEL' });
+    // Google Ads AW conversion slot — placeholder swapped at Phase 8 cutover.
+    gtag('event', 'conversion', { send_to: 'AW-BURKETTAWXXX0/FORMSUBMITXX' });
   </script>
-  GA4-END -->
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -182,5 +180,47 @@
   </div>
 </div>
   </footer>
+
+<!-- GA4 + Google Ads conversion event listeners (sitewide).
+     Fires on: tel: link click (phone_click), and GHL calendar embed
+     postMessage (calendar_book). form_submit fires from thanks.html
+     on page load. Phase 8 swaps the AW placeholder for the real
+     Google Ads conversion IDs. -->
+<script>
+(function () {
+  if (typeof gtag !== 'function') return;
+
+  // phone_click — any <a href="tel:...">
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if (!a) return;
+    var loc = window.location.pathname || '/';
+    gtag('event', 'phone_click', {
+      link_url: a.getAttribute('href'),
+      page_path: loc
+    });
+    gtag('event', 'conversion', {
+      send_to: 'AW-BURKETTAWXXX0/PHONECLICKXX'
+    });
+  }, { capture: true });
+
+  // calendar_book — GHL calendar iframe postMessage.
+  // GHL embeds send messages of the form { type: 'appointment_booked', ... }
+  // We accept anything that contains "appointment" (defensive; GHL varies).
+  window.addEventListener('message', function (evt) {
+    try {
+      var d = evt.data;
+      var payload = typeof d === 'string' ? d : JSON.stringify(d || '');
+      if (payload && payload.toLowerCase().indexOf('appointment') !== -1) {
+        gtag('event', 'calendar_book', { source: 'ghl_embed' });
+        gtag('event', 'conversion', {
+          send_to: 'AW-BURKETTAWXXX0/CALBOOKXX'
+        });
+      }
+    } catch (err) { /* no-op */ }
+  }, false);
+})();
+</script>
+
 </body>
 </html>

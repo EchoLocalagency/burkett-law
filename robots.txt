@@ -1,16 +1,27 @@
 User-agent: *
 Allow: /
+Disallow: /thanks.html
 
+# AI crawlers — explicitly allowed for citation eligibility (GEO)
 User-agent: GPTBot
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
 User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://childcustodyanddivorce.com/sitemap.xml
