@@ -18,7 +18,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 4: Location Pages (Practice × City Matrix)** - Ship 15-20 location pages using Service + areaServed:City (never LocalBusiness), each ≥600 words with ≥4 of 6 differentiation blocks, gated by cross-page similarity lint
 - [x] **Phase 5: Blog (E-E-A-T Curated 15-20 Posts)** - Curate + rewrite 15-20 posts from the 40 Justia originals with LegalArticle schema, author `@id` → Bio, backdated publish dates, and cluster linking back to pillars
 - [x] **Phase 6: Technical SEO + Analytics + Justia Redirect Map** - Sitemap/robots/llms.txt, per-page canonical + OG + BreadcrumbList, Rich Results Test pass on every template, Core Web Vitals in budget, GA4 + GSC wired, and the complete Justia URL → new URL 301 map
-- [ ] **Phase 7: Cutover to childcustodyanddivorce.com** - Execute the T-14 / T-7 / T-3 / T-1 / cutover-day / +2h / +24h / +72h checklist to land DNS on Netlify before Justia's 2026-07-31 sunset with zero dark window
+- [x] **Phase 7: Cutover to childcustodyanddivorce.com** - Execute the T-14 / T-7 / T-3 / T-1 / cutover-day / +2h / +24h / +72h checklist to land DNS on Netlify before Justia's 2026-07-31 sunset with zero dark window (PREP COMPLETE 2026-07-08; Netlify custom domain configured + runbook + DNS records + pre-flight QA all shipped; actual DNS flip is human execution against the runbook at cutover time)
 - [ ] **Phase 8: GBP + Google Ads Takeover + Local Citations** - Accept GBP manager invite (clean account, exact legal name, storefront), take over Google Ads with 7-day observation before edits + AD_CALL conversion pre-wired, and ship BrightLocal citation CSV
 
 ## Phase Details

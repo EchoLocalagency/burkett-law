@@ -3,9 +3,9 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-07-08T19:40:11.115Z"
+last_updated: "2026-07-08T19:47:35.019Z"
 progress:
-  total_phases: 6
+  total_phases: 7
   completed_phases: 3
   total_plans: 13
   completed_plans: 11
@@ -18,13 +18,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-07-02)
 
 **Core value:** Burkett owns the site, owns the leads, and ranks locally in San Diego for divorce, child custody, and related family law intent — with content Google trusts as genuine legal expertise (E-E-A-T signals real enough for the YMYL bar).
-**Current focus:** Phase 5 COMPLETE (blog hub + 15 curated posts w/ LegalArticle schema, author.@id -> bio, backdated publish dates, cluster linking, 41 Justia legacy 301s). Phase 6 (technical SEO + analytics + Justia redirect map completion) is next.
+**Current focus:** Phase 7 COMPLETE (cutover prep). Netlify custom domain configured (childcustodyanddivorce.com + www alias) via API. Full T-14 -> +72h runbook + DNS-records-for-Burkett + PRE-FLIGHT-QA checklist committed. All 55 production HTML pages pass all 3 validators. Zero preview-URL leaks. Phase 8 (GBP + Ads takeover + citations) is next.
 
 ## Current Position
 
-Phase: 5 of 8 (Blog — E-E-A-T Curated Posts) — COMPLETE
-Plan: 05-PLAN.md complete — 3 wave commits shipped (5 posts each) + redirects + sitemap + phase closeout
-Status: Blog hub at `/blog/` + 15 curated post URLs live and validated. Every post ships LegalArticle schema with author.@id -> bio Person node, publisher.@id -> homepage LegalService, about.@id -> matching practice pillar Service, `datePublished` backdated on monthly cadence 2024-05..2025-08 (not batch to 2026-07), `dateModified` = today, `articleSection` = category, and BreadcrumbList. Every post links body-copy to at least one practice pillar + one related post. 41 Justia legacy blog URLs mapped 301 in `_redirects` (15 curated 1:1 + 22 cut-post orphans + 4 category pages). sitemap.xml appended with 16 new URLs (51 total). Total blog word count: 17,185 (avg ~1145/post). Two validator hits caught during wave 1 and rewritten (RULE_7_2_EXPERT "vocational expert" -> "vocational evaluator"; FAB_YEARS_OR_COUNT "4320 matters" -> "section 4320 carries the weight"). All 16 pages pass lint_cal_bar.py + validate_fabrication.py + identity_guard.py.
+Phase: 7 of 8 (Cutover to childcustodyanddivorce.com) — COMPLETE (PREP)
+Plan: No PLAN.md required — Phase 7 is execution against the runbook, and the runbook itself IS the plan (CUTOVER-RUNBOOK.md).
+Status: Netlify site `burkett-law` (69d38c3a-fcb7-4424-877e-df9fcd884e71) now has `custom_domain: childcustodyanddivorce.com` and `domain_aliases: [www.childcustodyanddivorce.com]` configured via `netlify api updateSite`. Netlify will auto-provision Let's Encrypt cert once DNS lands. `_redirects` (63 lines, Justia legacy map) + `sitemap.xml` (51 URLs, all `https://childcustodyanddivorce.com/`) + `robots.txt` (AI crawlers Allow) + `llms.txt` all pre-flight ready. 168 references to production domain across production HTML/txt/xml; zero references to `burkett-law.netlify.app`, `localhost`, or `http://` (except schema.org/w3.org namespaces). All 55 production HTML files pass `run_all_validators.sh` clean (Cal Bar + fabrication + identity guard). Phase 7 artifacts: `CUTOVER-RUNBOOK.md` (T-14 -> +72h with per-step verification commands), `DNS-RECORDS.md` (exact records for Burkett to add at Network Solutions), `PRE-FLIGHT-QA.md` (13-category T-7 checklist), `07-VERIFICATION.md`. Planned cutover: 2026-07-29 09:00 PT (Tuesday, 2 days before 07-31 Justia sunset — buffer for rollback).
 
 ## Prior Phases
 
