@@ -1059,3 +1059,1022 @@ POSTS.append({
     ],
 })
 
+# ---------------------------------------------------------------------------
+# 6 — Protecting Parental Rights in California Custody
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "protecting-parental-rights-in-california-custody",
+    "category": "Child Custody",
+    "published": "2024-10-08",
+    "published_pretty": "October 8, 2024",
+    "title": "Protecting Parental Rights in California Custody Cases",
+    "h1": "Protecting Parental Rights in California Custody Cases",
+    "description": "Legal and physical custody, the best-interest standard under Family Code section 3011, and the moves that erode a parent's role. San Diego family attorney Brian Burkett.",
+    "breadcrumb_short": "Protecting Parental Rights",
+    "body_html": """
+          <p>
+            Parental rights in California custody cases do not get lost in
+            one big ruling. They get chipped away in small, easy-to-miss
+            moves &mdash; a temporary order that quietly becomes the
+            baseline, an FCS session where one parent shows up with a
+            proposal and the other does not, a Request for Order the other
+            side files while a parent is still trying to figure out what
+            venue this all lives in.
+          </p>
+          <p>
+            This post is about what parental rights actually are under
+            California law, how the best-interest standard gets applied,
+            and the moves that quietly erode a parent's role in a case if
+            they are not addressed early.
+          </p>
+
+          <h2>Legal custody versus physical custody</h2>
+          <p>
+            California distinguishes two kinds of custody, and they are
+            decided separately. <strong>Legal custody</strong> is
+            decision-making authority over the child's education, medical
+            care, religious upbringing, and other major life decisions.
+            <strong>Physical custody</strong> is where the child lives and
+            spends time. Either kind can be joint (shared between the
+            parents) or sole (to one parent), and the two do not have to
+            match. Joint legal with primary physical to one parent is a
+            common San Diego outcome.
+          </p>
+          <p>
+            "Sole legal custody" is not a symbolic label. It changes who
+            gets to enroll a child in school, who signs medical consent
+            forms, who chooses a therapist. Losing joint legal custody in
+            a case is a real reduction in a parent's role, and it can be
+            hard to reverse once the order is entered.
+          </p>
+
+          <h2>The best-interest standard under section 3011</h2>
+          <p>
+            California family court decides custody using the best-interest
+            standard in Family Code section 3011. The statute lists
+            factors the court is required to consider: the health, safety,
+            and welfare of the child; any history of abuse by a parent;
+            the nature and amount of contact with each parent; and habitual
+            or continual illegal use of controlled substances or alcohol
+            abuse by either parent.
+          </p>
+          <p>
+            Section 3011 is the framework. Section 3020 layers on the
+            state's policy statement: the court's primary concern is the
+            health, safety, and welfare of the child; frequent and
+            continuing contact with both parents is favored where consistent
+            with the child's best interest; and where those goals conflict,
+            the child's health, safety, and welfare wins.
+          </p>
+
+          <h2>The moves that erode parental rights</h2>
+
+          <h3>Not appearing at the first hearing</h3>
+          <p>
+            The most common way a parent's role gets reduced early in a
+            case is by not being present, on paper or in person, when
+            initial orders are set. A Request for Order the other parent
+            files while a parent is between jobs, moving, or simply
+            unrepresented can produce a "temporary" custody order that
+            functions as the status quo for months. Courts are cautious
+            about changing custody arrangements the child has adapted to.
+          </p>
+
+          <h3>Not preparing for Family Court Services mediation</h3>
+          <p>
+            San Diego routes custody disputes through Family Court Services
+            mediation under Family Code section 3170 before the contested
+            hearing. FCS in San Diego County is a recommending
+            jurisdiction &mdash; the mediator can make a written
+            recommendation to the judge if the parents do not agree.
+            Walking into FCS unprepared, without a proposed parenting
+            plan, can result in a recommendation that reflects the other
+            parent's proposal by default.
+          </p>
+
+          <h3>Consenting to a substantial deviation "just for now"</h3>
+          <p>
+            "Let's just do it your way for the next three months and
+            revisit" sounds like flexibility. In practice, a three-month
+            arrangement often becomes the baseline the court asks each
+            parent to justify departing from. Written agreements between
+            parents, and any court-adopted temporary orders, deserve real
+            attention even when they are described as short-term.
+          </p>
+
+          <h3>Miscommunication with the other parent, in writing</h3>
+          <p>
+            Text messages and email are admissible. A parent who vents in
+            writing &mdash; even in response to genuinely provocative
+            behavior &mdash; is creating exhibits. In an active custody
+            case, treating written communication with the other parent as
+            if it will end up attached to a declaration is a habit worth
+            forming.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              If you are in the first ninety days of a custody dispute, the
+              early moves matter more than the eventual hearing.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> to walk
+              through your case before the next Request for Order or FCS
+              date.
+            </p>
+          </aside>
+
+          <h2>The Family Code section 3044 presumption</h2>
+          <p>
+            Family Code section 3044 creates a rebuttable presumption
+            against awarding sole or joint physical or legal custody to a
+            parent who has committed domestic violence against the other
+            parent, the child, or the child's sibling within the previous
+            five years. The presumption can be rebutted with clear evidence
+            addressing the enumerated statutory factors, but it is a
+            substantial thumb on the scale. If a restraining order has
+            issued in the case, section 3044 will structure the custody
+            analysis.
+          </p>
+
+          <h2>Section 3111 evaluations and minor's counsel</h2>
+          <p>
+            In cases where the custody dispute is contested and the
+            evidence about the child is not straightforward, the court can
+            order a Family Code section 3111 child custody evaluation. An
+            evaluator (a licensed mental-health professional) interviews
+            each parent, the child, and collaterals, reviews records, and
+            submits a written report with recommendations. A 3111
+            evaluation is expensive and time-consuming, but the resulting
+            report often carries substantial weight.
+          </p>
+          <p>
+            Family Code section 3150 lets the court appoint minor's
+            counsel &mdash; a separate attorney for the child &mdash; in
+            appropriate cases. Minor's counsel represents the child's
+            interests independently of either parent, and can present
+            evidence, cross-examine, and argue at the hearing.
+          </p>
+
+          <h2>Move-away requests</h2>
+          <p>
+            A parent with a custody order who wants to relocate the child
+            has to give notice and, if the other parent objects, may need
+            court permission. Under <em>Marriage of LaMusga</em> and its
+            progeny, the court weighs a set of move-away factors: the
+            child's interest in stability, the distance of the move, the
+            child's age, the child's relationship with each parent, the
+            move's likely impact on the child, and the reasons for the
+            move. Move-away cases are among the highest-stakes custody
+            disputes California family court hears.
+          </p>
+
+          <h2>Modification after the order</h2>
+          <p>
+            An existing California custody order can be modified on a
+            substantial change of circumstances that affects the child's
+            best interest. That standard is meaningful &mdash; the court
+            does not modify custody just because a parent is unhappy with
+            the order. But real changes in a child's life (school changes,
+            a parent's relocation, a work-schedule shift, a safety issue)
+            can support a modification. A well-prepared modification
+            motion identifies the change, ties it to the child's best
+            interest, and proposes a specific new order.
+          </p>
+
+          <h2>Protecting your role in the case</h2>
+          <p>
+            Protecting parental rights in a California custody case is
+            mostly about being present and prepared at the moments that
+            matter &mdash; the first hearing, the FCS session, any
+            evaluation, and any modification. It also means being
+            realistic. The best-interest standard is a real standard, and
+            a proposal that is clearly better for the child usually wins.
+          </p>
+          <p>
+            If you want to talk through your custody case, you can reach
+            me at <a href="tel:+16192502683">(619) 250-2683</a> or through
+            the <a href="/contact.html#form">contact form</a>. See also
+            the <a href="/practice-areas/child-custody/">child custody
+            practice area</a> for the broader overview.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/child-custody/", "category": "Practice Area", "title": "San Diego Child Custody (Practice Area)"},
+        {"url": "/blog/child-visitation-in-california.html", "category": "Child Custody", "title": "Child Visitation in California: Parenting Plans, Schedules, and Enforcement"},
+        {"url": "/blog/what-a-california-custody-attorney-does.html", "category": "Child Custody", "title": "What a California Custody Attorney Actually Does (Beyond the Hearing)"},
+    ],
+})
+
+# ---------------------------------------------------------------------------
+# 7 — Child Visitation in California
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "child-visitation-in-california",
+    "category": "Child Custody",
+    "published": "2024-11-05",
+    "published_pretty": "November 5, 2024",
+    "title": "Child Visitation in California: Parenting Plans, Schedules, and Enforcement",
+    "h1": "Child Visitation in California: Parenting Plans, Schedules, and Enforcement",
+    "description": "How California parenting-time schedules get built, the difference between typical schedules, and enforcement options when the other parent will not follow the order. San Diego family attorney.",
+    "breadcrumb_short": "Child Visitation in California",
+    "body_html": """
+          <p>
+            "Visitation" is what people call it in conversation. California
+            family court has largely moved on to the language of "parenting
+            time" or "parenting plans," because the older word implied one
+            parent was less of a real parent. The change is not just
+            semantic &mdash; parenting-time orders in California are
+            expected to be specific enough that both parents can actually
+            follow them, and generic enough to accommodate normal life.
+          </p>
+          <p>
+            This post is about how a workable California parenting plan
+            gets built, what a typical San Diego schedule looks like, and
+            what to do when the other parent stops following the order.
+          </p>
+
+          <h2>What a good parenting plan actually specifies</h2>
+          <p>
+            A workable California parenting-time order covers, at minimum:
+          </p>
+          <ul>
+            <li>The regular weekly schedule (which parent has the child on
+                which days, and when exchanges happen)</li>
+            <li>The holiday schedule (Thanksgiving, winter break,
+                three-day weekends, Mother's Day and Father's Day, each
+                parent's birthday, the child's birthday)</li>
+            <li>Summer vacation (block time, or continued regular
+                schedule, or a modified schedule)</li>
+            <li>School breaks (spring break, fall break, back-to-school
+                night attendance)</li>
+            <li>Exchange location and mechanics (curbside, at school, at
+                the child's activity)</li>
+            <li>Communication (phone, text, video calls with the child
+                during the other parent's time)</li>
+            <li>Travel (advance notice for out-of-county travel,
+                passports, international travel)</li>
+            <li>Third-party care (which non-parent caregivers can
+                supervise the child during a parent's time)</li>
+          </ul>
+          <p>
+            A parenting plan that specifies only "every other weekend and
+            one weekday evening" leaves too much to interpretation. A plan
+            that specifies each holiday and each school break down to the
+            hour reduces the number of disputes that require a return to
+            court.
+          </p>
+
+          <h2>Typical San Diego schedules</h2>
+          <p>
+            There is no "standard" California parenting plan &mdash; the
+            court decides based on the best interest of the child in each
+            case &mdash; but a handful of formats come up over and over
+            in San Diego family court.
+          </p>
+          <p>
+            <strong>Every other weekend, one weekday visit.</strong> Common
+            when one parent is the primary residential parent and the
+            child's school schedule is stable. The visiting parent
+            typically has Friday after school through Sunday evening every
+            other week, plus a weekday visit for dinner (or, in some
+            plans, an overnight midweek).
+          </p>
+          <p>
+            <strong>2-2-3.</strong> A 50/50 schedule with two nights with
+            parent A, two nights with parent B, and a three-night stretch
+            that alternates each week. Popular with younger children
+            because neither parent goes more than a few days without a
+            visit, but the number of exchanges each week is high.
+          </p>
+          <p>
+            <strong>2-2-5-5.</strong> Also a 50/50 schedule, with each
+            parent having the same two weekday nights every week and the
+            weekends alternating in five-night blocks. Fewer exchanges;
+            more predictable for older kids.
+          </p>
+          <p>
+            <strong>Week-on / week-off.</strong> A 50/50 schedule where
+            each parent has the child for a full week at a time. Works
+            when the child is old enough to tolerate a longer stretch
+            between visits, and when the parents live close enough to the
+            same schools and activities to make it seamless.
+          </p>
+
+          <h2>Building a schedule that fits the case</h2>
+          <p>
+            The right parenting plan depends on the child's age, school,
+            activities, and health; each parent's work schedule and
+            geographic proximity; the co-parenting relationship; and any
+            safety issues in the case. A schedule that would be perfect
+            for a school-age child with two parents living six blocks
+            apart is not workable for a toddler with parents thirty miles
+            apart in different school districts.
+          </p>
+          <p>
+            In San Diego, Family Court Services mediation is usually where
+            the schedule discussion happens first, on any case where
+            custody is in dispute. Coming to FCS with a proposal &mdash;
+            not just "more time," but a specific week-by-week schedule
+            with holidays &mdash; is much stronger than showing up
+            without one. I cover this in more detail in the post on
+            <a href="/blog/what-a-california-custody-attorney-does.html">what
+            a California custody attorney actually does</a>.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              A parenting plan is the operating manual for the next several
+              years of your family. It is worth building carefully.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> or
+              <a href="/contact.html#booking">book a consultation</a> to
+              walk through what a workable schedule looks like for your
+              family.
+            </p>
+          </aside>
+
+          <h2>What happens when the other parent will not follow the order</h2>
+          <p>
+            California parenting-time orders are court orders. When a
+            parent unilaterally deviates from the order &mdash; keeping
+            the child on non-scheduled days, refusing to allow exchanges,
+            withholding phone or video contact &mdash; there are several
+            enforcement paths.
+          </p>
+
+          <h3>Meet-and-confer, in writing</h3>
+          <p>
+            Before returning to court, most judges expect the parents to
+            have tried to resolve the issue directly. A calm written
+            message from a parent (or from counsel) documenting the
+            specific violation and asking for compliance serves two
+            purposes: it may actually work, and it creates a paper record
+            if a court filing is later needed.
+          </p>
+
+          <h3>Request for Order to modify or enforce</h3>
+          <p>
+            A Request for Order (FL-300) can ask the court to enforce the
+            existing parenting plan (compensatory time, warnings), to
+            modify the plan if the pattern of violation has effectively
+            changed the schedule, or to clarify ambiguous language that
+            is being used as a pretext.
+          </p>
+
+          <h3>Contempt</h3>
+          <p>
+            California family court can hold a parent in contempt for
+            willful violation of a court order. Contempt in family court
+            is a serious remedy &mdash; the party seeking contempt has to
+            allege the specific order violated, the party's knowledge of
+            it, and the ability to comply with it, and prove each element
+            beyond a reasonable doubt. Contempt is not the right tool for
+            every parenting-time dispute, but for a pattern of egregious
+            violations it can be effective.
+          </p>
+
+          <h3>Family Code section 3028 &mdash; monetary sanctions</h3>
+          <p>
+            California Family Code section 3028 authorizes the court to
+            order a parent who denies the other parent's court-ordered
+            time to pay financial compensation to the aggrieved parent
+            &mdash; costs actually incurred as a result of the missed
+            time. It is not commonly ordered, but it is on the books, and
+            in the right case it can be a useful tool.
+          </p>
+
+          <h2>Modifying the schedule as kids grow</h2>
+          <p>
+            A schedule that fits a five-year-old will not fit a
+            fourteen-year-old. As kids grow, their activities, school
+            demands, and preferences shift. A modification of the
+            parenting plan on a substantial change of circumstances is
+            available, and pre-planning the modification when the
+            original order is entered &mdash; e.g., "the schedule
+            transitions to 2-2-5-5 when the child enters middle school"
+            &mdash; can reduce future court filings.
+          </p>
+
+          <h2>Ready to talk through your case</h2>
+          <p>
+            Whether you are trying to build a first parenting plan,
+            modify an existing one, or address a pattern of the other
+            parent's non-compliance, the moves are specific and the
+            process is workable. If you want to walk through your case,
+            you can reach me at
+            <a href="tel:+16192502683">(619) 250-2683</a> or through the
+            <a href="/contact.html#form">contact form</a>. See also the
+            <a href="/practice-areas/child-custody/">child custody
+            practice area</a>.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/child-custody/", "category": "Practice Area", "title": "San Diego Child Custody (Practice Area)"},
+        {"url": "/blog/protecting-parental-rights-in-california-custody.html", "category": "Child Custody", "title": "Protecting Parental Rights in California Custody Cases"},
+        {"url": "/blog/what-a-california-custody-attorney-does.html", "category": "Child Custody", "title": "What a California Custody Attorney Actually Does (Beyond the Hearing)"},
+    ],
+})
+
+# ---------------------------------------------------------------------------
+# 8 — What a California Custody Attorney Actually Does
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "what-a-california-custody-attorney-does",
+    "category": "Child Custody",
+    "published": "2024-12-03",
+    "published_pretty": "December 3, 2024",
+    "title": "What a California Custody Attorney Actually Does (Beyond the Hearing)",
+    "h1": "What a California Custody Attorney Actually Does (Beyond the Hearing)",
+    "description": "Family Court Services mediation prep, section 3111 evaluations, minor's counsel, discovery, and the everyday work between hearings on a California custody case.",
+    "breadcrumb_short": "What a Custody Attorney Does",
+    "body_html": """
+          <p>
+            When most people picture a custody attorney, they picture the
+            hearing &mdash; the courtroom, the judge, the argument at the
+            podium. That is a real part of the job, but on a typical
+            California custody case it is a small part. The work that
+            actually shapes the outcome usually happens in the weeks
+            between the courtroom appearances.
+          </p>
+          <p>
+            This post is about what a California custody attorney is
+            doing when they are not standing in front of the judge.
+          </p>
+
+          <h2>Intake and the first strategic map</h2>
+          <p>
+            The first meeting on a custody case is not just a
+            question-and-answer session. It is the strategic map for the
+            case: who has the child now, what the schools and activities
+            look like, whether either parent works out of the county,
+            whether there are safety issues that need a separate
+            restraining-order track, and whether the current status quo
+            was reached through a written agreement, an oral agreement, or
+            just habit.
+          </p>
+          <p>
+            That map drives everything that follows. A case where one
+            parent has been the primary caregiver for a year and the other
+            parent is asking for 50/50 time looks different from a case
+            where the parents had been sharing time roughly equally until
+            the day one of them filed.
+          </p>
+
+          <h2>Drafting the initial pleadings correctly</h2>
+          <p>
+            A California custody case usually opens with a Petition (in a
+            divorce) or a Request for Order (FL-300) attaching a specific
+            proposed parenting plan. The specificity matters. A Request
+            for Order that asks for "reasonable visitation" is meaningfully
+            weaker than one that attaches a written proposed schedule with
+            holidays, exchanges, and travel provisions.
+          </p>
+          <p>
+            Drafting the supporting declaration is where I spend most of
+            my time in the pleading stage. A declaration should be
+            specific, factual, and short. It should recount the concrete
+            history that supports the requested schedule, not the parent's
+            frustration with the other side. Judges read a lot of
+            declarations. The ones that get remembered are the ones that
+            are tight.
+          </p>
+
+          <h2>Family Court Services mediation prep</h2>
+          <p>
+            San Diego routes contested custody through Family Court
+            Services (FCS) mediation under Family Code section 3170
+            before the contested hearing. FCS is recommending &mdash; the
+            mediator can send a written recommendation to the judge if the
+            parents cannot reach agreement.
+          </p>
+          <p>
+            Preparing a parent for FCS is one of the most impactful pieces
+            of work I do on a custody case. That preparation covers: what
+            to bring (the proposed parenting plan, the child's school
+            calendar, the parents' work schedules), how to talk about the
+            child (specific and behavioral, not global and characterological
+            about the other parent), what the FCS mediator will ask, and
+            what a productive proposal looks like.
+          </p>
+
+          <h2>Section 3111 evaluations</h2>
+          <p>
+            In cases where FCS mediation cannot resolve the dispute and
+            the child's specific circumstances need deeper examination,
+            the court can order a Family Code section 3111 custody
+            evaluation. A section 3111 evaluator (a licensed
+            mental-health professional trained in family evaluations)
+            interviews each parent, the child, and collaterals (teachers,
+            pediatrician, therapist, other relevant adults), reviews
+            records, and prepares a written report with recommendations to
+            the court.
+          </p>
+          <p>
+            My role during a section 3111 evaluation is to prepare the
+            client for the interviews, coordinate document production for
+            the evaluator, ensure the evaluator has access to the
+            collaterals the client wants heard, and, once the report is
+            issued, evaluate whether to accept the recommendations, argue
+            them at hearing, or (in rare cases) challenge the
+            evaluation itself.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              A section 3111 evaluation is a significant undertaking. How
+              you prepare for it, and what documents the evaluator sees,
+              often drives the recommendation.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> if a
+              section 3111 evaluation has been ordered or is on the
+              table in your case.
+            </p>
+          </aside>
+
+          <h2>Minor's counsel appointments</h2>
+          <p>
+            Family Code section 3150 allows the court to appoint a
+            separate attorney for the child &mdash; "minor's counsel"
+            &mdash; in appropriate cases. Minor's counsel represents the
+            child's interests independently, interviews the child, and
+            can present evidence, cross-examine, and argue.
+          </p>
+          <p>
+            When minor's counsel is appointed, I work closely with them:
+            providing the case history, coordinating information about the
+            child's school and activities, and ensuring the client is
+            available to speak with minor's counsel professionally.
+            Minor's counsel is not the opposing side, but they are also
+            not aligned with either parent by default. How the parents
+            interact with them matters.
+          </p>
+
+          <h2>Discovery in a custody case</h2>
+          <p>
+            Discovery in a custody case looks different from discovery in
+            a property case. Standard California discovery devices are
+            available (interrogatories, requests for production,
+            depositions), but the substantive focus is different:
+            school and medical records, communications between the
+            parents, third-party witness statements, and, in rare cases,
+            subpoenas to therapists (subject to privilege) or law
+            enforcement.
+          </p>
+
+          <h2>Preparing exhibits for hearing</h2>
+          <p>
+            When a contested custody hearing actually gets set, exhibit
+            preparation is a real amount of work. A well-prepared
+            evidentiary hearing has: the FCS report, any section 3111
+            evaluation, school records, key text-message excerpts, the
+            parents' calendars, and specific incident-based documents. A
+            hearing is not the moment to introduce your entire case in
+            one motion; it is the moment to present the two or three
+            documents that show the pattern the court needs to see.
+          </p>
+
+          <h2>Post-hearing follow-through</h2>
+          <p>
+            After the hearing, the actual custody order has to be
+            reduced to a written Findings and Order After Hearing
+            (FL-340 / FL-341(D)). That drafting matters. Ambiguous
+            language in the written order becomes future disputes. A
+            well-drafted order specifies each element of the schedule
+            with enough precision that both parents can follow it, and
+            includes standard provisions (exchanges, communication
+            during the other parent's time, travel notice) that fill in
+            the ordinary edge cases.
+          </p>
+
+          <h2>Modification, enforcement, and the long tail</h2>
+          <p>
+            A custody case does not close at judgment; it just goes
+            dormant. Kids grow. Parents' work changes. Second households
+            form. Every one of those changes can support a modification
+            of the custody order on a substantial change of circumstances.
+            A parent who returns to court on the same theory that was
+            argued a year ago rarely succeeds; a parent who returns with
+            a specific new circumstance and a specific proposed
+            adjustment usually gets a hearing.
+          </p>
+          <p>
+            Enforcement is the other half of post-judgment work. When
+            the other parent stops following the order, an attorney can
+            issue meet-and-confer letters, file a Request for Order to
+            enforce or modify, and in the right case pursue contempt.
+            See the <a href="/blog/child-visitation-in-california.html">post
+            on child visitation</a> for more on enforcement options.
+          </p>
+
+          <h2>Ready to talk it through</h2>
+          <p>
+            Custody attorneys are not just courtroom advocates. Most of
+            the value in a well-handled case comes from the preparation,
+            the FCS session, the evaluation, and the drafting &mdash; the
+            work that never shows up as a courtroom highlight but shapes
+            what the child's life looks like for the next several years.
+          </p>
+          <p>
+            If you want to talk about your custody case, you can reach me
+            at <a href="tel:+16192502683">(619) 250-2683</a> or through
+            the <a href="/contact.html#form">contact form</a>. See also
+            the <a href="/practice-areas/child-custody/">child custody
+            practice area</a>.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/child-custody/", "category": "Practice Area", "title": "San Diego Child Custody (Practice Area)"},
+        {"url": "/blog/protecting-parental-rights-in-california-custody.html", "category": "Child Custody", "title": "Protecting Parental Rights in California Custody Cases"},
+        {"url": "/blog/child-visitation-in-california.html", "category": "Child Custody", "title": "Child Visitation in California: Parenting Plans, Schedules, and Enforcement"},
+    ],
+})
+
+# ---------------------------------------------------------------------------
+# 9 — Child Support in California: What Attorneys Add
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "child-support-in-california-what-attorneys-do",
+    "category": "Child Support",
+    "published": "2025-01-14",
+    "published_pretty": "January 14, 2025",
+    "title": "Child Support in California: What an Attorney Adds to the Guideline Number",
+    "h1": "Child Support in California: What an Attorney Adds to the Guideline Number",
+    "description": "California guideline child support is a formula. What an attorney adds around the formula — income imputation, add-ons, DissoMaster inputs, and modification. San Diego family attorney.",
+    "breadcrumb_short": "Child Support: What Attorneys Add",
+    "body_html": """
+          <p>
+            California child support is one of the more formula-driven
+            areas of family law. There is a statewide guideline, a
+            software calculator most judges use (DissoMaster), and a set
+            of statutory inputs. So a fair question at the intake meeting
+            is: if this is a formula, why do I need an attorney at all?
+          </p>
+          <p>
+            The formula is real. What an attorney adds is what goes into
+            the formula &mdash; and, on the back end, how add-ons,
+            enforcement, and modification get handled.
+          </p>
+
+          <h2>The California guideline</h2>
+          <p>
+            California child support is set under the statewide guideline
+            in Family Code section 4055. The formula uses each parent's
+            net disposable income and the approximate percentage of time
+            each parent has with the child. In San Diego, judges
+            calculate the guideline number using DissoMaster or a similar
+            court-accepted calculator. The formula is presumptively
+            correct under Family Code section 4057 &mdash; the court is
+            required to order the guideline number unless it makes
+            findings under one of the enumerated statutory exceptions.
+          </p>
+          <p>
+            Because the formula is presumptive, deviations from the
+            guideline are the exception, not the rule. In practice, the
+            fight in most California child support cases is not "should
+            we deviate from guideline." It is "what are the correct
+            inputs to the guideline formula."
+          </p>
+
+          <h2>Inputs one: income</h2>
+          <p>
+            Each parent's income is the biggest input. For W-2 employees,
+            income is usually straightforward &mdash; the FL-150 Income
+            and Expense Declaration, backed by pay stubs and tax returns,
+            establishes the number.
+          </p>
+          <p>
+            For self-employed parents, commissioned parents, seasonal
+            workers, and parents with significant equity comp, the
+            income picture is more work. A self-employed parent's
+            business net income is not the same as their taxable income,
+            and the two rarely match without careful analysis of
+            personal expenses run through the business. A parent whose
+            income spikes twice a year on commission or bonuses cannot
+            be evaluated on a single month's paycheck. RSUs and stock
+            options have vesting schedules that affect what portion is
+            income for support purposes.
+          </p>
+          <p>
+            The FL-150 asks for the last twelve months' income. A
+            well-prepared FL-150 attaches supporting documents and
+            explains any unusual line items. A poorly prepared FL-150
+            invites the other side (and the court) to fill in blanks
+            with assumptions.
+          </p>
+
+          <h2>Inputs two: imputed income</h2>
+          <p>
+            California courts have discretion under Family Code section
+            4058 to impute income to a parent based on earning capacity,
+            not just actual income. The classic case: a parent who quits
+            a job or takes a substantial pay cut around the time a
+            support case starts. If the court finds the parent has the
+            ability and opportunity to earn more, it can calculate
+            support as if the parent were earning that higher number.
+          </p>
+          <p>
+            Imputation cases usually involve a vocational examination
+            under Family Code section 4331 &mdash; a licensed vocational
+            evaluator reports on what jobs and earning ranges are
+            available to the parent given their skills and the local
+            market. Imputation is not automatic; the party requesting it
+            has to build a record.
+          </p>
+
+          <h2>Inputs three: time share</h2>
+          <p>
+            The percentage of time each parent has with the child is the
+            second big input to the guideline formula. Higher timeshare
+            for the paying parent reduces the support order; higher
+            timeshare for the receiving parent increases it.
+          </p>
+          <p>
+            "Timeshare" for guideline purposes is a specific concept.
+            It refers to the percentage of primary physical
+            responsibility &mdash; the time during which each parent is
+            the responsible caretaker, not just "any time the child
+            physically spends with the parent." Overnight time, school
+            hours, and third-party care are handled specifically by
+            case law. In a case where the parenting-time schedule is
+            still being litigated, the timeshare input can change
+            substantially as the custody order changes, which is why
+            child support and custody hearings are often set together.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              A child-support order is only as good as its inputs. Get the
+              FL-150 wrong and the guideline number will be wrong.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> to walk
+              through your case before the first support hearing.
+            </p>
+          </aside>
+
+          <h2>Add-ons under section 4062</h2>
+          <p>
+            The guideline number covers basic child support. Family Code
+            section 4062 lists specific additional costs that get
+            allocated on top of the guideline number:
+          </p>
+          <ul>
+            <li><strong>Mandatory add-ons:</strong> child care costs
+                related to employment or job-related training; and
+                reasonable uninsured health-care costs for the child</li>
+            <li><strong>Discretionary add-ons:</strong> educational or
+                other special needs of the child; and travel expenses
+                for visitation</li>
+          </ul>
+          <p>
+            Section 4061 sets the default that add-ons are allocated
+            equally between the parents, but the court can allocate
+            them in proportion to each parent's net disposable income.
+            Well-drafted support orders specify how add-ons will be
+            paid (reimbursement mechanism, tracking) so the parents do
+            not end up back in court over private-school tuition or
+            an orthodontia bill.
+          </p>
+
+          <h2>Modification under section 3651</h2>
+          <p>
+            California child support is modifiable on a change of
+            circumstances under Family Code section 3651. Common triggers
+            for modification include a job loss or change, a significant
+            income increase, a change in the custody schedule, a change
+            in health-care coverage, or the child's emancipation. A
+            modification runs from the date of filing the Request for
+            Order (or, in some cases, from a slightly earlier date if
+            the parties agree). It does not run retroactive to the
+            actual change of circumstances, which is why filing timely
+            matters.
+          </p>
+
+          <h2>Enforcement</h2>
+          <p>
+            California child-support orders are enforced through a
+            variety of tools: wage assignments (mandatory on every new
+            order unless waived under Family Code section 5260),
+            interception of state and federal tax refunds, license
+            suspensions in cases of chronic non-payment, and, in the
+            right case, contempt. San Diego County has a Department of
+            Child Support Services that can enforce orders at no cost
+            to the receiving parent, though the enforcement path and
+            control over the case differs from private counsel.
+          </p>
+
+          <h2>What an attorney adds</h2>
+          <p>
+            Around a formula, an attorney adds preparation and
+            precision. That means: an accurate FL-150 with the
+            supporting documents attached; the correct imputation
+            argument when it applies; a timeshare input that matches
+            the actual schedule; add-on allocations that are specific;
+            and modification and enforcement work when the case
+            changes. It is not glamorous. It is what determines whether
+            the number that comes out of DissoMaster is a number the
+            client can live with.
+          </p>
+          <p>
+            If you want to walk through your child support case, you can
+            reach me at <a href="tel:+16192502683">(619) 250-2683</a> or
+            through the <a href="/contact.html#form">contact form</a>.
+            See also the <a href="/practice-areas/child-support/">child
+            support practice area</a> and the
+            <a href="/blog/working-with-a-child-support-attorney.html">first-six-weeks
+            walkthrough</a>.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/child-support/", "category": "Practice Area", "title": "San Diego Child Support (Practice Area)"},
+        {"url": "/blog/working-with-a-child-support-attorney.html", "category": "Child Support", "title": "Working With a San Diego Child Support Attorney: What the First Six Weeks Look Like"},
+        {"url": "/blog/protecting-parental-rights-in-california-custody.html", "category": "Child Custody", "title": "Protecting Parental Rights in California Custody Cases"},
+    ],
+})
+
+# ---------------------------------------------------------------------------
+# 10 — Working with a Child Support Attorney: First Six Weeks
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "working-with-a-child-support-attorney",
+    "category": "Child Support",
+    "published": "2025-02-11",
+    "published_pretty": "February 11, 2025",
+    "title": "Working With a San Diego Child Support Attorney: What the First Six Weeks Look Like",
+    "h1": "Working With a San Diego Child Support Attorney: What the First Six Weeks Look Like",
+    "description": "The FL-150 Income and Expense Declaration, the DissoMaster print-out, and how a Request for Order becomes an initial California child support order. San Diego family attorney.",
+    "breadcrumb_short": "Working with a Child Support Attorney",
+    "body_html": """
+          <p>
+            "How long until we have a support order?" is one of the first
+            practical questions on a new child-support case. The honest
+            answer is that a lot depends on when the FL-150 gets
+            completed and how quickly a hearing date comes up in the
+            San Diego Superior Court calendar. But the shape of the
+            first six weeks is fairly consistent.
+          </p>
+          <p>
+            This post walks through what actually happens between the
+            intake meeting and the initial support order, so you can
+            see how the case moves and where your work is needed.
+          </p>
+
+          <h2>Week 1: intake and document collection</h2>
+          <p>
+            The first meeting covers the basics: whether there is an
+            existing family-law case open, whether the other parent is
+            represented, whether the parents are married, whether there
+            is a custody order, and what the timeshare with the child
+            looks like today. If there is no open family-law case, we
+            usually need to open one &mdash; either as part of a
+            divorce, as a paternity (parentage) case under the Uniform
+            Parentage Act if the parents were not married, or in some
+            cases through San Diego DCSS.
+          </p>
+          <p>
+            After intake, the first task is document collection. The
+            client leaves the meeting with a specific list: the last
+            three years' tax returns; the last two months of pay stubs
+            (or year-to-date income statements if self-employed);
+            monthly household expense figures; the current cost of
+            health insurance for the child and any child-care costs;
+            and, if a business is involved, its recent profit-and-loss
+            statement and any recent business tax return.
+          </p>
+
+          <h2>Weeks 2-3: drafting the FL-150 and the Request for Order</h2>
+          <p>
+            The FL-150 Income and Expense Declaration is the core
+            support document. It has to be accurate, complete, and
+            supported by attached documents. Drafting a good FL-150 is
+            not "fill in the blank." A W-2 employee's FL-150 might
+            take an hour if the pay stubs are clean; a self-employed
+            parent's FL-150 might take considerably longer.
+          </p>
+          <p>
+            While the FL-150 is being drafted, we also draft the
+            Request for Order (FL-300) itself, the proposed order
+            (FL-343 or a custom order), and the supporting declaration.
+            The Request for Order specifies exactly what we are asking
+            for: child support in a specific amount (or "guideline"),
+            add-ons allocated a specific way, retroactivity, and any
+            related orders (health insurance, wage assignment).
+          </p>
+
+          <h2>Week 3: filing and service</h2>
+          <p>
+            Once the FL-150, RFO, and declaration are drafted, we file
+            with the San Diego Superior Court and get a hearing date.
+            The RFO packet is then personally served on the other
+            parent (or their attorney of record if they have one),
+            with at least the minimum statutory notice before the
+            hearing. Service is what starts the other side's clock for
+            filing a responsive declaration and their own FL-150.
+          </p>
+
+          <h2>Weeks 4-5: the other side responds; DissoMaster preview</h2>
+          <p>
+            After service, the other parent files a responsive
+            declaration and their own FL-150. That is when both sides
+            first see the actual income picture from both households.
+            I run a preview DissoMaster calculation using both
+            FL-150s and the current parenting-time schedule so we know
+            what the guideline number looks like heading into the
+            hearing.
+          </p>
+          <p>
+            This is often the moment a settlement becomes possible.
+            When both sides know the guideline number, and it lines up
+            with expectations on both sides, the case can resolve by
+            stipulation without a contested hearing. When it does not
+            &mdash; because the FL-150 inputs are disputed, or because
+            income imputation is on the table &mdash; we head into the
+            hearing.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              The FL-150 is the biggest lever in the first six weeks. Get
+              the FL-150 right and the case gets easier from there.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> to walk
+              through the FL-150 before it gets filed.
+            </p>
+          </aside>
+
+          <h2>Week 6: the hearing</h2>
+          <p>
+            San Diego family-law hearings on Requests for Order are
+            usually short. The court has read the pleadings before the
+            hearing, and the argument at the podium focuses on the
+            two or three disputed inputs to the guideline calculation
+            &mdash; income imputation, add-ons, timeshare percentage,
+            or the retroactivity of the order. The court then runs
+            DissoMaster on the record (or the parties do it on the
+            record) and orders the guideline number, plus specific
+            allocations of add-ons.
+          </p>
+          <p>
+            After the hearing, the order has to be reduced to a
+            written Findings and Order After Hearing (FL-340) with a
+            child support attachment (FL-342). Judges sometimes hand
+            over drafting to counsel, sometimes prepare their own. The
+            written order is what gets served on the other side, gets
+            entered as an enforceable court order, and generates the
+            wage assignment.
+          </p>
+
+          <h2>What happens after the order</h2>
+          <p>
+            Wage assignments are mandatory on every new California
+            child-support order unless waived under Family Code section
+            5260 (and the waiver requires specific findings). Once the
+            written order is entered, a wage assignment (FL-195) issues
+            and gets served on the paying parent's employer, so the
+            support comes directly from the paycheck.
+          </p>
+          <p>
+            The order also specifies how add-ons will be paid &mdash;
+            typically an equal share or an income-proportional share
+            &mdash; and often has a reimbursement mechanism (usually
+            30 days after the requesting parent produces a receipt).
+          </p>
+
+          <h2>Modifying or enforcing later</h2>
+          <p>
+            Once the initial order is entered, later work is
+            modification (on a change of circumstances) or enforcement
+            (when the paying parent falls behind). The modification and
+            enforcement mechanics are covered in the
+            <a href="/blog/child-support-in-california-what-attorneys-do.html">what-an-attorney-adds
+            post</a> and the
+            <a href="/practice-areas/child-support/">child support
+            practice area</a>. The relevant point here is that the
+            initial order is a starting point, not a permanent number
+            &mdash; the case can be reopened when circumstances
+            genuinely change.
+          </p>
+
+          <h2>Ready to talk it through</h2>
+          <p>
+            Getting an initial California child-support order takes
+            preparation and follow-through, but the moves are
+            specific. If you want to walk through your case, you can
+            reach me at <a href="tel:+16192502683">(619) 250-2683</a>
+            or through the <a href="/contact.html#form">contact
+            form</a>. I appear on child-support matters at all four
+            San Diego County family-law courthouses.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/child-support/", "category": "Practice Area", "title": "San Diego Child Support (Practice Area)"},
+        {"url": "/blog/child-support-in-california-what-attorneys-do.html", "category": "Child Support", "title": "Child Support in California: What an Attorney Adds to the Guideline Number"},
+        {"url": "/blog/protecting-parental-rights-in-california-custody.html", "category": "Child Custody", "title": "Protecting Parental Rights in California Custody Cases"},
+    ],
+})
+
+
