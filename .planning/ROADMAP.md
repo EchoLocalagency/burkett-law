@@ -17,7 +17,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 3: Practice Pillar Pages (8 Cluster Hubs)** - Ship the practice hub and 8 practice pillar pages (divorce, child custody, child support, spousal support, mediation, domestic violence, guardianship, family court) with Service + FAQPage schema
 - [ ] **Phase 4: Location Pages (Practice × City Matrix)** - Ship 15-20 location pages using Service + areaServed:City (never LocalBusiness), each ≥600 words with ≥4 of 6 differentiation blocks, gated by cross-page similarity lint
 - [x] **Phase 5: Blog (E-E-A-T Curated 15-20 Posts)** - Curate + rewrite 15-20 posts from the 40 Justia originals with LegalArticle schema, author `@id` → Bio, backdated publish dates, and cluster linking back to pillars
-- [ ] **Phase 6: Technical SEO + Analytics + Justia Redirect Map** - Sitemap/robots/llms.txt, per-page canonical + OG + BreadcrumbList, Rich Results Test pass on every template, Core Web Vitals in budget, GA4 + GSC wired, and the complete Justia URL → new URL 301 map
+- [x] **Phase 6: Technical SEO + Analytics + Justia Redirect Map** - Sitemap/robots/llms.txt, per-page canonical + OG + BreadcrumbList, Rich Results Test pass on every template, Core Web Vitals in budget, GA4 + GSC wired, and the complete Justia URL → new URL 301 map
 - [ ] **Phase 7: Cutover to childcustodyanddivorce.com** - Execute the T-14 / T-7 / T-3 / T-1 / cutover-day / +2h / +24h / +72h checklist to land DNS on Netlify before Justia's 2026-07-31 sunset with zero dark window
 - [ ] **Phase 8: GBP + Google Ads Takeover + Local Citations** - Accept GBP manager invite (clean account, exact legal name, storefront), take over Google Ads with 7-day observation before edits + AD_CALL conversion pre-wired, and ship BrightLocal citation CSV
 
@@ -105,7 +105,8 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Core Web Vitals target met on top 5 pages (measured via PageSpeed Insights mobile): LCP ≤2.5s, INP ≤200ms, CLS ≤0.1; images use `<picture>` with AVIF + WebP + JPEG fallback, explicit width/height, and lazy-load below fold; WCAG 2.1 AA passes on keyboard nav + contrast + alt text
   4. GA4 property is created for childcustodyanddivorce.com, correct measurement ID is injected into every page (identity guard verifies), GSC is domain-verified via DNS TXT (verification propagated), and Google Ads AW conversion actions (`form_submit` + `phone_click`) are wired
   5. Justia URL enumeration is complete (from `~/Desktop/Burkett Justia Archive/` + GSC coverage report if available), and every Justia URL has a 301 target in `_redirects` — every mapped redirect passes `curl -I` against the Netlify preview domain returning 301 to the correct new URL
-**Plans**: TBD
+**Plans**: 1 plan
+- [x] 06-PLAN.md — Sitewide meta audit + fix (43 → 0 violations) + GA4 activation + phone_click/calendar_book/form_submit conversion listeners + AW placeholder wiring + sitemap regen (51 URLs) + robots.txt AI-crawler expansion + llms.txt real page map + Justia static-page 301s (18 new, 59 total) + BreadcrumbList on 5 top-level pages + WCAG source-level pass + GA4/GSC/Ads setup docs (SEO-01..10 + ANL-01..05)
 
 ### Phase 7: Cutover to childcustodyanddivorce.com
 **Goal**: Execute the pre-planned checklist to point childcustodyanddivorce.com from Network Solutions DNS to Netlify BEFORE Justia's 2026-07-31 sunset, with zero dark window and full HTTPS + GSC + GA4 + form + calendar verification in the T+72h window. This is the hard fulcrum phase — every prep step from Phases 1-6 culminates here.
@@ -143,7 +144,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 3. Practice Pillar Pages | 3/3 | Complete (awaiting human-verify sign-off) | 2026-07-07 |
 | 4. Location Pages | 0/TBD | Not started | - |
 | 5. Blog | 1/1 | Complete (awaiting human-verify sign-off) | 2026-07-08 |
-| 6. Technical SEO + Analytics + Justia Redirect Map | 0/TBD | Not started | - |
+| 6. Technical SEO + Analytics + Justia Redirect Map | 1/1 | Complete (awaiting human-verify sign-off on GA4 property creation + GSC DNS TXT + Ads AW actions) | 2026-07-08 |
 | 7. Cutover to childcustodyanddivorce.com | 0/TBD | Not started | - |
 | 8. GBP + Google Ads Takeover + Local Citations | 0/TBD | Not started | - |
 
