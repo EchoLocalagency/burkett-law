@@ -1,0 +1,1625 @@
+{
+  "total_pages": 52,
+  "pages_with_violations": 0,
+  "duplicate_titles": {},
+  "duplicate_descriptions": {},
+  "duplicate_canonicals": {},
+  "violations": {},
+  "per_page": {
+    "about.html": {
+      "title": "About Brian Burkett | San Diego Family Law Attorney",
+      "title_len": 51,
+      "description": "Brian Burkett \u2014 solo San Diego family law attorney, California Bar No. 220343, 24 years practicing at all four SDSC family-law courthouses.",
+      "description_len": 139,
+      "canonical": "https://childcustodyanddivorce.com/about.html",
+      "og_title": "About Brian Burkett | San Diego Family Law Attorney",
+      "og_description": "Brian Burkett \u2014 solo San Diego family law attorney, California Bar No. 220343, 24 years practicing at all four SDSC family-law courthouses.",
+      "og_url": "https://childcustodyanddivorce.com/about.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Brian Burkett"
+      ],
+      "schema_types": [
+        "Person",
+        "LegalService",
+        "PostalAddress",
+        "CollegeOrUniversity",
+        "CollegeOrUniversity",
+        "Organization",
+        "EducationalOccupationalCredential",
+        "CollegeOrUniversity",
+        "EducationalOccupationalCredential",
+        "Organization"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/alimony-in-california-a-practical-guide.html": {
+      "title": "Alimony in California: A Practical Guide (\u00a7 4320)",
+      "title_len": 49,
+      "description": "How California family court applies the fourteen Family Code section 4320 factors to set long-term spousal support, and what the record needs to look like.",
+      "description_len": 155,
+      "canonical": "https://childcustodyanddivorce.com/blog/alimony-in-california-a-practical-guide.html",
+      "og_title": "Alimony in California: A Practical Guide (\u00a7 4320)",
+      "og_description": "How California family court applies the fourteen Family Code section 4320 factors to set long-term spousal support, and what the record needs to look like.",
+      "og_url": "https://childcustodyanddivorce.com/blog/alimony-in-california-a-practical-guide.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Alimony in California: A Practical Guide Under Family Code Section 4320"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/california-community-property-division.html": {
+      "title": "California Community Property: How Assets Get Divided",
+      "title_len": 53,
+      "description": "California is a community-property state under Family Code \u00a7 760. How the community/separate line is drawn, tracing hybrid assets, and dividing debt.",
+      "description_len": 149,
+      "canonical": "https://childcustodyanddivorce.com/blog/california-community-property-division.html",
+      "og_title": "California Community Property: How Assets Get Divided",
+      "og_description": "California is a community-property state under Family Code \u00a7 760. How the community/separate line is drawn, tracing hybrid assets, and dividing debt.",
+      "og_url": "https://childcustodyanddivorce.com/blog/california-community-property-division.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "California Community Property: How Marital Assets and Debts Get Divided"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/child-support-in-california-what-attorneys-do.html": {
+      "title": "Child Support in California: What an Attorney Adds",
+      "title_len": 50,
+      "description": "California guideline child support is a formula. What an attorney adds around it: income imputation, add-ons, DissoMaster inputs, and modification.",
+      "description_len": 147,
+      "canonical": "https://childcustodyanddivorce.com/blog/child-support-in-california-what-attorneys-do.html",
+      "og_title": "Child Support in California: What an Attorney Adds",
+      "og_description": "California guideline child support is a formula. What an attorney adds around it: income imputation, add-ons, DissoMaster inputs, and modification.",
+      "og_url": "https://childcustodyanddivorce.com/blog/child-support-in-california-what-attorneys-do.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Child Support in California: What an Attorney Adds to the Guideline Number"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/child-visitation-in-california.html": {
+      "title": "Child Visitation in California: Plans and Enforcement",
+      "title_len": 53,
+      "description": "How California parenting-time schedules get built, common patterns, and enforcement options when the other parent will not follow the court order.",
+      "description_len": 146,
+      "canonical": "https://childcustodyanddivorce.com/blog/child-visitation-in-california.html",
+      "og_title": "Child Visitation in California: Plans and Enforcement",
+      "og_description": "How California parenting-time schedules get built, common patterns, and enforcement options when the other parent will not follow the court order.",
+      "og_url": "https://childcustodyanddivorce.com/blog/child-visitation-in-california.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Child Visitation in California: Parenting Plans, Schedules, and Enforcement"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/divorce-mediation-in-san-diego.html": {
+      "title": "Divorce Mediation in San Diego: How It Works",
+      "title_len": 44,
+      "description": "How California divorce mediation works, what Evidence Code \u00a7 1119 confidentiality covers, and when mediation fits better than litigation.",
+      "description_len": 137,
+      "canonical": "https://childcustodyanddivorce.com/blog/divorce-mediation-in-san-diego.html",
+      "og_title": "Divorce Mediation in San Diego: How It Works",
+      "og_description": "How California divorce mediation works, what Evidence Code \u00a7 1119 confidentiality covers, and when mediation fits better than litigation.",
+      "og_url": "https://childcustodyanddivorce.com/blog/divorce-mediation-in-san-diego.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Divorce Mediation in San Diego: How the Process Works Under California Law"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/domestic-violence-restraining-orders-california.html": {
+      "title": "Domestic Violence Restraining Orders in California",
+      "title_len": 50,
+      "description": "EPOs, temporary restraining orders, and long-term DVROs under the California DVPA, plus the Family Code \u00a7 3044 custody presumption.",
+      "description_len": 131,
+      "canonical": "https://childcustodyanddivorce.com/blog/domestic-violence-restraining-orders-california.html",
+      "og_title": "Domestic Violence Restraining Orders in California",
+      "og_description": "EPOs, temporary restraining orders, and long-term DVROs under the California DVPA, plus the Family Code \u00a7 3044 custody presumption.",
+      "og_url": "https://childcustodyanddivorce.com/blog/domestic-violence-restraining-orders-california.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Domestic Violence Restraining Orders in California: How the DVPA Works"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/guardianship-under-california-probate-code.html": {
+      "title": "Guardianship Under the California Probate Code",
+      "title_len": 46,
+      "description": "Probate guardianship of the person or estate of a minor under California Probate Code \u00a7\u00a7 1500-1611 and the San Diego Central Courthouse investigation.",
+      "description_len": 150,
+      "canonical": "https://childcustodyanddivorce.com/blog/guardianship-under-california-probate-code.html",
+      "og_title": "Guardianship Under the California Probate Code",
+      "og_description": "Probate guardianship of the person or estate of a minor under California Probate Code \u00a7\u00a7 1500-1611 and the San Diego Central Courthouse investigation.",
+      "og_url": "https://childcustodyanddivorce.com/blog/guardianship-under-california-probate-code.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Guardianship Under the California Probate Code: A San Diego Overview"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/how-a-divorce-attorney-navigates-california-process.html": {
+      "title": "How a San Diego Divorce Attorney Navigates the Process",
+      "title_len": 54,
+      "description": "The California dissolution process from petition to judgment: the six-month waiting period, disclosures, ATROs, and what an attorney does at each stage.",
+      "description_len": 152,
+      "canonical": "https://childcustodyanddivorce.com/blog/how-a-divorce-attorney-navigates-california-process.html",
+      "og_title": "How a San Diego Divorce Attorney Navigates the Process",
+      "og_description": "The California dissolution process from petition to judgment: the six-month waiting period, disclosures, ATROs, and what an attorney does at each stage.",
+      "og_url": "https://childcustodyanddivorce.com/blog/how-a-divorce-attorney-navigates-california-process.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "How a San Diego Divorce Attorney Navigates the California Dissolution Process"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/index.html": {
+      "title": "San Diego Family Law Blog | Burkett Family Law",
+      "title_len": 46,
+      "description": "Plain-language California family law explainers from San Diego attorney Brian Burkett. Divorce, custody, support, mediation, DVROs, and guardianship.",
+      "description_len": 149,
+      "canonical": "https://childcustodyanddivorce.com/blog/",
+      "og_title": "San Diego Family Law Blog | Burkett Family Law",
+      "og_description": "Plain-language California family law explainers from San Diego attorney Brian Burkett. Divorce, custody, support, mediation, DVROs, and guardianship.",
+      "og_url": "https://childcustodyanddivorce.com/blog/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Plain-Language Notes on California Family Law"
+      ],
+      "schema_types": [
+        "Blog",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ItemList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/navigating-san-diego-family-court.html": {
+      "title": "Navigating San Diego Family Court: A Room-by-Room Guide",
+      "title_len": 55,
+      "description": "The four San Diego family-law courthouses, Requests for Order, ex parte applications, and what a day of hearing actually looks like.",
+      "description_len": 132,
+      "canonical": "https://childcustodyanddivorce.com/blog/navigating-san-diego-family-court.html",
+      "og_title": "Navigating San Diego Family Court: A Room-by-Room Guide",
+      "og_description": "The four San Diego family-law courthouses, Requests for Order, ex parte applications, and what a day of hearing actually looks like.",
+      "og_url": "https://childcustodyanddivorce.com/blog/navigating-san-diego-family-court.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Navigating San Diego Family Court: A Room-by-Room Guide"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/preliminary-declaration-of-disclosure-california.html": {
+      "title": "Preliminary Declaration of Disclosure in California",
+      "title_len": 51,
+      "description": "The FL-140, FL-142, and FL-150 that make up a California Preliminary Declaration of Disclosure, why it exists, and what happens if a spouse hides an asset.",
+      "description_len": 155,
+      "canonical": "https://childcustodyanddivorce.com/blog/preliminary-declaration-of-disclosure-california.html",
+      "og_title": "Preliminary Declaration of Disclosure in California",
+      "og_description": "The FL-140, FL-142, and FL-150 that make up a California Preliminary Declaration of Disclosure, why it exists, and what happens if a spouse hides an asset.",
+      "og_url": "https://childcustodyanddivorce.com/blog/preliminary-declaration-of-disclosure-california.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "The Preliminary Declaration of Disclosure in a California Divorce"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/protecting-parental-rights-in-california-custody.html": {
+      "title": "Protecting Parental Rights in California Custody Cases",
+      "title_len": 54,
+      "description": "Legal and physical custody, the best-interest standard under Family Code \u00a7 3011, and the moves that erode a parent",
+      "description_len": 114,
+      "canonical": "https://childcustodyanddivorce.com/blog/protecting-parental-rights-in-california-custody.html",
+      "og_title": "Protecting Parental Rights in California Custody Cases",
+      "og_description": "Legal and physical custody, the best-interest standard under Family Code \u00a7 3011, and the moves that erode a parent",
+      "og_url": "https://childcustodyanddivorce.com/blog/protecting-parental-rights-in-california-custody.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Protecting Parental Rights in California Custody Cases"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/spousal-support-in-california-what-to-expect.html": {
+      "title": "Spousal Support in California: What to Expect",
+      "title_len": 45,
+      "description": "Temporary spousal support during a California divorce, long-term post-judgment support under Family Code \u00a7 4320, and the standards judges apply.",
+      "description_len": 144,
+      "canonical": "https://childcustodyanddivorce.com/blog/spousal-support-in-california-what-to-expect.html",
+      "og_title": "Spousal Support in California: What to Expect",
+      "og_description": "Temporary spousal support during a California divorce, long-term post-judgment support under Family Code \u00a7 4320, and the standards judges apply.",
+      "og_url": "https://childcustodyanddivorce.com/blog/spousal-support-in-california-what-to-expect.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Spousal Support in California: What to Expect at Every Stage of a Case"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/what-a-california-custody-attorney-does.html": {
+      "title": "What a California Custody Attorney Actually Does",
+      "title_len": 48,
+      "description": "Family Court Services mediation prep, section 3111 evaluations, minor",
+      "description_len": 69,
+      "canonical": "https://childcustodyanddivorce.com/blog/what-a-california-custody-attorney-does.html",
+      "og_title": "What a California Custody Attorney Actually Does",
+      "og_description": "Family Court Services mediation prep, section 3111 evaluations, minor",
+      "og_url": "https://childcustodyanddivorce.com/blog/what-a-california-custody-attorney-does.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "What a California Custody Attorney Actually Does (Beyond the Hearing)"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/why-hire-a-family-law-attorney-in-california.html": {
+      "title": "Why Hire a Family Law Attorney in California",
+      "title_len": 44,
+      "description": "When a California family-law attorney adds value, when a self-help center is enough, and the middle-ground option of unbundled representation.",
+      "description_len": 142,
+      "canonical": "https://childcustodyanddivorce.com/blog/why-hire-a-family-law-attorney-in-california.html",
+      "og_title": "Why Hire a Family Law Attorney in California",
+      "og_description": "When a California family-law attorney adds value, when a self-help center is enough, and the middle-ground option of unbundled representation.",
+      "og_url": "https://childcustodyanddivorce.com/blog/why-hire-a-family-law-attorney-in-california.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Why Hire a Family Law Attorney in California (and When You Might Not Need To)"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "blog/working-with-a-child-support-attorney.html": {
+      "title": "Working With a San Diego Child Support Attorney",
+      "title_len": 47,
+      "description": "The FL-150 Income and Expense Declaration, the DissoMaster print-out, and how a Request for Order becomes an initial California child support order.",
+      "description_len": 148,
+      "canonical": "https://childcustodyanddivorce.com/blog/working-with-a-child-support-attorney.html",
+      "og_title": "Working With a San Diego Child Support Attorney",
+      "og_description": "The FL-150 Income and Expense Declaration, the DissoMaster print-out, and how a Request for Order becomes an initial California child support order.",
+      "og_url": "https://childcustodyanddivorce.com/blog/working-with-a-child-support-attorney.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Working With a San Diego Child Support Attorney: What the First Six Weeks Look Like"
+      ],
+      "schema_types": [
+        "LegalArticle",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "contact.html": {
+      "title": "Contact Brian Burkett \u2014 San Diego Family Law Attorney",
+      "title_len": 53,
+      "description": "Call, book online, or send a message. Law Office of Brian Burkett \u2014 Mission Valley, San Diego. Family law only. (619) 250-2683.",
+      "description_len": 127,
+      "canonical": "https://childcustodyanddivorce.com/contact.html",
+      "og_title": "Contact Brian Burkett \u2014 San Diego Family Law Attorney",
+      "og_description": "Call, book online, or send a message. Law Office of Brian Burkett \u2014 Mission Valley, San Diego. Family law only. (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/contact.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Talk to Brian Burkett"
+      ],
+      "schema_types": [
+        "PostalAddress",
+        "GeoCoordinates",
+        "OpeningHoursSpecification",
+        "AdministrativeArea"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "disclaimer.html": {
+      "title": "Attorney Advertising Disclaimer | Burkett Family Law",
+      "title_len": 52,
+      "description": "California Bar attorney advertising disclaimer for the Law Office of Brian Burkett \u2014 childcustodyanddivorce.com. Rule 7.1 compliant.",
+      "description_len": 132,
+      "canonical": "https://childcustodyanddivorce.com/disclaimer.html",
+      "og_title": "Attorney Advertising Disclaimer | Burkett Family Law",
+      "og_description": "California Bar attorney advertising disclaimer for the Law Office of Brian Burkett \u2014 childcustodyanddivorce.com. Rule 7.1 compliant.",
+      "og_url": "https://childcustodyanddivorce.com/disclaimer.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/og-default.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Attorney Advertising Disclaimer"
+      ],
+      "schema_types": [
+        "WebPage",
+        "WebSite"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "index.html": {
+      "title": "San Diego Family Law Attorney \u2014 Brian Burkett",
+      "title_len": 45,
+      "description": "Solo San Diego family law attorney. 24 years of family-law practice. Divorce, custody, support, mediation. Call (619) 250-2683 or book online.",
+      "description_len": 142,
+      "canonical": "https://childcustodyanddivorce.com/",
+      "og_title": "San Diego Family Law Attorney \u2014 Brian Burkett",
+      "og_description": "Solo San Diego family law attorney. 24 years of family-law practice. Divorce, custody, support, mediation. Call (619) 250-2683 or book online.",
+      "og_url": "https://childcustodyanddivorce.com/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "A San Diego family law attorney who returns your call."
+      ],
+      "schema_types": [
+        "WebSite",
+        "PostalAddress",
+        "GeoCoordinates",
+        "OpeningHoursSpecification",
+        "AdministrativeArea",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/child-custody/index.html": {
+      "title": "San Diego Child Custody Attorney | Burkett Family Law",
+      "title_len": 53,
+      "description": "San Diego child custody lawyer. Legal and physical custody, parenting plans, and modifications under the California Family Code by Brian Burkett.",
+      "description_len": 145,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/child-custody/",
+      "og_title": "San Diego Child Custody Attorney | Burkett Family Law",
+      "og_description": "San Diego child custody lawyer. Legal and physical custody, parenting plans, and modifications under the California Family Code by Brian Burkett.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/child-custody/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "San Diego Child Custody Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/child-support/index.html": {
+      "title": "San Diego Child Support Attorney | Burkett Family Law",
+      "title_len": 53,
+      "description": "San Diego child support lawyer. Guideline calculation under Family Code \u00a7 4055, initial orders, modification, and enforcement by Brian Burkett.",
+      "description_len": 143,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/child-support/",
+      "og_title": "San Diego Child Support Attorney | Burkett Family Law",
+      "og_description": "San Diego child support lawyer. Guideline calculation under Family Code \u00a7 4055, initial orders, modification, and enforcement by Brian Burkett.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/child-support/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "San Diego Child Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/divorce/index.html": {
+      "title": "San Diego Divorce Attorney | Burkett Family Law",
+      "title_len": 47,
+      "description": "San Diego divorce lawyer. California dissolution process, six-month waiting period, disclosures, and judgment. 24 years of family-law practice.",
+      "description_len": 143,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/divorce/",
+      "og_title": "San Diego Divorce Attorney | Burkett Family Law",
+      "og_description": "San Diego divorce lawyer. California dissolution process, six-month waiting period, disclosures, and judgment. 24 years of family-law practice.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/divorce/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "San Diego Divorce Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/domestic-violence/index.html": {
+      "title": "San Diego Domestic Violence Attorney | Burkett",
+      "title_len": 46,
+      "description": "San Diego domestic violence restraining orders under California DVPA (Family Code \u00a7\u00a7 6200-6460). EPO, TRO, permanent orders, and custody effects.",
+      "description_len": 145,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/domestic-violence/",
+      "og_title": "San Diego Domestic Violence Attorney | Burkett",
+      "og_description": "San Diego domestic violence restraining orders under California DVPA (Family Code \u00a7\u00a7 6200-6460). EPO, TRO, permanent orders, and custody effects.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/domestic-violence/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "San Diego Domestic Violence Restraining Order Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/family-court/index.html": {
+      "title": "San Diego Family Court Attorney | Burkett Family Law",
+      "title_len": 52,
+      "description": "Navigating San Diego family court. RFOs, ex parte, judgments, enforcement, and appeals across all four SDSC family-law courthouses.",
+      "description_len": 131,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/family-court/",
+      "og_title": "San Diego Family Court Attorney | Burkett Family Law",
+      "og_description": "Navigating San Diego family court. RFOs, ex parte, judgments, enforcement, and appeals across all four SDSC family-law courthouses.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/family-court/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Navigating San Diego Family Court"
+      ],
+      "schema_types": [
+        "Service",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/guardianship/index.html": {
+      "title": "San Diego Guardianship Attorney | Burkett Family Law",
+      "title_len": 52,
+      "description": "San Diego guardianship of minors. Probate guardianship under California Probate Code \u00a7\u00a7 1500-1611 and juvenile guardianship in dependency.",
+      "description_len": 138,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/guardianship/",
+      "og_title": "San Diego Guardianship Attorney | Burkett Family Law",
+      "og_description": "San Diego guardianship of minors. Probate guardianship under California Probate Code \u00a7\u00a7 1500-1611 and juvenile guardianship in dependency.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/guardianship/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "San Diego Guardianship Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/index.html": {
+      "title": "San Diego Family Law Practice Areas | Burkett",
+      "title_len": 45,
+      "description": "San Diego family law practice areas: divorce, custody, support, mediation, DVROs, guardianship, and family court navigation. 24 years practicing.",
+      "description_len": 145,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/",
+      "og_title": "San Diego Family Law Practice Areas | Burkett",
+      "og_description": "San Diego family law practice areas: divorce, custody, support, mediation, DVROs, guardianship, and family court navigation. 24 years practicing.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "San Diego Family Law Practice Areas"
+      ],
+      "schema_types": [
+        "CollectionPage",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ItemList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/mediation/index.html": {
+      "title": "San Diego Family Law Mediation Attorney | Burkett",
+      "title_len": 49,
+      "description": "San Diego family law mediation. Private mediation, Family Court Services mediation (Family Code \u00a7 3170), representation, and neutral service.",
+      "description_len": 141,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/mediation/",
+      "og_title": "San Diego Family Law Mediation Attorney | Burkett",
+      "og_description": "San Diego family law mediation. Private mediation, Family Court Services mediation (Family Code \u00a7 3170), representation, and neutral service.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/mediation/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "San Diego Family Law Mediation Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "practice-areas/spousal-support/index.html": {
+      "title": "San Diego Spousal Support Attorney | Burkett Family Law",
+      "title_len": 55,
+      "description": "San Diego spousal support (alimony) lawyer. Temporary and long-term orders under California Family Code section 4320. 24 years of family-law practice.",
+      "description_len": 150,
+      "canonical": "https://childcustodyanddivorce.com/practice-areas/spousal-support/",
+      "og_title": "San Diego Spousal Support Attorney | Burkett Family Law",
+      "og_description": "San Diego spousal support (alimony) lawyer. Temporary and long-term orders under California Family Code section 4320. 24 years of family-law practice.",
+      "og_url": "https://childcustodyanddivorce.com/practice-areas/spousal-support/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "San Diego Spousal Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "privacy.html": {
+      "title": "Privacy Policy \u2014 Law Office of Brian Burkett",
+      "title_len": 44,
+      "description": "Privacy Policy for the Law Office of Brian Burkett (childcustodyanddivorce.com) \u2014 data collected, how it",
+      "description_len": 104,
+      "canonical": "https://childcustodyanddivorce.com/privacy.html",
+      "og_title": "Privacy Policy",
+      "og_description": "Privacy Policy for the Law Office of Brian Burkett (childcustodyanddivorce.com) \u2014 data collected, how it",
+      "og_url": "https://childcustodyanddivorce.com/privacy.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/og-default.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Privacy Policy"
+      ],
+      "schema_types": [
+        "WebPage",
+        "WebSite"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-custody-attorney/carlsbad/index.html": {
+      "title": "Carlsbad Child Custody Attorney | Burkett Family Law",
+      "title_len": 52,
+      "description": "Carlsbad, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 149,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/carlsbad/",
+      "og_title": "Carlsbad Child Custody Attorney | Burkett Family Law",
+      "og_description": "Carlsbad, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/carlsbad/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Carlsbad Child Custody Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-custody-attorney/chula-vista/index.html": {
+      "title": "Chula Vista Child Custody Attorney | Burkett Family Law",
+      "title_len": 55,
+      "description": "Chula Vista, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 152,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/chula-vista/",
+      "og_title": "Chula Vista Child Custody Attorney | Burkett Family Law",
+      "og_description": "Chula Vista, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/chula-vista/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Chula Vista Child Custody Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-custody-attorney/escondido/index.html": {
+      "title": "Escondido Child Custody Attorney | Burkett Family Law",
+      "title_len": 53,
+      "description": "Escondido, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 150,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/escondido/",
+      "og_title": "Escondido Child Custody Attorney | Burkett Family Law",
+      "og_description": "Escondido, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/escondido/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Escondido Child Custody Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-custody-attorney/la-jolla/index.html": {
+      "title": "La Jolla Child Custody Attorney | Burkett Family Law",
+      "title_len": 52,
+      "description": "La Jolla, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 149,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/la-jolla/",
+      "og_title": "La Jolla Child Custody Attorney | Burkett Family Law",
+      "og_description": "La Jolla, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/la-jolla/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "La Jolla Child Custody Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-custody-attorney/oceanside/index.html": {
+      "title": "Oceanside Child Custody Attorney | Burkett Family Law",
+      "title_len": 53,
+      "description": "Oceanside, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 150,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/oceanside/",
+      "og_title": "Oceanside Child Custody Attorney | Burkett Family Law",
+      "og_description": "Oceanside, San Diego County child custody attorney. California child custody representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-custody-attorney/oceanside/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Oceanside Child Custody Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-support-attorney/carlsbad/index.html": {
+      "title": "Carlsbad Child Support Attorney | Burkett Family Law",
+      "title_len": 52,
+      "description": "Carlsbad, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 149,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/carlsbad/",
+      "og_title": "Carlsbad Child Support Attorney | Burkett Family Law",
+      "og_description": "Carlsbad, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/carlsbad/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Carlsbad Child Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-support-attorney/chula-vista/index.html": {
+      "title": "Chula Vista Child Support Attorney | Burkett Family Law",
+      "title_len": 55,
+      "description": "Chula Vista, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 152,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/chula-vista/",
+      "og_title": "Chula Vista Child Support Attorney | Burkett Family Law",
+      "og_description": "Chula Vista, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/chula-vista/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Chula Vista Child Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-support-attorney/escondido/index.html": {
+      "title": "Escondido Child Support Attorney | Burkett Family Law",
+      "title_len": 53,
+      "description": "Escondido, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 150,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/escondido/",
+      "og_title": "Escondido Child Support Attorney | Burkett Family Law",
+      "og_description": "Escondido, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/escondido/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Escondido Child Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-support-attorney/la-jolla/index.html": {
+      "title": "La Jolla Child Support Attorney | Burkett Family Law",
+      "title_len": 52,
+      "description": "La Jolla, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 149,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/la-jolla/",
+      "og_title": "La Jolla Child Support Attorney | Burkett Family Law",
+      "og_description": "La Jolla, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/la-jolla/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "La Jolla Child Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/child-support-attorney/oceanside/index.html": {
+      "title": "Oceanside Child Support Attorney | Burkett Family Law",
+      "title_len": 53,
+      "description": "Oceanside, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 150,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/oceanside/",
+      "og_title": "Oceanside Child Support Attorney | Burkett Family Law",
+      "og_description": "Oceanside, San Diego County child support attorney. California child support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/child-support-attorney/oceanside/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Oceanside Child Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/divorce-attorney/carlsbad/index.html": {
+      "title": "Carlsbad Divorce Attorney | Burkett Family Law",
+      "title_len": 46,
+      "description": "Carlsbad, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 137,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/carlsbad/",
+      "og_title": "Carlsbad Divorce Attorney | Burkett Family Law",
+      "og_description": "Carlsbad, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/carlsbad/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Carlsbad Divorce Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/divorce-attorney/chula-vista/index.html": {
+      "title": "Chula Vista Divorce Attorney | Burkett Family Law",
+      "title_len": 49,
+      "description": "Chula Vista, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 140,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/chula-vista/",
+      "og_title": "Chula Vista Divorce Attorney | Burkett Family Law",
+      "og_description": "Chula Vista, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/chula-vista/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Chula Vista Divorce Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/divorce-attorney/escondido/index.html": {
+      "title": "Escondido Divorce Attorney | Burkett Family Law",
+      "title_len": 47,
+      "description": "Escondido, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 138,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/escondido/",
+      "og_title": "Escondido Divorce Attorney | Burkett Family Law",
+      "og_description": "Escondido, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/escondido/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Escondido Divorce Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/divorce-attorney/la-jolla/index.html": {
+      "title": "La Jolla Divorce Attorney | Burkett Family Law",
+      "title_len": 46,
+      "description": "La Jolla, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 137,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/la-jolla/",
+      "og_title": "La Jolla Divorce Attorney | Burkett Family Law",
+      "og_description": "La Jolla, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/la-jolla/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "La Jolla Divorce Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/divorce-attorney/oceanside/index.html": {
+      "title": "Oceanside Divorce Attorney | Burkett Family Law",
+      "title_len": 47,
+      "description": "Oceanside, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 138,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/oceanside/",
+      "og_title": "Oceanside Divorce Attorney | Burkett Family Law",
+      "og_description": "Oceanside, San Diego County divorce attorney. California divorce representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/divorce-attorney/oceanside/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Oceanside Divorce Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/spousal-support-attorney/carlsbad/index.html": {
+      "title": "Carlsbad Spousal Support Attorney | Burkett Family Law",
+      "title_len": 54,
+      "description": "Carlsbad, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 153,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/carlsbad/",
+      "og_title": "Carlsbad Spousal Support Attorney | Burkett Family Law",
+      "og_description": "Carlsbad, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/carlsbad/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Carlsbad Spousal Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/spousal-support-attorney/chula-vista/index.html": {
+      "title": "Chula Vista Spousal Support Attorney | Burkett Family Law",
+      "title_len": 57,
+      "description": "Chula Vista, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 156,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/chula-vista/",
+      "og_title": "Chula Vista Spousal Support Attorney | Burkett Family Law",
+      "og_description": "Chula Vista, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/chula-vista/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Chula Vista Spousal Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/spousal-support-attorney/escondido/index.html": {
+      "title": "Escondido Spousal Support Attorney | Burkett Family Law",
+      "title_len": 55,
+      "description": "Escondido, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 154,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/escondido/",
+      "og_title": "Escondido Spousal Support Attorney | Burkett Family Law",
+      "og_description": "Escondido, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/escondido/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Escondido Spousal Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/spousal-support-attorney/la-jolla/index.html": {
+      "title": "La Jolla Spousal Support Attorney | Burkett Family Law",
+      "title_len": 54,
+      "description": "La Jolla, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 153,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/la-jolla/",
+      "og_title": "La Jolla Spousal Support Attorney | Burkett Family Law",
+      "og_description": "La Jolla, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/la-jolla/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "La Jolla Spousal Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "san-diego/spousal-support-attorney/oceanside/index.html": {
+      "title": "Oceanside Spousal Support Attorney | Burkett Family Law",
+      "title_len": 55,
+      "description": "Oceanside, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "description_len": 154,
+      "canonical": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/oceanside/",
+      "og_title": "Oceanside Spousal Support Attorney | Burkett Family Law",
+      "og_description": "Oceanside, San Diego County spousal support attorney. California spousal support representation with 24 years of family-law practice. Call (619) 250-2683.",
+      "og_url": "https://childcustodyanddivorce.com/san-diego/spousal-support-attorney/oceanside/",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/brian-burkett-headshot.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Oceanside Spousal Support Attorney"
+      ],
+      "schema_types": [
+        "Service",
+        "City",
+        "AdministrativeArea",
+        "PeopleAudience",
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "terms.html": {
+      "title": "Terms of Use \u2014 Law Office of Brian Burkett",
+      "title_len": 42,
+      "description": "Terms of Use for the Law Office of Brian Burkett website (childcustodyanddivorce.com).",
+      "description_len": 86,
+      "canonical": "https://childcustodyanddivorce.com/terms.html",
+      "og_title": "Terms of Use",
+      "og_description": "Terms of Use for the Law Office of Brian Burkett website (childcustodyanddivorce.com).",
+      "og_url": "https://childcustodyanddivorce.com/terms.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/og-default.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Terms of Use"
+      ],
+      "schema_types": [
+        "WebPage",
+        "WebSite"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    },
+    "thanks.html": {
+      "title": "Thank You | Burkett Family Law",
+      "title_len": 30,
+      "description": "Your message reached the Law Office of Brian Burkett. Response within one business day.",
+      "description_len": 87,
+      "canonical": "https://childcustodyanddivorce.com/thanks.html",
+      "og_title": "Thank You | Burkett Family Law",
+      "og_description": "Your message reached the Law Office of Brian Burkett. Response within one business day.",
+      "og_url": "https://childcustodyanddivorce.com/thanks.html",
+      "og_image": "https://childcustodyanddivorce.com/assets/img/og-default.jpg",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1s": [
+        "Thank you."
+      ],
+      "schema_types": [
+        "WebPage"
+      ],
+      "ga4_present": true,
+      "ga4_ids": [
+        "G-BURKETT_ID"
+      ]
+    }
+  }
+}
