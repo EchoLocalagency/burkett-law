@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 2: Bio + Homepage + Contact (E-E-A-T Taproot & CTA Trio)** - Ship the bio (Person schema `@id` referenced by every downstream author), homepage w/ LegalService+LocalBusiness schema + CTA trio, and contact page as canonical NAP
 - [x] **Phase 3: Practice Pillar Pages (8 Cluster Hubs)** - Ship the practice hub and 8 practice pillar pages (divorce, child custody, child support, spousal support, mediation, domestic violence, guardianship, family court) with Service + FAQPage schema
 - [ ] **Phase 4: Location Pages (Practice × City Matrix)** - Ship 15-20 location pages using Service + areaServed:City (never LocalBusiness), each ≥600 words with ≥4 of 6 differentiation blocks, gated by cross-page similarity lint
-- [ ] **Phase 5: Blog (E-E-A-T Curated 15-20 Posts)** - Curate + rewrite 15-20 posts from the 40 Justia originals with LegalArticle schema, author `@id` → Bio, backdated publish dates, and cluster linking back to pillars
+- [x] **Phase 5: Blog (E-E-A-T Curated 15-20 Posts)** - Curate + rewrite 15-20 posts from the 40 Justia originals with LegalArticle schema, author `@id` → Bio, backdated publish dates, and cluster linking back to pillars
 - [ ] **Phase 6: Technical SEO + Analytics + Justia Redirect Map** - Sitemap/robots/llms.txt, per-page canonical + OG + BreadcrumbList, Rich Results Test pass on every template, Core Web Vitals in budget, GA4 + GSC wired, and the complete Justia URL → new URL 301 map
 - [ ] **Phase 7: Cutover to childcustodyanddivorce.com** - Execute the T-14 / T-7 / T-3 / T-1 / cutover-day / +2h / +24h / +72h checklist to land DNS on Netlify before Justia's 2026-07-31 sunset with zero dark window
 - [ ] **Phase 8: GBP + Google Ads Takeover + Local Citations** - Accept GBP manager invite (clean account, exact legal name, storefront), take over Google Ads with 7-day observation before edits + AD_CALL conversion pre-wired, and ship BrightLocal citation CSV
@@ -92,7 +92,8 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Every blog post has a visible byline block at top ("By Brian Burkett, Attorney at Law · Published [date] · Updated [date]") linking to `/about/`, and body-copy links to at least one practice pillar + one related post
   4. Justia legacy blog URLs are mapped 301 → new post slugs in `_redirects` (every Justia post URL that gets curated points to its new home; posts that get cut point to the practice pillar or `/blog/`)
   5. Every post passes fabrication validator + Cal Bar lint before commit (no invented case counts, no guarantee language, no `our team`)
-**Plans**: TBD
+**Plans**: 1 plan
+- [x] 05-PLAN.md — Blog hub + 15 curated posts w/ LegalArticle schema + author.@id -> bio + backdated publish dates + cluster linking + 41 Justia legacy 301s + sitemap.xml append (BLOG-01..08)
 
 ### Phase 6: Technical SEO + Analytics + Justia Redirect Map
 **Goal**: Site is content-complete after Phase 5; this phase validates the full technical SEO surface (sitemap, robots, llms.txt, canonical, OG, BreadcrumbList, Core Web Vitals, images, WCAG 2.1 AA), wires GA4 + GSC + Google Ads conversion actions, and finalizes the complete Justia URL → new URL 301 redirect map so cutover on Phase 7 is checklist-driven, not discovery-driven.
@@ -141,7 +142,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 2. Bio + Homepage + Contact | 3/3 | Complete (awaiting human-verify sign-off) | 2026-07-06 |
 | 3. Practice Pillar Pages | 3/3 | Complete (awaiting human-verify sign-off) | 2026-07-07 |
 | 4. Location Pages | 0/TBD | Not started | - |
-| 5. Blog | 0/TBD | Not started | - |
+| 5. Blog | 1/1 | Complete (awaiting human-verify sign-off) | 2026-07-08 |
 | 6. Technical SEO + Analytics + Justia Redirect Map | 0/TBD | Not started | - |
 | 7. Cutover to childcustodyanddivorce.com | 0/TBD | Not started | - |
 | 8. GBP + Google Ads Takeover + Local Citations | 0/TBD | Not started | - |

@@ -2077,4 +2077,1128 @@ POSTS.append({
     ],
 })
 
+# ---------------------------------------------------------------------------
+# 11 — Guardianship Under the California Probate Code
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "guardianship-under-california-probate-code",
+    "category": "Guardianship",
+    "published": "2025-03-11",
+    "published_pretty": "March 11, 2025",
+    "title": "Guardianship Under the California Probate Code: A San Diego Overview",
+    "h1": "Guardianship Under the California Probate Code: A San Diego Overview",
+    "description": "Probate guardianship of the person or estate of a minor under California Probate Code sections 1500-1611, temporary vs permanent orders, and the San Diego Central Courthouse investigation process.",
+    "breadcrumb_short": "Guardianship Under California Probate Code",
+    "body_html": """
+          <p>
+            Guardianship of a minor is the legal mechanism that lets an
+            adult who is not the parent make care and custody decisions
+            for a child. In California, guardianship of a minor is
+            primarily handled under the Probate Code (sections 1500
+            through 1611) in probate court, though juvenile
+            guardianships arising out of dependency proceedings are
+            handled separately under Welfare and Institutions Code
+            section 360 in juvenile court.
+          </p>
+          <p>
+            This post walks through California probate guardianship of
+            a minor: what it does, what it does not do, and how the
+            case moves through San Diego Superior Court.
+          </p>
+
+          <h2>Guardianship of the person vs. the estate</h2>
+          <p>
+            California recognizes two kinds of guardianship of a minor,
+            and they are decided separately.
+          </p>
+          <p>
+            <strong>Guardianship of the person</strong> gives the
+            guardian authority to have the child in their care, to
+            make decisions about the child's daily life, and to
+            consent to medical care, education, and the child's normal
+            activities. It is what most people mean when they say
+            "guardianship."
+          </p>
+          <p>
+            <strong>Guardianship of the estate</strong> is separate and
+            applies when a minor owns property (an inheritance, a
+            settlement, a life-insurance proceed) that has to be
+            managed until the minor turns eighteen. A guardian of the
+            estate is a fiduciary who has to account to the court for
+            the property.
+          </p>
+          <p>
+            The same adult can serve as guardian of both, or the two
+            roles can go to different people. When large sums are
+            involved, courts sometimes separate the roles.
+          </p>
+
+          <h2>What guardianship does not do</h2>
+          <p>
+            Guardianship is not adoption. It does not terminate the
+            parent's rights or the parent-child relationship. Parents
+            retain the ability to petition to terminate the
+            guardianship on a change of circumstances, and the
+            guardianship itself ends automatically when the minor
+            turns eighteen (unless the ward is a nonminor dependent
+            under special statutes).
+          </p>
+          <p>
+            Guardianship is also not the same as a family-law custody
+            order. Custody orders in a family law case set the
+            relationship between two parents. Guardianship orders in
+            probate court set the relationship between a non-parent
+            adult and a minor, usually because neither parent can
+            care for the child right now, or because both parents
+            consent.
+          </p>
+
+          <h2>When guardianship makes sense</h2>
+          <p>
+            The most common San Diego guardianship cases I see involve:
+          </p>
+          <ul>
+            <li>A grandparent, aunt, or uncle raising a grandchild,
+                niece, or nephew because the parents cannot (military
+                deployment, incarceration, substance-use treatment,
+                serious illness)</li>
+            <li>A child living with a family friend whose parent has
+                consented to the arrangement and the friend needs
+                legal authority to enroll the child in school and
+                consent to medical care</li>
+            <li>A child whose parents have passed away, where a
+                surviving family member is the intended caregiver</li>
+            <li>A minor who has received a settlement or inheritance
+                and needs a guardian of the estate to manage those
+                funds</li>
+          </ul>
+
+          <h2>Filing the petition</h2>
+          <p>
+            A guardianship case starts with a Petition for Appointment
+            of Guardian (Judicial Council form GC-210) filed in
+            probate court. In San Diego County, probate guardianship
+            cases are heard at the Central Courthouse downtown, in
+            the probate division. The petition specifies the proposed
+            guardian, identifies each parent (with addresses if
+            known), states the reason guardianship is needed, and
+            attaches a proposed order.
+          </p>
+          <p>
+            Notice has to go to the child's parents, to any adult
+            siblings, to grandparents, and to specified relatives
+            &mdash; California notice rules for guardianship are
+            broader than family-law cases, and defective notice is
+            one of the most common reasons a petition gets continued
+            or denied on procedural grounds.
+          </p>
+
+          <h2>The Probate Court investigator's report</h2>
+          <p>
+            California requires an investigation of the proposed
+            guardianship before an appointment is made. The
+            investigation is conducted by the Probate Court
+            investigator's office (in San Diego, the Family Court
+            Services / Probate Investigator's office). The
+            investigator interviews the proposed guardian, the child
+            (if old enough), the parents (when possible), and other
+            relevant adults, visits the proposed guardian's home,
+            reviews the reasons for the guardianship, and files a
+            written report with recommendations to the court.
+          </p>
+          <p>
+            The report matters. It is not a formality. A well-prepared
+            proposed guardian has documents ready for the
+            investigator (letters of consent from parents when
+            applicable, school records, health-insurance information,
+            proof of adequate housing), and can explain the
+            arrangement clearly.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              Guardianship cases live or die on the investigator's
+              report. Preparing for the interview and home visit is
+              worth doing carefully.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> to
+              walk through your case before the investigation is
+              scheduled.
+            </p>
+          </aside>
+
+          <h2>Temporary guardianship</h2>
+          <p>
+            When immediate legal authority is needed &mdash; the child
+            needs to enroll in school Monday, or there is an urgent
+            medical decision &mdash; the court can appoint a temporary
+            guardian pending the full hearing. A Petition for
+            Appointment of Temporary Guardian (GC-110) can be filed
+            with the main petition or shortly after. Temporary
+            guardianships last a specific period (usually up to six
+            months) and expire unless renewed or replaced by the
+            permanent order.
+          </p>
+
+          <h2>Objections and contested cases</h2>
+          <p>
+            A parent (or another interested party) can object to a
+            proposed guardianship. When the parents object,
+            guardianship is not granted lightly. Under Family Code
+            section 3041 (which California courts apply to probate
+            guardianship cases as the parental-preference standard),
+            granting custody to a non-parent over a parent's
+            objection requires a finding that awarding custody to the
+            parent would be detrimental to the child, and that
+            awarding custody to the non-parent is in the child's best
+            interest. The parental-preference standard is a real
+            protection for parents.
+          </p>
+
+          <h2>Termination of guardianship</h2>
+          <p>
+            A guardianship of a minor ends automatically at age
+            eighteen, but before that, a parent can petition to
+            terminate on a change of circumstances. The court applies
+            a similar standard: continuing the guardianship must be
+            in the child's best interest, or the change back to
+            parental custody must not be detrimental. Termination
+            cases are their own contested proceeding.
+          </p>
+
+          <h2>Guardianship of the estate mechanics</h2>
+          <p>
+            A guardian of the estate is a court-supervised fiduciary.
+            The estate is inventoried and appraised, annual accountings
+            are filed with the court, expenditures typically require
+            court approval, and the assets are held for the minor's
+            benefit until eighteen (or age twenty-five for certain
+            structured settlements). Because guardianship of the
+            estate is administratively intensive, families sometimes
+            choose alternatives (a UTMA account, a special-needs
+            trust, a settlement into a court-approved blocked account)
+            depending on the size and source of the funds.
+          </p>
+
+          <h2>Ready to talk it through</h2>
+          <p>
+            Guardianship is one of the more procedurally specific
+            areas of California family and probate practice, and
+            defective filings can add months to the case. If you are
+            considering a guardianship &mdash; whether as a
+            grandparent, a family friend, or a parent trying to set
+            up a stable arrangement for a child &mdash; the intake
+            meeting is where we can walk through your specific
+            situation.
+          </p>
+          <p>
+            You can reach me at
+            <a href="tel:+16192502683">(619) 250-2683</a> or through
+            the <a href="/contact.html#form">contact form</a>. See
+            also the <a href="/practice-areas/guardianship/">guardianship
+            practice area</a> for the broader overview.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/guardianship/", "category": "Practice Area", "title": "San Diego Guardianship (Practice Area)"},
+        {"url": "/blog/why-hire-a-family-law-attorney-in-california.html", "category": "Family Court", "title": "Why Hire a Family Law Attorney in California (and When You Might Not Need To)"},
+        {"url": "/blog/navigating-san-diego-family-court.html", "category": "Family Court", "title": "Navigating San Diego Family Court: A Room-by-Room Guide"},
+    ],
+})
+
+# ---------------------------------------------------------------------------
+# 12 — Domestic Violence Restraining Orders
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "domestic-violence-restraining-orders-california",
+    "category": "Domestic Violence",
+    "published": "2025-04-08",
+    "published_pretty": "April 8, 2025",
+    "title": "Domestic Violence Restraining Orders in California: How the DVPA Works",
+    "h1": "Domestic Violence Restraining Orders in California: How the DVPA Works",
+    "description": "Emergency protective orders, temporary restraining orders, long-term DVROs under the California DVPA, and the Family Code section 3044 custody presumption. San Diego family attorney.",
+    "breadcrumb_short": "DV Restraining Orders in California",
+    "body_html": """
+          <p>
+            Domestic Violence Restraining Orders (DVROs) are one of the
+            fastest-moving areas of California family law. The California
+            Domestic Violence Prevention Act (Family Code sections 6200
+            through 6460) creates a specific set of orders designed to
+            give immediate protection while a case is investigated and
+            heard. Understanding the layers &mdash; and how each order
+            fits with the others &mdash; is important whether you are
+            seeking protection or responding to a request.
+          </p>
+          <p>
+            This post walks through the four kinds of orders California
+            uses in a DV situation, how the DVPA defines "abuse," and
+            the Family Code section 3044 custody presumption that
+            attaches once a DVRO issues.
+          </p>
+
+          <h2>What "abuse" means under the DVPA</h2>
+          <p>
+            The DVPA definition of abuse is broader than physical
+            violence. Under Family Code section 6203, abuse includes
+            intentionally or recklessly causing or attempting to cause
+            bodily injury; sexual assault; placing a person in
+            reasonable apprehension of imminent serious bodily injury
+            to that person or another; and behavior that has been or
+            could be enjoined under Family Code section 6320.
+          </p>
+          <p>
+            Section 6320, in turn, covers a broad range of conduct
+            including molesting, attacking, striking, stalking,
+            threatening, harassing, disturbing the peace of the other
+            party, and other conduct. The California Supreme Court has
+            explained that "disturbing the peace" means conduct that
+            destroys the mental or emotional calm of the other party
+            &mdash; a standard that reaches non-physical conduct
+            including coercive control.
+          </p>
+          <p>
+            The DVPA applies to specific relationships listed in
+            Family Code section 6211: spouses and former spouses,
+            cohabitants and former cohabitants, dating or engaged
+            partners, parents of a common child, and family members
+            related by blood or marriage within specified degrees.
+            It does not apply to co-workers, neighbors, or strangers
+            &mdash; those situations may need a civil harassment
+            restraining order (a separate statute).
+          </p>
+
+          <h2>Layer 1: Emergency Protective Orders (EPO)</h2>
+          <p>
+            An Emergency Protective Order is issued by a judicial
+            officer at the request of law enforcement, usually in
+            response to an on-scene call. An EPO can be requested at
+            any hour, is issued verbally and then reduced to writing,
+            and lasts up to seven calendar days or five court days,
+            whichever is shorter. It is the immediate protection
+            layer.
+          </p>
+          <p>
+            An EPO gives law enforcement authority to arrest for
+            violation, and provides the protected person time to seek
+            a longer restraining order without leaving them
+            unprotected. Not every DV situation involves an EPO
+            &mdash; only situations where law enforcement is called
+            and requests one.
+          </p>
+
+          <h2>Layer 2: Temporary Restraining Orders (TRO)</h2>
+          <p>
+            A Temporary Restraining Order under the DVPA is what the
+            protected party requests directly from the court. A TRO
+            application (Judicial Council form DV-100 and related
+            forms) is filed with a supporting declaration describing
+            the incidents and requesting specific orders (stay-away,
+            move-out, no-contact, temporary custody, temporary
+            visitation, firearms surrender).
+          </p>
+          <p>
+            The court typically decides the TRO on the same day the
+            application is filed, based on the declaration. If
+            granted, the TRO issues and remains in effect until the
+            noticed hearing on the long-term restraining order,
+            usually within 21 to 25 days.
+          </p>
+          <p>
+            The TRO gets personally served on the restrained party.
+            It is not effective until service &mdash; enforceability
+            depends on proof the restrained party had notice of the
+            order.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              A well-prepared TRO application includes a detailed
+              declaration, specific requested orders, and any
+              supporting exhibits (photos, medical records, text
+              messages). The declaration is the case at the TRO
+              stage.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> to
+              walk through your DVRO application before it goes to
+              court.
+            </p>
+          </aside>
+
+          <h2>Layer 3: The long-term hearing</h2>
+          <p>
+            Within 21 to 25 days of the TRO, the court holds a
+            noticed hearing on whether to issue a long-term
+            restraining order (Family Code section 6345, up to five
+            years, renewable). Both parties can appear, present
+            evidence, testify, and cross-examine.
+          </p>
+          <p>
+            At the long-term hearing, the burden is on the party
+            seeking the order to prove abuse by a preponderance of
+            the evidence. That is a lower standard than a criminal
+            trial, but the evidence still has to be admissible and
+            credible. Photos, medical records, texts, witnesses, and
+            recorded incidents are all standard exhibits.
+          </p>
+          <p>
+            The responding party can present their own evidence and
+            can testify. Cross-examination is available (subject to
+            California's specific rules for DVROs). This is a real
+            evidentiary hearing, not a formality.
+          </p>
+
+          <h2>Layer 4: renewal</h2>
+          <p>
+            A five-year DVRO can be renewed at the request of the
+            protected party under Family Code section 6345. Renewal
+            does not require a new incident of abuse. Under the
+            California Supreme Court's <em>Ritchie v. Konrad</em>
+            decision, the standard is whether the protected party has
+            a reasonable apprehension of future abuse. That is
+            frequently satisfied by the original abuse plus
+            circumstances since (continued contact attempts,
+            proximity, ongoing custody disputes). Renewal can be for
+            five years or permanent.
+          </p>
+
+          <h2>The Family Code section 3044 custody presumption</h2>
+          <p>
+            When a DVRO issues, Family Code section 3044 creates a
+            rebuttable presumption that awarding sole or joint
+            physical or legal custody to the restrained parent is
+            detrimental to the child. The presumption applies for
+            five years after the finding of abuse.
+          </p>
+          <p>
+            The presumption is rebuttable but the restrained parent
+            has to affirmatively address specific statutory factors:
+            best-interest of the child, completion of a batterer's
+            intervention program, completion of any court-ordered
+            substance-use program, compliance with any probation or
+            parole, and non-commission of further acts of DV. Section
+            3044 is a substantial thumb on the scale in the custody
+            analysis, and it is one of the most consequential
+            downstream effects of a DVRO.
+          </p>
+
+          <h2>Firearm surrender under section 6389</h2>
+          <p>
+            A person subject to a DVRO is prohibited from owning or
+            possessing firearms and ammunition under Family Code
+            section 6389 for the duration of the order. Any firearms
+            in the restrained party's possession have to be
+            surrendered to law enforcement or sold to a licensed
+            dealer within 24 hours of service, with proof of
+            compliance filed with the court within 48 hours. This is
+            not optional, and non-compliance is a criminal offense.
+          </p>
+
+          <h2>Responding to a DVRO request</h2>
+          <p>
+            If you have been served with a TRO, the response you file
+            for the long-term hearing (form DV-120 and supporting
+            declaration) is the case. Being able to explain the
+            incidents in context, produce corroborating documents,
+            and present witnesses is what shapes the outcome. This is
+            not the moment for a lengthy narrative about the other
+            party; it is the moment for a specific, factual
+            response.
+          </p>
+
+          <h2>Ready to talk it through</h2>
+          <p>
+            California DVRO cases move fast, and the DVPA gives real
+            protection when it applies. If you need to file a request
+            or are responding to one, the intake meeting is where we
+            walk through the incidents, the evidence, and the
+            downstream custody and firearm consequences. You can
+            reach me at <a href="tel:+16192502683">(619) 250-2683</a>
+            or through the <a href="/contact.html#form">contact
+            form</a>. See also the
+            <a href="/practice-areas/domestic-violence/">domestic
+            violence practice area</a>.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/domestic-violence/", "category": "Practice Area", "title": "San Diego Domestic Violence (Practice Area)"},
+        {"url": "/blog/navigating-san-diego-family-court.html", "category": "Family Court", "title": "Navigating San Diego Family Court: A Room-by-Room Guide"},
+        {"url": "/blog/protecting-parental-rights-in-california-custody.html", "category": "Child Custody", "title": "Protecting Parental Rights in California Custody Cases"},
+    ],
+})
+
+# ---------------------------------------------------------------------------
+# 13 — Navigating San Diego Family Court
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "navigating-san-diego-family-court",
+    "category": "Family Court",
+    "published": "2025-05-13",
+    "published_pretty": "May 13, 2025",
+    "title": "Navigating San Diego Family Court: A Room-by-Room Guide",
+    "h1": "Navigating San Diego Family Court: A Room-by-Room Guide",
+    "description": "The four San Diego family-law courthouses, Requests for Order, ex parte applications, and what a day of hearing actually looks like. San Diego family attorney Brian Burkett.",
+    "breadcrumb_short": "Navigating San Diego Family Court",
+    "body_html": """
+          <p>
+            San Diego family court is not one building. It is four
+            courthouses, each with its own calendar, its own judicial
+            officers, and its own way of doing things. Add on the
+            various satellite functions &mdash; Family Court Services,
+            the self-help center, the family-law facilitator's office,
+            the family-law clerk's window &mdash; and even people who
+            work in the legal system regularly can get turned around.
+          </p>
+          <p>
+            This post walks through the San Diego family-court
+            geography and the practical mechanics of a Request for
+            Order, an ex parte application, and a hearing day.
+          </p>
+
+          <h2>The four family-law courthouses</h2>
+          <p>
+            San Diego County has four courthouses that hear family-law
+            matters, and which one hears a case depends on where the
+            parties live:
+          </p>
+          <ul>
+            <li><strong>Central Courthouse</strong> &mdash; 1100 Union
+                Street, San Diego. Downtown. Handles cases from most
+                of the City of San Diego and central-county
+                communities. Also home to the Probate Division that
+                hears probate guardianship of minors.</li>
+            <li><strong>North County Regional Center</strong> &mdash;
+                325 South Melrose Drive, Vista. Handles cases from
+                North County: Oceanside, Carlsbad, Encinitas, San
+                Marcos, Escondido, Vista, Fallbrook, and adjacent
+                communities.</li>
+            <li><strong>East County Regional Center</strong> &mdash;
+                250 East Main Street, El Cajon. Handles cases from
+                East County: El Cajon, La Mesa, Lakeside, Santee,
+                Spring Valley, Alpine, and adjacent communities.</li>
+            <li><strong>South County Regional Center</strong> &mdash;
+                500 Third Avenue, Chula Vista. Handles cases from
+                South County: Chula Vista, National City, Imperial
+                Beach, Bonita, and adjacent communities.</li>
+          </ul>
+          <p>
+            I appear on family-law matters at all four courthouses. If
+            a client's residence is on the border between two
+            courthouse jurisdictions, we look at where each party
+            lives and where the child is enrolled in school to decide
+            filing venue.
+          </p>
+
+          <h2>The Family Court Services calendar</h2>
+          <p>
+            Whenever custody or visitation is contested, San Diego
+            routes the case through Family Court Services (FCS)
+            mediation under Family Code section 3170 before the
+            contested hearing. FCS sessions are scheduled at the
+            courthouse where the case is filed, and the FCS
+            counselor works from that same courthouse.
+          </p>
+          <p>
+            FCS in San Diego is a recommending mediation, which means
+            the counselor can send a written recommendation to the
+            judge if the parents cannot reach agreement. Preparing for
+            FCS is one of the most impactful things a custody
+            attorney does &mdash; walking into FCS with a proposed
+            parenting plan, a school calendar, and specific
+            behavioral examples is much stronger than showing up
+            without them.
+          </p>
+
+          <h2>Request for Order &mdash; how it moves</h2>
+          <p>
+            The workhorse motion in California family court is the
+            Request for Order (RFO) &mdash; Judicial Council form
+            FL-300. An RFO asks the court for orders on any issue in
+            the case: custody, visitation, temporary support,
+            attorneys' fees, use of the family residence, orders
+            about specific assets. The RFO packet includes the
+            request itself, a supporting declaration, any FL-150
+            required (for support requests), and a proposed order.
+          </p>
+          <p>
+            After the RFO is filed, the family-law clerk assigns a
+            hearing date, typically six to ten weeks out depending on
+            the department calendar. The moving party has to
+            personally serve the RFO on the other party (or their
+            attorney of record) with at least the minimum statutory
+            notice. The responding party can file a responsive
+            declaration and their own supporting exhibits.
+          </p>
+          <p>
+            When the hearing day comes, the judge has read the
+            filings before the hearing. The oral argument focuses on
+            the two or three disputed issues, and the court makes
+            orders on the record. A written Findings and Order After
+            Hearing (FL-340 and any subject-specific attachments)
+            memorializes the ruling.
+          </p>
+
+          <h2>Ex parte applications</h2>
+          <p>
+            When something needs to be addressed on shortened notice
+            &mdash; a child is about to be taken out of state, a
+            house is about to be sold, there is an urgent safety
+            issue &mdash; an ex parte application (California Rules
+            of Court 5.151) asks the court to hear the matter within
+            days rather than weeks.
+          </p>
+          <p>
+            Ex parte relief in family court is not a lower bar. The
+            application has to show, on the declaration, an
+            irreparable harm to be prevented or an immediate danger
+            or other statutory basis for shortened notice. Notice
+            still has to go to the other side (either the day before
+            the ex parte hearing or a specific number of hours,
+            depending on department rules), and the other side can
+            appear and be heard.
+          </p>
+          <p>
+            When ex parte relief is not appropriate, the court can
+            still convert the application into an "order to show
+            cause" on a longer timeline than an ex parte but shorter
+            than a standard RFO calendar.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              Knowing which motion to file and which courthouse to
+              file it in is a real part of San Diego family-law
+              practice. Getting either wrong can add weeks to a
+              case.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> or
+              <a href="/contact.html#booking">book a consultation</a>
+              to walk through your case.
+            </p>
+          </aside>
+
+          <h2>A hearing day, start to finish</h2>
+          <p>
+            Family-law calendars in San Diego typically start at 8:30
+            a.m. Show up at least 20 minutes early to get through
+            courthouse security, find the department, and check in
+            with the courtroom clerk. Bring photo ID for security,
+            two copies of any exhibits you plan to reference, and
+            proof of service if applicable.
+          </p>
+          <p>
+            When the calendar is called, the courtroom clerk usually
+            reads through the matters set for that morning and takes
+            attendance. Some cases resolve on stipulation in the
+            hallway before the calendar is called; those get set
+            aside for the stipulation to be reduced to writing.
+            Contested matters get argued in the order the department
+            takes them, sometimes by 9:00 a.m. for the shortest
+            matters, sometimes later for cases that need a longer
+            record.
+          </p>
+          <p>
+            Family-law hearings are on the record but not always
+            recorded for later transcript purposes unless a court
+            reporter is present. If you want a record for a possible
+            appeal, arranging a court reporter (or an electronic
+            recording if the department allows it) is a step to
+            take before the hearing.
+          </p>
+
+          <h2>The self-help center and the family-law facilitator</h2>
+          <p>
+            Every San Diego family-law courthouse has a self-help
+            center and a family-law facilitator's office. These are
+            court-attached programs that help parties without
+            attorneys prepare specific forms, understand basic
+            procedure, and file the right paperwork. They cannot give
+            legal advice, and they are not counsel for either party,
+            but for straightforward matters (uncontested judgments,
+            simple modifications) they can be enough to get a
+            filing done.
+          </p>
+          <p>
+            The self-help center is not a substitute for counsel in
+            contested cases. If your case involves any of a serious
+            custody dispute, complex property, or a substantial
+            support number, an attorney adds value the self-help
+            staff cannot provide. See
+            <a href="/blog/why-hire-a-family-law-attorney-in-california.html">the
+            post on when to hire an attorney</a> for more on the
+            trade-offs.
+          </p>
+
+          <h2>Ready to talk it through</h2>
+          <p>
+            San Diego family court is workable once you know the
+            layout. If you have a case coming up at one of the four
+            courthouses and want to walk through the mechanics, you
+            can reach me at
+            <a href="tel:+16192502683">(619) 250-2683</a> or through
+            the <a href="/contact.html#form">contact form</a>. See
+            also the <a href="/practice-areas/family-court/">family
+            court practice area</a>.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/family-court/", "category": "Practice Area", "title": "San Diego Family Court (Practice Area)"},
+        {"url": "/blog/why-hire-a-family-law-attorney-in-california.html", "category": "Family Court", "title": "Why Hire a Family Law Attorney in California (and When You Might Not Need To)"},
+        {"url": "/blog/domestic-violence-restraining-orders-california.html", "category": "Domestic Violence", "title": "Domestic Violence Restraining Orders in California: How the DVPA Works"},
+    ],
+})
+
+# ---------------------------------------------------------------------------
+# 14 — Preliminary Declaration of Disclosure
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "preliminary-declaration-of-disclosure-california",
+    "category": "Divorce",
+    "published": "2025-06-17",
+    "published_pretty": "June 17, 2025",
+    "title": "The Preliminary Declaration of Disclosure in a California Divorce",
+    "h1": "The Preliminary Declaration of Disclosure in a California Divorce",
+    "description": "The FL-140, FL-142, and FL-150 that make up a California Preliminary Declaration of Disclosure, why it exists, and what happens if a spouse hides an asset. San Diego family attorney.",
+    "breadcrumb_short": "Preliminary Declaration of Disclosure",
+    "body_html": """
+          <p>
+            Every California divorce runs on financial disclosure.
+            Whether the case is uncontested and heading for a
+            stipulated judgment, or contested and heading for trial,
+            both spouses have to disclose their assets, debts, income,
+            and expenses to each other. That obligation is not
+            optional and it is not paperwork &mdash; it is the
+            foundation the court builds a fair division on.
+          </p>
+          <p>
+            This post explains the Preliminary Declaration of
+            Disclosure (PDOD) in a California divorce: what forms it
+            includes, why California requires it, what a good PDOD
+            looks like, and what happens when a spouse hides an
+            asset.
+          </p>
+
+          <h2>Why California requires disclosure</h2>
+          <p>
+            The California Legislature codified fiduciary duties
+            between spouses in Family Code section 721. Spouses have
+            the highest good-faith duty to each other in their
+            financial dealings, on par with a business partner's
+            duty to another partner. That duty extends into the
+            divorce process. Family Code section 2100 declares the
+            state's policy: the divorcing parties are required to
+            fully and accurately disclose the identity and value of
+            all assets and debts, and to update those disclosures as
+            circumstances change.
+          </p>
+          <p>
+            The mechanism the Family Code uses to enforce that duty
+            is the disclosure regime in sections 2100 through 2113:
+            a Preliminary Declaration of Disclosure early in the
+            case, a Final Declaration of Disclosure before judgment
+            (with limited waivability), and remedies (up to
+            set-aside of the judgment) if the disclosure obligation
+            is violated.
+          </p>
+
+          <h2>The forms that make up a PDOD</h2>
+          <p>
+            The Preliminary Declaration of Disclosure is a package of
+            four Judicial Council forms:
+          </p>
+          <ul>
+            <li><strong>FL-140 &mdash; Declaration of Disclosure.</strong>
+                The cover form. It confirms that the party has served
+                the other required disclosure documents.</li>
+            <li><strong>FL-142 &mdash; Schedule of Assets and Debts</strong>
+                (or, in some cases, FL-160 Property Declaration). A
+                comprehensive itemization of every asset and every
+                debt the party knows about, including retirement
+                accounts, real estate, bank accounts, brokerage
+                accounts, business interests, vehicles, jewelry, and
+                credit-card balances.</li>
+            <li><strong>FL-150 &mdash; Income and Expense Declaration.</strong>
+                Detailed income for the past twelve months, current
+                monthly income and expenses, and information about
+                assets. FL-150 is also the form used for support
+                calculations.</li>
+            <li>The <strong>tax returns</strong> for the two years
+                preceding the disclosure &mdash; complete returns
+                with all schedules and attachments, not just the
+                summary pages.</li>
+          </ul>
+          <p>
+            All four elements are served on the other party (or their
+            attorney) and the FL-140 is filed with the court to
+            document that service occurred. The FL-142 and FL-150
+            themselves are typically not filed &mdash; they are
+            exchanged between the parties.
+          </p>
+
+          <h2>What a well-prepared FL-142 looks like</h2>
+          <p>
+            An FL-142 is not filled in from memory. It is filled in
+            with documents. For a straightforward case, that means
+            recent statements for every bank account, brokerage
+            account, retirement account, and credit card, plus a
+            recent mortgage statement, vehicle titles or DMV
+            registration, and life-insurance and health-insurance
+            declaration pages.
+          </p>
+          <p>
+            For a higher-asset case, the FL-142 gets more work:
+            business valuations (or at least business tax returns
+            for the last few years and current profit-and-loss
+            statements), appraisals of real estate, statements for
+            stock plans (RSUs, ISOs, ESPPs), and documentation of
+            any separate-property claims (pre-marital account
+            balances traced forward, gift or inheritance documents).
+          </p>
+
+          <h2>What a well-prepared FL-150 looks like</h2>
+          <p>
+            The FL-150 is the income and expense declaration. For a
+            W-2 employee, the income section is anchored by pay
+            stubs and the most recent W-2. For a self-employed
+            party, the income section is a considerably more
+            substantial drafting exercise &mdash; business gross
+            income, deductible business expenses, and personal
+            (non-deductible) draws all have to be broken out
+            clearly.
+          </p>
+          <p>
+            The expense section on the FL-150 has to reflect actual
+            monthly cash flow. Inflated expenses hurt credibility;
+            deflated expenses can undercut a support claim.
+            Well-prepared FL-150 expenses come from three months of
+            bank and credit card statements analyzed carefully.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              The PDOD is not a formality. In every California
+              divorce I handle, we treat the PDOD as the foundation
+              of the property division and the support order.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> to
+              walk through what your PDOD should look like.
+            </p>
+          </aside>
+
+          <h2>Timing</h2>
+          <p>
+            The petitioner is supposed to serve the Preliminary
+            Declaration of Disclosure within 60 days of filing the
+            Petition. The respondent is supposed to serve within 60
+            days of filing the Response. In practice, the deadlines
+            are often missed by both sides &mdash; the case moves at
+            the pace of the case &mdash; but the earlier the PDOD
+            gets served, the sooner both parties know what the
+            picture actually is, and the sooner meaningful
+            settlement conversations become possible.
+          </p>
+
+          <h2>The Final Declaration of Disclosure</h2>
+          <p>
+            California also requires a Final Declaration of Disclosure
+            before entry of judgment (Family Code section 2105). The
+            final version updates the PDOD to current information
+            and confirms nothing has been left off. The parties can
+            <strong>mutually waive</strong> the Final Declaration by
+            executing a written waiver on Judicial Council form
+            FL-144, which is common in cases where the PDOD is
+            recent and both sides are comfortable it is complete.
+            Waiver requires both sides to sign; it cannot be
+            unilateral.
+          </p>
+
+          <h2>What happens if a spouse hides an asset</h2>
+          <p>
+            The remedy for a failed or fraudulent disclosure is
+            significant. Family Code section 2107 authorizes the
+            court to impose monetary sanctions and attorney's fees
+            for a party's failure to comply with disclosure
+            obligations. Family Code section 1101 governs breaches
+            of the fiduciary duty between spouses and, in the case
+            of a fraudulent breach, permits the court to award 100%
+            of the value of the undisclosed asset to the injured
+            spouse.
+          </p>
+          <p>
+            The California Supreme Court's decision in <em>Marriage
+            of Rossi</em> is the classic example: a wife who won a
+            $1.3 million lottery jackpot and concealed it during
+            the divorce lost the entire jackpot to her ex-husband
+            under section 1101. The section is a real deterrent.
+          </p>
+
+          <h2>Set-aside after judgment</h2>
+          <p>
+            Family Code section 2122 permits the court to set aside
+            a judgment in specific circumstances, including
+            fraud, perjury, and failure to comply with the
+            disclosure requirements of Chapter 9. Discovery of a
+            hidden asset after judgment is a significant post-
+            judgment matter that can, in the right case, reopen the
+            property division. The time limits for a set-aside vary
+            depending on which ground applies, so timing matters.
+          </p>
+
+          <h2>Ready to talk it through</h2>
+          <p>
+            The Preliminary Declaration of Disclosure is one of the
+            most important documents in a California divorce, and
+            it is worth doing right. If you want to talk through
+            what your PDOD should look like, you can reach me at
+            <a href="tel:+16192502683">(619) 250-2683</a> or through
+            the <a href="/contact.html#form">contact form</a>. See
+            also the <a href="/practice-areas/divorce/">divorce
+            practice area</a> and
+            <a href="/blog/california-community-property-division.html">community
+            property post</a>.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/divorce/", "category": "Practice Area", "title": "San Diego Divorce (Practice Area)"},
+        {"url": "/blog/california-community-property-division.html", "category": "Divorce", "title": "California Community Property: How Marital Assets and Debts Get Divided"},
+        {"url": "/blog/how-a-divorce-attorney-navigates-california-process.html", "category": "Divorce", "title": "How a San Diego Divorce Attorney Navigates the California Dissolution Process"},
+    ],
+})
+
+# ---------------------------------------------------------------------------
+# 15 — Why Hire a Family Law Attorney
+# ---------------------------------------------------------------------------
+POSTS.append({
+    "slug": "why-hire-a-family-law-attorney-in-california",
+    "category": "Family Court",
+    "published": "2025-08-19",
+    "published_pretty": "August 19, 2025",
+    "title": "Why Hire a Family Law Attorney in California (and When You Might Not Need To)",
+    "h1": "Why Hire a Family Law Attorney in California (and When You Might Not Need To)",
+    "description": "An honest look at when a California family-law attorney adds value, when a self-help center is enough, and the middle-ground option of unbundled representation. San Diego attorney Brian Burkett.",
+    "breadcrumb_short": "Why Hire a Family Law Attorney",
+    "body_html": """
+          <p>
+            "Do I even need an attorney?" is a fair question, and it
+            deserves an honest answer. Not every California family-law
+            matter requires representation. The self-help center at
+            each San Diego courthouse exists because a lot of
+            family-law paperwork is straightforward, and the family-
+            law facilitator's office can help pro-per parties get
+            uncontested filings across the finish line.
+          </p>
+          <p>
+            That said, plenty of cases do call for an attorney. This
+            post lays out the honest version: when I think an
+            attorney genuinely adds value, when the self-help route
+            is enough, and the middle-ground option most people do
+            not know exists.
+          </p>
+
+          <h2>When an attorney genuinely adds value</h2>
+
+          <h3>Contested custody</h3>
+          <p>
+            A contested custody case &mdash; where the parents
+            disagree on legal custody, physical custody, or the
+            parenting-time schedule &mdash; is the case where I most
+            often think representation makes the biggest difference.
+            The moves in the first ninety days shape the case:
+            preparing for Family Court Services mediation, drafting
+            a specific proposed parenting plan, drafting the
+            declaration for the initial hearing, and (if it comes
+            to it) preparing for a section 3111 evaluation or a
+            minor's counsel appointment.
+          </p>
+          <p>
+            These are not paperwork moves. They are strategic and
+            evidentiary, and they compound &mdash; the FCS session
+            in month one shapes the recommendation in month two,
+            which shapes the hearing in month three, which shapes
+            the parenting plan the family lives with for years.
+          </p>
+
+          <h3>Contested support with complex income</h3>
+          <p>
+            California child and spousal support calculations start
+            with each spouse's income. If either party is
+            self-employed, commissioned, seasonal, has equity comp
+            (RSUs, options), or has income that runs through
+            multiple LLCs, the FL-150 becomes a substantial drafting
+            exercise. Getting the FL-150 wrong locks in an incorrect
+            support number for months.
+          </p>
+
+          <h3>Higher-asset divorces</h3>
+          <p>
+            Cases with a house bought before marriage, a business
+            started before marriage, retirement accounts with
+            pre-marital and marital contributions, or any hybrid
+            asset benefit from someone who can perform (or coordinate)
+            the tracing analysis. A community-property division that
+            ignores a Moore/Marsden calculation or a Van Camp
+            /Pereira analysis can move six-figure sums in one
+            direction or the other.
+          </p>
+
+          <h3>Any case with a domestic-violence issue</h3>
+          <p>
+            DVRO cases move fast. The TRO application, the response,
+            the noticed hearing within three weeks, and the downstream
+            Family Code section 3044 custody presumption all
+            happen in a short window and each has a real record to
+            build. This is not a case where the self-help center is
+            enough.
+          </p>
+
+          <h3>Any move-away case</h3>
+          <p>
+            Custody move-away requests (under <em>Marriage of
+            LaMusga</em>) are among the highest-stakes contested
+            hearings California family court sees. Preparing the
+            record on the move-away factors &mdash; distance,
+            reasons, impact on the child, existing relationship
+            with each parent &mdash; is a substantial undertaking.
+          </p>
+
+          <h3>Guardianship of a minor</h3>
+          <p>
+            California guardianship of a minor is procedurally
+            specific, requires notice to a broader set of relatives
+            than family-law cases, and involves an investigator's
+            report the court relies on. A defective filing can set
+            the case back months.
+          </p>
+
+          <h2>When you might not need an attorney</h2>
+          <p>
+            On the other end of the spectrum, there are cases where
+            the self-help center and the family-law facilitator's
+            office are enough.
+          </p>
+
+          <h3>Fully uncontested divorces with no minor children and modest assets</h3>
+          <p>
+            If both spouses agree on every issue, have limited
+            community property, no minor children, and no support
+            claims, the self-help center can help walk both parties
+            through an uncontested judgment. The FL-100 petition,
+            the response, the FL-140/142/150 disclosures, a
+            stipulated Marital Settlement Agreement, and the FL-180
+            proposed judgment are all forms the self-help center
+            regularly assists with.
+          </p>
+
+          <h3>Simple modifications by agreement</h3>
+          <p>
+            If both parents agree to modify a custody schedule or a
+            support number, and the modification is straightforward,
+            a Stipulation and Order (FL-350 for custody or a
+            comparable form for support) can be prepared without
+            counsel. What both parties are signing has to be
+            understood, but the drafting is not always heavy.
+          </p>
+
+          <h3>Enforcement of a clear order</h3>
+          <p>
+            If a support order is being violated and the paying
+            party is a W-2 employee, the San Diego County Department
+            of Child Support Services can enforce the order at no
+            cost. DCSS uses wage assignments, tax intercepts, and
+            license suspensions. The trade-off is that DCSS controls
+            the pace and priorities of the case, not the receiving
+            parent.
+          </p>
+
+          <aside class="blog-post__inline-cta">
+            <p>
+              I would rather have a fifteen-minute conversation with
+              you and honestly tell you an attorney is not necessary
+              in your case than take on a matter that would be a
+              waste of your money.
+            </p>
+            <p>
+              Call <a href="tel:+16192502683">(619) 250-2683</a> or
+              <a href="/contact.html#booking">book a consultation</a>
+              &mdash; the first meeting is the right place to make
+              that call.
+            </p>
+          </aside>
+
+          <h2>The middle ground: unbundled representation</h2>
+          <p>
+            California allows attorneys to provide "unbundled" or
+            "limited scope" representation, where the attorney is
+            engaged for specific tasks rather than the entire case.
+            California Rules of Court 5.425 governs limited-scope
+            representation in family law. Common unbundled tasks
+            include:
+          </p>
+          <ul>
+            <li>Reviewing draft documents the client has prepared</li>
+            <li>Drafting a Request for Order and declaration for a
+                client who will file and appear on their own</li>
+            <li>Coaching a client through a mediation session or FCS
+                appointment</li>
+            <li>Preparing the client for a single hearing (a
+                document walkthrough, a talking-points outline, a
+                mock cross-examination)</li>
+            <li>Drafting the written Findings and Order After
+                Hearing after a client wins on their own</li>
+          </ul>
+          <p>
+            Unbundled representation costs meaningfully less than
+            full representation, because you are paying for specific
+            hours rather than a full retainer, and it can be a good
+            fit for clients who can handle most of the case
+            themselves but want professional help at a specific
+            pressure point.
+          </p>
+
+          <h2>What a first consultation is actually for</h2>
+          <p>
+            An intake consultation is the right way to make the
+            decision. In thirty to sixty minutes, we can walk
+            through the case: what issues are on the table, what
+            the other side has done, what the schedule of upcoming
+            court dates looks like, and honestly whether the case
+            needs full representation, unbundled help, or nothing.
+          </p>
+          <p>
+            The consultation itself is not a commitment. If the case
+            does not need me, I say so. If a specific piece of it
+            would benefit from limited-scope help, I say so. If the
+            case needs full representation, we talk through what
+            that engagement would look like, and you decide.
+          </p>
+
+          <h2>Ready to talk it through</h2>
+          <p>
+            California family court is workable, and the moves are
+            specific. Sometimes an attorney is the right investment,
+            and sometimes the self-help center will do the job. The
+            way to know which one your case needs is to sit down and
+            look at it.
+          </p>
+          <p>
+            You can reach me at
+            <a href="tel:+16192502683">(619) 250-2683</a> or through
+            the <a href="/contact.html#form">contact form</a>. See
+            also the <a href="/practice-areas/family-court/">family
+            court practice area</a> and the
+            <a href="/blog/navigating-san-diego-family-court.html">room-by-room
+            guide to San Diego family court</a>.
+          </p>
+""",
+    "related": [
+        {"url": "/practice-areas/family-court/", "category": "Practice Area", "title": "San Diego Family Court (Practice Area)"},
+        {"url": "/blog/navigating-san-diego-family-court.html", "category": "Family Court", "title": "Navigating San Diego Family Court: A Room-by-Room Guide"},
+        {"url": "/blog/how-a-divorce-attorney-navigates-california-process.html", "category": "Divorce", "title": "How a San Diego Divorce Attorney Navigates the California Dissolution Process"},
+    ],
+})
+
+
 

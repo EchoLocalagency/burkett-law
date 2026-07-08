@@ -1,11 +1,78 @@
-# Netlify _redirects scaffold — Law Office of Brian Burkett
+# Netlify _redirects — Law Office of Brian Burkett
 #
-# Justia URL 301 map lands in Phase 6 (Technical SEO + Analytics + Justia Redirect Map).
+# Justia legacy blog URL 301 map (Phase 5).
+# The full Justia site-wide URL enumeration + 301 map lands in Phase 6.
 # Add www -> apex canonical decision here at Phase 7 T-14 (cutover).
 #
 # Rules:
 # - Do NOT add wildcard rules that catch new URLs (PITFALLS.md Pitfall 10).
 # - Every redirect must be an exact-URL 301 to a real, live target.
 # - Verify each redirect with `curl -I` against the Netlify preview before committing.
-#
-# (No active rules yet.)
+
+# =============================================================================
+# Justia legacy blog URLs -> new blog slugs
+# Format: /old-url  /new-url  301!
+# =============================================================================
+
+# --- Curated posts (Justia slug -> new slug 1:1) ---
+/blog/divorce-mediation-lawyer-in-san-diego-a-smarter-path-to-separation/                                             /blog/divorce-mediation-in-san-diego.html                                    301!
+/blog/how-a-divorce-attorney-in-san-diego-can-help-you-navigate-the-legal-process/                                    /blog/how-a-divorce-attorney-navigates-california-process.html               301!
+/blog/navigating-marital-property-division-with-a-skilled-attorney-in-san-diego/                                      /blog/california-community-property-division.html                            301!
+/blog/finding-the-best-divorce-attorney-in-san-diego-for-alimony-and-support-issues/                                  /blog/spousal-support-in-california-what-to-expect.html                      301!
+/blog/what-to-expect-from-an-alimony-attorney-in-san-diego-your-complete-legal-guide/                                 /blog/alimony-in-california-a-practical-guide.html                           301!
+/blog/how-a-child-custody-attorney-in-san-diego-can-help-you-protect-your-parental-rights/                            /blog/protecting-parental-rights-in-california-custody.html                  301!
+/blog/child-visitation/                                                                                                /blog/child-visitation-in-california.html                                    301!
+/blog/what-a-custody-attorney-can-do-that-you-might-not-realize/                                                       /blog/what-a-california-custody-attorney-does.html                           301!
+/blog/hiring-a-child-support-attorney-5-ways-they-can-help-you-get-a-fair-deal/                                        /blog/child-support-in-california-what-attorneys-do.html                     301!
+/blog/what-to-expect-when-working-with-a-child-support-attorney-in-san-diego/                                          /blog/working-with-a-child-support-attorney.html                             301!
+/blog/guardianship-attorney-services-in-san-diego-protecting-your-loved-ones/                                          /blog/guardianship-under-california-probate-code.html                        301!
+/blog/finding-a-domestic-violence-lawyer-near-me-what-to-look-for/                                                     /blog/domestic-violence-restraining-orders-california.html                   301!
+/blog/family-court-lawyers-near-me-how-to-choose-the-right-legal-representation/                                       /blog/navigating-san-diego-family-court.html                                 301!
+/blog/preliminary-declaration-of-disclosure-blog/                                                                       /blog/preliminary-declaration-of-disclosure-california.html                  301!
+/blog/why-hire-an-attorney/                                                                                             /blog/why-hire-a-family-law-attorney-in-california.html                      301!
+
+# --- Cut Justia posts (topic duplicate or thin) -> best-fit new home ---
+# Divorce-attorney generic posts -> divorce pillar
+/blog/choosing-the-best-divorce-attorney-in-san-diego-what-to-know-about-custody-and-support/                          /practice-areas/divorce/                                                     301!
+/blog/divorce-attorney-near-me-why-local-knowledge-can-make-or-break-your-case/                                        /practice-areas/divorce/                                                     301!
+/blog/finding-good-divorce-lawyers-near-you-what-makes-one-truly-great/                                                /practice-areas/divorce/                                                     301!
+/blog/good-divorce-lawyers-near-me-what-sets-the-best-apart-from-the-rest/                                             /practice-areas/divorce/                                                     301!
+/blog/how-to-find-the-best-lawyer-for-divorce-in-san-diego/                                                             /practice-areas/divorce/                                                     301!
+/blog/military-divorce-lawyer-in-san-diego-what-makes-these-cases-unique/                                              /practice-areas/divorce/                                                     301!
+
+# Alimony generic -> spousal support pillar
+/blog/understanding-alimony-why-hiring-a-san-diego-alimony-lawyer-matters/                                             /practice-areas/spousal-support/                                             301!
+
+# Custody generic -> custody pillar
+/blog/child-custody-and-support-explained-by-a-top-lawyer-near-you/                                                    /practice-areas/child-custody/                                               301!
+/blog/how-a-child-custody-lawyer-in-san-diego-can-protect-your-parental-rights/                                        /blog/protecting-parental-rights-in-california-custody.html                  301!
+/blog/how-a-parental-rights-attorney-can-help-you-safeguard-your-role-as-a-parent/                                     /blog/protecting-parental-rights-in-california-custody.html                  301!
+/blog/looking-for-a-lawyer-for-custody-near-me-heres-what-to-ask-first/                                                /practice-areas/child-custody/                                               301!
+/blog/navigating-custody-and-alimony-a-child-custody-lawyer-in-san-diego-breaks-it-down/                               /practice-areas/child-custody/                                               301!
+/blog/need-a-custody-attorney-near-me-heres-how-to-choose-the-right-one/                                               /practice-areas/child-custody/                                               301!
+/blog/need-a-lawyer-for-custody-in-san-diego-heres-what-to-know-first/                                                 /practice-areas/child-custody/                                               301!
+/blog/why-you-need-a-paternity-lawyer-in-san-diego-to-secure-custody-and-child-support/                                /practice-areas/child-custody/                                               301!
+
+# Child-support generic -> child support pillar
+/blog/how-a-child-support-attorney-in-san-diego-can-help-you-get-what-you-deserve/                                     /blog/child-support-in-california-what-attorneys-do.html                     301!
+
+# Family lawyer generic -> family court pillar
+/blog/how-a-family-law-attorney-in-san-diego-can-protect-your-rights-and-interests/                                    /practice-areas/family-court/                                                301!
+/blog/san-diego-county-family-law-lawyer/                                                                                /practice-areas/family-court/                                                301!
+/blog/the-role-of-a-family-lawyer-in-san-diego-what-you-need-to-know/                                                  /practice-areas/family-court/                                                301!
+/blog/understanding-the-role-of-family-court-lawyers-in-san-diego/                                                     /blog/navigating-san-diego-family-court.html                                 301!
+/blog/what-family-court-lawyers-want-you-to-know-before-your-first-hearing/                                            /blog/navigating-san-diego-family-court.html                                 301!
+/blog/why-hiring-a-family-lawyer-in-san-diego-is-essential-for-your-case/                                              /practice-areas/family-court/                                                301!
+
+# Guardianship generic -> guardianship pillar / post
+/blog/lawyers-for-guardianship-near-me-when-you-need-legal-power-to-protect/                                           /practice-areas/guardianship/                                                301!
+/blog/why-you-might-need-a-guardianship-lawyer-in-san-diego-right-now/                                                 /blog/guardianship-under-california-probate-code.html                        301!
+
+# Restraining order -> DV pillar / post
+/blog/restraining-order-attorney-services-your-first-step-to-safety-and-peace/                                         /blog/domestic-violence-restraining-orders-california.html                   301!
+
+# Blog category pages -> new blog hub
+/blog/categories/blog/                                                                                                  /blog/                                                                       301!
+/blog/categories/child-custody/                                                                                         /blog/                                                                       301!
+/blog/categories/divorce/                                                                                               /blog/                                                                       301!
+/blog/categories/uncategorized/                                                                                         /blog/                                                                       301!

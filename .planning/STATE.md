@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-07-07T22:31:09.011Z"
+last_updated: "2026-07-08T19:30:00.000Z"
 progress:
-  total_phases: 3
-  completed_phases: 3
-  total_plans: 11
-  completed_plans: 11
+  total_phases: 5
+  completed_phases: 5
+  total_plans: 13
+  completed_plans: 13
 ---
 
 # Project State
@@ -18,13 +18,17 @@ progress:
 See: .planning/PROJECT.md (updated 2026-07-02)
 
 **Core value:** Burkett owns the site, owns the leads, and ranks locally in San Diego for divorce, child custody, and related family law intent — with content Google trusts as genuine legal expertise (E-E-A-T signals real enough for the YMYL bar).
-**Current focus:** Phase 3 COMPLETE (all 3 waves shipped — 9 URLs live). Phase 4 (location pages / practice × city matrix) is next and unblocked — pillar cluster hubs it depends on are now landed.
+**Current focus:** Phase 5 COMPLETE (blog hub + 15 curated posts w/ LegalArticle schema, author.@id -> bio, backdated publish dates, cluster linking, 41 Justia legacy 301s). Phase 6 (technical SEO + analytics + Justia redirect map completion) is next.
 
 ## Current Position
 
-Phase: 3 of 8 (Practice Pillar Pages) — COMPLETE
-Plan: 03-01 complete (Wave 1: hub + divorce + child-custody + child-support), 03-02 complete (Wave 2: spousal-support + mediation + domestic-violence), 03-03 complete (Wave 3: guardianship + family-court)
-Status: All 9 practice-area URLs live and validated. `/practice-areas/` hub ships CollectionPage + BreadcrumbList + ItemList of the 8 pillars with 40-60 word teasers each. All 8 pillars ship Service + FAQPage + BreadcrumbList in a single `@graph`, with the Service `provider.@id` resolving to homepage `#legalservice` and the `author.@id` resolving to bio Person `about.html#brian-burkett` — full E-E-A-T loop closed on YMYL content. Every pillar is 1190-1478 words, mentions California + San Diego (and cites the specific SDSC courthouse and statute), and carries the CTA trio inline + at bottom. Homepage practice grid + footer practice column now all resolve — no 404s. `assets/css/practice.css` (~370 lines) added as a page-type stylesheet reusing the `.cta-card` component from bio.css. Copy for divorce/child-custody/child-support rewritten first-person from Justia archive; spousal-support/mediation/domestic-violence/guardianship/family-court written from scratch as descriptive California family-law procedure with real statutory anchors (no fabricated outcomes). All 9 files pass lint_cal_bar.py + validate_fabrication.py + identity_guard.py.
+Phase: 5 of 8 (Blog — E-E-A-T Curated Posts) — COMPLETE
+Plan: 05-PLAN.md complete — 3 wave commits shipped (5 posts each) + redirects + sitemap + phase closeout
+Status: Blog hub at `/blog/` + 15 curated post URLs live and validated. Every post ships LegalArticle schema with author.@id -> bio Person node, publisher.@id -> homepage LegalService, about.@id -> matching practice pillar Service, `datePublished` backdated on monthly cadence 2024-05..2025-08 (not batch to 2026-07), `dateModified` = today, `articleSection` = category, and BreadcrumbList. Every post links body-copy to at least one practice pillar + one related post. 41 Justia legacy blog URLs mapped 301 in `_redirects` (15 curated 1:1 + 22 cut-post orphans + 4 category pages). sitemap.xml appended with 16 new URLs (51 total). Total blog word count: 17,185 (avg ~1145/post). Two validator hits caught during wave 1 and rewritten (RULE_7_2_EXPERT "vocational expert" -> "vocational evaluator"; FAB_YEARS_OR_COUNT "4320 matters" -> "section 4320 carries the weight"). All 16 pages pass lint_cal_bar.py + validate_fabrication.py + identity_guard.py.
+
+## Prior Phases
+
+Phase 3 (Practice Pillar Pages) — COMPLETE. All 9 practice-area URLs live and validated. `/practice-areas/` hub ships CollectionPage + BreadcrumbList + ItemList of the 8 pillars with 40-60 word teasers each. All 8 pillars ship Service + FAQPage + BreadcrumbList in a single `@graph`, with the Service `provider.@id` resolving to homepage `#legalservice` and the `author.@id` resolving to bio Person `about.html#brian-burkett` — full E-E-A-T loop closed on YMYL content. Every pillar is 1190-1478 words, mentions California + San Diego (and cites the specific SDSC courthouse and statute), and carries the CTA trio inline + at bottom. Homepage practice grid + footer practice column now all resolve — no 404s. `assets/css/practice.css` (~370 lines) added as a page-type stylesheet reusing the `.cta-card` component from bio.css. Copy for divorce/child-custody/child-support rewritten first-person from Justia archive; spousal-support/mediation/domestic-violence/guardianship/family-court written from scratch as descriptive California family-law procedure with real statutory anchors (no fabricated outcomes). All 9 files pass lint_cal_bar.py + validate_fabrication.py + identity_guard.py.
 Last activity: 2026-07-07 — Wave 3 (`bd88875`) pushed to main. All 3 Phase 3 commits pushed: `b963ca4` (Wave 1) + `bb8574b` (Wave 2) + `bd88875` (Wave 3). Working tree clean. Awaiting human-verify checkpoint on Netlify preview to confirm rich results.
 
 Progress: [██████████] 100% of Phase 3 — 11/11 total plans complete (Phase 1 + Phase 2 + Phase 3)
