@@ -19,8 +19,8 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <!-- Favicons -->
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/img/logo/burkett-favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/img/logo/burkett-apple-touch-180.png" sizes="180x180">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <!-- Preload above-the-fold fonts (LCP win per DESIGN.md §2.2) -->
@@ -169,6 +169,10 @@
   <header role="banner">
 <div class="site-header container-xl">
   <a href="/" class="site-header__logo" aria-label="Law Office of Brian Burkett — Home">
+    <picture class="site-header__logo-img">
+      <source srcset="/assets/img/logo/burkett-logo.webp" type="image/webp">
+      <img src="/assets/img/logo/burkett-logo.png" alt="" aria-hidden="true" width="42" height="42">
+    </picture>
     <span class="site-header__logo-mark">BURKETT</span>
     <span class="site-header__logo-divider" aria-hidden="true">|</span>
     <span class="site-header__logo-caption">family law</span>
@@ -253,48 +257,56 @@
         <ul class="home__practice-grid">
           <li>
             <a href="/practice-areas/divorce/" class="practice-card">
+              <span class="practice-card__icon" data-icon="divorce" aria-hidden="true"></span>
               <h3>Divorce</h3>
               <p>Uncontested, contested, and higher-asset dissolutions under California law.</p>
             </a>
           </li>
           <li>
             <a href="/practice-areas/child-custody/" class="practice-card">
+              <span class="practice-card__icon" data-icon="child-custody" aria-hidden="true"></span>
               <h3>Child Custody</h3>
               <p>Legal and physical custody, parenting plans, modifications, move-away cases.</p>
             </a>
           </li>
           <li>
             <a href="/practice-areas/child-support/" class="practice-card">
+              <span class="practice-card__icon" data-icon="child-support" aria-hidden="true"></span>
               <h3>Child Support</h3>
               <p>California guideline calculations, modifications, and enforcement.</p>
             </a>
           </li>
           <li>
             <a href="/practice-areas/spousal-support/" class="practice-card">
+              <span class="practice-card__icon" data-icon="spousal-support" aria-hidden="true"></span>
               <h3>Spousal Support</h3>
               <p>Temporary and long-term spousal support orders and modifications.</p>
             </a>
           </li>
           <li>
             <a href="/practice-areas/mediation/" class="practice-card">
+              <span class="practice-card__icon" data-icon="mediation" aria-hidden="true"></span>
               <h3>Mediation</h3>
               <p>Mediating disputes as neutral or representing you at mediation.</p>
             </a>
           </li>
           <li>
             <a href="/practice-areas/domestic-violence/" class="practice-card">
+              <span class="practice-card__icon" data-icon="domestic-violence" aria-hidden="true"></span>
               <h3>Domestic Violence</h3>
               <p>Domestic-violence restraining orders and the family-law issues that follow.</p>
             </a>
           </li>
           <li>
             <a href="/practice-areas/guardianship/" class="practice-card">
+              <span class="practice-card__icon" data-icon="guardianship" aria-hidden="true"></span>
               <h3>Guardianship</h3>
               <p>Probate and juvenile guardianship of minors in San Diego.</p>
             </a>
           </li>
           <li>
             <a href="/practice-areas/family-court/" class="practice-card">
+              <span class="practice-card__icon" data-icon="family-court" aria-hidden="true"></span>
               <h3>Family Court</h3>
               <p>Help navigating the family-law court process itself.</p>
             </a>

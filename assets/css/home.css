@@ -166,6 +166,50 @@
   outline-offset: 2px;
 }
 
+.practice-card__icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-full, 999px);
+  background-color: color-mix(in srgb, var(--color-accent) 10%, transparent);
+  margin-bottom: var(--space-4);
+  position: relative;
+  transition:
+    background-color var(--duration-base) var(--ease-out);
+}
+
+.practice-card__icon::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  background-color: var(--color-accent);
+  -webkit-mask-image: var(--icon-src);
+          mask-image: var(--icon-src);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  transition: background-color var(--duration-base) var(--ease-out);
+}
+
+.practice-card__icon[data-icon="divorce"]           { --icon-src: url("/assets/img/practice/divorce.svg"); }
+.practice-card__icon[data-icon="child-custody"]     { --icon-src: url("/assets/img/practice/child-custody.svg"); }
+.practice-card__icon[data-icon="child-support"]     { --icon-src: url("/assets/img/practice/child-support.svg"); }
+.practice-card__icon[data-icon="spousal-support"]   { --icon-src: url("/assets/img/practice/spousal-support.svg"); }
+.practice-card__icon[data-icon="mediation"]         { --icon-src: url("/assets/img/practice/mediation.svg"); }
+.practice-card__icon[data-icon="domestic-violence"] { --icon-src: url("/assets/img/practice/domestic-violence.svg"); }
+.practice-card__icon[data-icon="guardianship"]      { --icon-src: url("/assets/img/practice/guardianship.svg"); }
+.practice-card__icon[data-icon="family-court"]      { --icon-src: url("/assets/img/practice/family-court.svg"); }
+
+.practice-card:hover .practice-card__icon {
+  background-color: var(--color-accent);
+}
+.practice-card:hover .practice-card__icon::before {
+  background-color: var(--paper-0);
+}
+
 .practice-card h3 {
   font-family: var(--font-display);
   font-weight: 600;
