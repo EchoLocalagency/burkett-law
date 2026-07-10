@@ -641,17 +641,40 @@
 }
 
 /* -------------------------------------------------------------------------
-   SMS chip inside call CTA card
+   SMS note under the CTA trio (sitewide)
    ------------------------------------------------------------------------- */
 
-.cta-card__sms {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  font-weight: 500;
+.cta-trio-sms {
+  margin: var(--space-4) 0 0 0;
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
 }
 
-.cta-card__sms:hover { color: var(--color-accent); }
+.cta-trio-sms a {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cta-trio-sms a:hover {
+  color: var(--color-text);
+}
+
+/* Dark backgrounds (bottom CTA on navy, etc.) — invert */
+.home__cta-bottom .cta-trio-sms,
+.bio__cta .cta-trio-sms,
+.practice__cta-bottom .cta-trio-sms {
+  color: rgba(251, 248, 243, 0.75);
+}
+
+.home__cta-bottom .cta-trio-sms a,
+.bio__cta .cta-trio-sms a,
+.practice__cta-bottom .cta-trio-sms a {
+  color: var(--gold-500);
+}
 
 .home__service-area {
   padding-block: var(--space-12) var(--space-16);
