@@ -52,6 +52,33 @@
 }
 
 /* -------------------------------------------------------------------------
+   Hero cityscape
+   ------------------------------------------------------------------------- */
+
+.practice__hero-cityscape {
+  position: relative;
+  margin: 0 0 var(--space-8) 0;
+  overflow: hidden;
+  height: 240px;
+  border-radius: var(--radius-xl);
+  background: var(--ink-900);
+  box-shadow: var(--shadow-md);
+}
+
+.practice__hero-cityscape picture,
+.practice__hero-cityscape img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 45%;
+}
+
+@media (min-width: 720px) {
+  .practice__hero-cityscape { height: 300px; }
+}
+
+/* -------------------------------------------------------------------------
    Hero
    ------------------------------------------------------------------------- */
 
