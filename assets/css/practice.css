@@ -52,30 +52,38 @@
 }
 
 /* -------------------------------------------------------------------------
-   Hero cityscape
+   Hero cityscape (practice hub + pillar top band + location top band)
    ------------------------------------------------------------------------- */
 
-.practice__hero-cityscape {
+.practice__hero-cityscape,
+.practice__pillar-cityscape,
+.location__hero-cityscape {
   position: relative;
-  margin: 0 0 var(--space-8) 0;
+  margin: 0 0 var(--space-6) 0;
   overflow: hidden;
-  height: 240px;
+  height: 200px;
   border-radius: var(--radius-xl);
   background: var(--ink-900);
   box-shadow: var(--shadow-md);
 }
 
 .practice__hero-cityscape picture,
-.practice__hero-cityscape img {
+.practice__hero-cityscape img,
+.practice__pillar-cityscape picture,
+.practice__pillar-cityscape img,
+.location__hero-cityscape picture,
+.location__hero-cityscape img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 45%;
+  object-position: center 55%;
 }
 
 @media (min-width: 720px) {
-  .practice__hero-cityscape { height: 300px; }
+  .practice__hero-cityscape,
+  .practice__pillar-cityscape,
+  .location__hero-cityscape { height: 260px; }
 }
 
 /* -------------------------------------------------------------------------
