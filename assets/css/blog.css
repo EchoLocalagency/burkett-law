@@ -52,6 +52,33 @@
 }
 
 /* -------------------------------------------------------------------------
+   Hub hero cityscape
+   ------------------------------------------------------------------------- */
+
+.blog__hero-cityscape {
+  position: relative;
+  margin: 0 0 var(--space-8) 0;
+  overflow: hidden;
+  height: 220px;
+  border-radius: var(--radius-xl);
+  background: var(--ink-900);
+  box-shadow: var(--shadow-md);
+}
+
+.blog__hero-cityscape picture,
+.blog__hero-cityscape img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+@media (min-width: 720px) {
+  .blog__hero-cityscape { height: 280px; }
+}
+
+/* -------------------------------------------------------------------------
    Hub hero
    ------------------------------------------------------------------------- */
 

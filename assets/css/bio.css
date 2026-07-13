@@ -262,10 +262,106 @@
    CTA trio (bottom)
    ------------------------------------------------------------------------- */
 
+/* -------------------------------------------------------------------------
+   My Approach — with pull-image
+   ------------------------------------------------------------------------- */
+
+.bio__section--approach {
+  display: grid;
+  gap: var(--space-8);
+  align-items: start;
+}
+
+@media (min-width: 720px) {
+  .bio__section--approach {
+    grid-template-columns: 260px 1fr;
+    gap: var(--space-10);
+  }
+}
+
+.bio__approach-image {
+  order: 1;
+}
+
+.bio__approach-image picture,
+.bio__approach-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+  aspect-ratio: 275 / 445;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.bio__approach-copy {
+  order: 2;
+}
+
+@media (max-width: 719px) {
+  .bio__approach-image {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   SD cityscape band
+   ------------------------------------------------------------------------- */
+
+.bio__cityscape {
+  position: relative;
+  margin: var(--space-16) 0 0 0;
+  overflow: hidden;
+  height: 260px;
+  background: var(--ink-900);
+}
+
+.bio__cityscape picture,
+.bio__cityscape img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bio__cityscape-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-6);
+  background: linear-gradient(
+    to bottom,
+    rgba(18, 41, 74, 0.55) 0%,
+    rgba(18, 41, 74, 0.70) 100%
+  );
+}
+
+.bio__cityscape-line {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.1rem, 1.5vw + 0.8rem, 1.6rem);
+  color: var(--cream-50);
+  text-align: center;
+  max-width: 68ch;
+  line-height: 1.35;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+@media (min-width: 720px) {
+  .bio__cityscape { height: 320px; }
+}
+
 .bio__cta {
   background: var(--color-bg-elev-1);
   padding-block: var(--space-12);
-  margin-top: var(--space-16);
+  margin-top: 0;
   text-align: center;
 }
 
