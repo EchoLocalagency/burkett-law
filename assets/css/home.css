@@ -13,7 +13,201 @@
 }
 
 /* -------------------------------------------------------------------------
-   Hero (copy left, photo right on desktop; stacks on mobile)
+   FULL-BLEED HERO (Brian cutout over SD skyline background)
+   ------------------------------------------------------------------------- */
+
+.home__hero-full {
+  position: relative;
+  overflow: hidden;
+  background: var(--ink-800);
+  min-height: 520px;
+}
+
+.home__hero-full-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.home__hero-full-bg picture,
+.home__hero-full-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.home__hero-full-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  /* Warm navy tint — leaves the skyline visible but readable text over it */
+  background: linear-gradient(
+    115deg,
+    rgba(18, 41, 74, 0.90) 0%,
+    rgba(18, 41, 74, 0.75) 40%,
+    rgba(18, 41, 74, 0.60) 70%,
+    rgba(18, 41, 74, 0.55) 100%
+  );
+}
+
+.home__hero-full-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  align-items: end;
+  padding-block: var(--space-12) 0;
+  min-height: 520px;
+}
+
+@media (min-width: 900px) {
+  .home__hero-full-inner {
+    grid-template-columns: 1fr 1.4fr;
+    gap: var(--space-10);
+    align-items: end;
+    padding-block: var(--space-12) 0;
+  }
+  .home__hero-full { min-height: 600px; }
+}
+
+.home__hero-full-portrait {
+  position: relative;
+  align-self: end;
+  text-align: center;
+  margin-top: var(--space-6);
+}
+
+.home__hero-full-portrait img {
+  display: block;
+  height: 460px;
+  width: auto;
+  max-width: 100%;
+  margin-inline: auto;
+  filter: drop-shadow(0 12px 40px rgba(0, 0, 0, 0.35));
+}
+
+@media (min-width: 900px) {
+  .home__hero-full-portrait img {
+    height: 560px;
+    margin-inline: 0;
+  }
+}
+
+.home__hero-full-copy {
+  color: var(--cream-50);
+  padding-block: var(--space-8) var(--space-12);
+}
+
+@media (min-width: 900px) {
+  .home__hero-full-copy {
+    padding-block: 0 var(--space-14);
+  }
+}
+
+.home__hero-full-eyebrow {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--gold-500);
+  margin: 0 0 var(--space-4) 0;
+}
+
+.home__hero-full-copy h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 4vw + 0.75rem, 3.75rem);
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--cream-50);
+  margin: 0 0 var(--space-5) 0;
+  text-wrap: balance;
+  letter-spacing: var(--tracking-tight);
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+}
+
+.home__hero-full-lead {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(251, 248, 243, 0.90);
+  max-width: 56ch;
+  margin: 0 0 var(--space-8) 0;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.home__hero-full-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-5) 0;
+}
+
+.home__hero-full-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4) var(--space-8);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  transition:
+    background-color var(--duration-base) var(--ease-out),
+    color var(--duration-base) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
+}
+
+.home__hero-full-btn--primary {
+  background: var(--gold-500);
+  color: var(--ink-900);
+}
+
+.home__hero-full-btn--primary:hover {
+  background: var(--cream-50);
+  color: var(--ink-900);
+}
+
+.home__hero-full-btn--ghost {
+  background: transparent;
+  color: var(--cream-50);
+  border: 1.5px solid rgba(251, 248, 243, 0.75);
+}
+
+.home__hero-full-btn--ghost:hover {
+  background: rgba(251, 248, 243, 0.12);
+  border-color: var(--cream-50);
+}
+
+.home__hero-full-sms {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: rgba(251, 248, 243, 0.80);
+}
+
+.home__hero-full-sms a {
+  color: var(--gold-500);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* -------------------------------------------------------------------------
+   Compact CTA trio strip right under full-bleed hero
+   ------------------------------------------------------------------------- */
+
+.home__hero-cta-strip {
+  padding-block: var(--space-8) var(--space-4);
+  margin-top: 0;
+}
+
+/* -------------------------------------------------------------------------
+   Legacy 2-col hero (kept for other pages if referenced)
    ------------------------------------------------------------------------- */
 
 .home__hero {

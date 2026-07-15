@@ -209,42 +209,65 @@
   <main id="main">
     <article class="home">
 
-      <!-- HERO + CTA TRIO ABOVE THE FOLD -->
-      <section class="home__hero container-xl">
-        <div class="home__hero-copy">
-          <p class="home__eyebrow">San Diego Family Law</p>
-          <h1>A San Diego family law attorney who returns your call.</h1>
-          <p class="home__lead">
-            I am Brian Burkett &mdash; a solo family-law practitioner with 24 years of
-            family-law practice in San Diego County family court. My practice is devoted
-            entirely to divorce, child custody, support, mediation, and the other matters
-            California families work through. You will not be handed off to an associate.
-            You will not be lost in a queue. You will talk to me.
-          </p>
-          <div class="home__cta-trio home__cta-trio--hero">
-            <a href="tel:+16192502683" class="cta-card cta-card--phone">
-              <p class="cta-card__label">Call Directly</p>
-              <p class="cta-card__value">(619) 250-2683</p>
-              <p class="cta-card__note">Mon-Fri 9am-6pm</p>
-            </a>
-            <a href="/contact.html#booking" class="cta-card cta-card--calendar">
-              <p class="cta-card__label">Book a Consultation</p>
-              <p class="cta-card__value">Schedule online</p>
-              <p class="cta-card__note">15-minute intake call</p>
-            </a>
-            <a href="/contact.html#form" class="cta-card cta-card--form">
-              <p class="cta-card__label">Send a Message</p>
-              <p class="cta-card__value">Contact form</p>
-              <p class="cta-card__note">Response within 1 business day</p>
-            </a>
-          </div>
-          <p class="cta-trio-sms">Prefer to text? Text <a href="sms:+16192502683">(619) 250-2683</a>.</p>
+      <!-- FULL-BLEED HERO: Brian cutout over SD skyline background -->
+      <section class="home__hero-full" aria-labelledby="hero-heading">
+        <div class="home__hero-full-bg" aria-hidden="true">
+          <picture>
+            <source srcset="/assets/img/sd/sd-skyline-bayfront.webp" type="image/webp">
+            <img src="/assets/img/sd/sd-skyline-bayfront.jpg"
+                 alt=""
+                 width="1920" height="472"
+                 loading="eager" fetchpriority="high" decoding="async">
+          </picture>
         </div>
-        <div class="home__hero-photo">
-          <img src="/assets/img/brian-burkett-headshot.jpg"
-               alt="Brian Burkett, San Diego family law attorney"
-               width="800" height="800"
-               loading="eager" fetchpriority="high" decoding="async">
+        <div class="home__hero-full-inner container-xl">
+          <div class="home__hero-full-portrait" aria-hidden="true">
+            <img src="/assets/img/brian/brian-burkett-warm-transparent.png"
+                 alt=""
+                 width="405" height="550"
+                 loading="eager" fetchpriority="high" decoding="async">
+          </div>
+          <div class="home__hero-full-copy">
+            <p class="home__hero-full-eyebrow">San Diego Family Law &middot; 24 Years</p>
+            <h1 id="hero-heading">Protecting your children, income, and future.</h1>
+            <p class="home__hero-full-lead">
+              I am Brian Burkett &mdash; a solo family-law attorney in San Diego. My practice
+              is devoted entirely to divorce, custody, support, mediation, and the other
+              matters California families work through. You will talk to me.
+            </p>
+            <div class="home__hero-full-actions">
+              <a href="tel:+16192502683" class="home__hero-full-btn home__hero-full-btn--primary">
+                Call (619) 250-2683
+              </a>
+              <a href="/contact.html#booking" class="home__hero-full-btn home__hero-full-btn--ghost">
+                Book Consultation
+              </a>
+            </div>
+            <p class="home__hero-full-sms">
+              Prefer to text? <a href="sms:+16192502683">Text (619) 250-2683</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Compact CTA trio right under the hero (keeps the 3-channel option prominent) -->
+      <section class="home__hero-cta-strip container-xl">
+        <div class="home__cta-trio">
+          <a href="tel:+16192502683" class="cta-card cta-card--phone">
+            <p class="cta-card__label">Call Directly</p>
+            <p class="cta-card__value">(619) 250-2683</p>
+            <p class="cta-card__note">Mon-Fri 9am-6pm</p>
+          </a>
+          <a href="/contact.html#booking" class="cta-card cta-card--calendar">
+            <p class="cta-card__label">Book a Consultation</p>
+            <p class="cta-card__value">Schedule online</p>
+            <p class="cta-card__note">15-minute intake call</p>
+          </a>
+          <a href="/contact.html#form" class="cta-card cta-card--form">
+            <p class="cta-card__label">Send a Message</p>
+            <p class="cta-card__value">Contact form</p>
+            <p class="cta-card__note">Response within 1 business day</p>
+          </a>
         </div>
       </section>
 
