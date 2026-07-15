@@ -20,7 +20,7 @@
   position: relative;
   overflow: hidden;
   background: var(--ink-800);
-  min-height: 520px;
+  min-height: 460px;
 }
 
 .home__hero-full-bg {
@@ -59,8 +59,8 @@
   grid-template-columns: 1fr;
   gap: var(--space-6);
   align-items: end;
-  padding-block: var(--space-12) 0;
-  min-height: 520px;
+  padding-block: var(--space-4) 0;
+  min-height: 460px;
 }
 
 @media (min-width: 900px) {
@@ -68,9 +68,9 @@
     grid-template-columns: 1fr 1.4fr;
     gap: var(--space-10);
     align-items: end;
-    padding-block: var(--space-12) 0;
+    padding-block: var(--space-3) 0;
   }
-  .home__hero-full { min-height: 600px; }
+  .home__hero-full { min-height: 540px; }
 }
 
 .home__hero-full-portrait {
