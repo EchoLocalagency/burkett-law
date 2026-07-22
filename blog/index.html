@@ -132,37 +132,36 @@
   </header>
 
   <main id="main">
-    <article class="blog">
-      <div class="container-xl">
-        <nav class="blog__breadcrumb" aria-label="Breadcrumb">
+    <section class="page-hero-full" aria-labelledby="hero-heading">
+      <div class="page-hero-full__bg" aria-hidden="true">
+        <picture>
+          <source srcset="/assets/img/sd/sd-hero-blog.webp" type="image/webp">
+          <img src="/assets/img/sd/sd-hero-blog.jpg"
+               alt=""
+               width="2400" height="960"
+               loading="eager" fetchpriority="high" decoding="async">
+        </picture>
+      </div>
+      <div class="page-hero-full__inner container-xl">
+        <nav class="page-hero-full__breadcrumb" aria-label="Breadcrumb">
           <ol>
             <li><a href="/">Home</a></li>
             <li aria-current="page">Blog</li>
           </ol>
         </nav>
+        <p class="page-hero-full__eyebrow">Family Law Blog</p>
+        <h1 id="hero-heading">Plain-Language Notes on California Family Law</h1>
+        <p class="page-hero-full__lead">
+          Divorce, custody, support, mediation, restraining orders, guardianship,
+          and how San Diego family court actually works &mdash; answering the
+          questions I hear most often at intake, in language that does not assume
+          you already know the California Family Code.
+        </p>
+      </div>
+    </section>
 
-        <aside class="blog__hero-cityscape" aria-hidden="true">
-          <picture>
-            <source srcset="/assets/img/sd/sd-harbor-sunset.webp" type="image/webp">
-            <img src="/assets/img/sd/sd-harbor-sunset.jpg"
-                 alt=""
-                 width="1280" height="960"
-                 loading="lazy" decoding="async">
-          </picture>
-        </aside>
-
-        <section class="blog__hero">
-          <p class="blog__eyebrow">Family Law Blog</p>
-          <h1>Plain-Language Notes on California Family Law</h1>
-          <p class="blog__lead">
-            Divorce, custody, support, mediation, restraining orders, guardianship,
-            and how San Diego family court actually works. I write these to
-            answer the questions I hear most often at intake, in language that
-            does not assume you already understand the California Family Code.
-            Nothing here is legal advice for your specific situation &mdash; every
-            case is different, and the best next step is a conversation.
-          </p>
-        </section>
+    <article class="blog">
+      <div class="container-xl">
 
         <div class="blog__filter" role="group" aria-label="Filter posts by category">
           <span class="blog__filter-label">Filter:</span>

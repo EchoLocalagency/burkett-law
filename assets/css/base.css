@@ -81,3 +81,147 @@ a:hover { color: var(--ink-900); text-decoration-thickness: 2.5px; }
 section { padding-block: var(--space-16); }
 @media (min-width: 768px) { section { padding-block: var(--space-20); } }
 @media (min-width: 1024px) { section { padding-block: var(--space-24); } }
+
+/* -------------------------------------------------------------------------
+   FULL-BLEED PAGE HERO
+   Shared by section landing pages (Practice Areas hub, Blog hub).
+   Full-width photo band with navy tint + white serif headline, matching the
+   home hero. Breadcrumb + eyebrow + H1 + lead sit over the darker left side.
+   ------------------------------------------------------------------------- */
+
+.page-hero-full {
+  position: relative;
+  overflow: hidden;
+  background: var(--ink-800);
+  min-height: 320px;
+  padding-block: 0; /* neutralize global section rhythm */
+}
+
+.page-hero-full__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.page-hero-full__bg picture,
+.page-hero-full__bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* skyline sits in the upper third of the crop — bias the visible slice up
+     so cover-cropping on wide/short viewports never clips it */
+  object-position: center 25%;
+}
+
+.page-hero-full__bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(18, 41, 74, 0.92) 0%,
+    rgba(18, 41, 74, 0.80) 42%,
+    rgba(18, 41, 74, 0.58) 72%,
+    rgba(18, 41, 74, 0.45) 100%
+  );
+}
+
+.page-hero-full__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 320px;
+  padding-block: var(--space-8) var(--space-10);
+  color: var(--cream-50);
+}
+
+@media (min-width: 768px) {
+  .page-hero-full { min-height: 420px; }
+  .page-hero-full__inner {
+    min-height: 420px;
+    padding-block: var(--space-10) var(--space-12);
+  }
+}
+
+.page-hero-full__breadcrumb {
+  font-family: var(--font-body);
+  font-size: var(--fs-caption);
+  margin-bottom: var(--space-5);
+  color: rgba(251, 248, 243, 0.75);
+}
+
+.page-hero-full__breadcrumb ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.page-hero-full__breadcrumb li + li::before {
+  content: "›";
+  margin-right: var(--space-2);
+  color: rgba(251, 248, 243, 0.5);
+}
+
+.page-hero-full__breadcrumb a {
+  color: rgba(251, 248, 243, 0.85);
+  text-decoration: none;
+}
+
+.page-hero-full__breadcrumb a:hover,
+.page-hero-full__breadcrumb a:focus-visible {
+  color: var(--gold-500);
+  text-decoration: underline;
+}
+
+.page-hero-full__eyebrow {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--gold-500);
+  margin: 0 0 var(--space-4) 0;
+}
+
+.page-hero-full h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3vw + 1rem, 3.25rem);
+  font-weight: 500;
+  line-height: 1.12;
+  color: var(--cream-50);
+  margin: 0 0 var(--space-5) 0;
+  text-wrap: balance;
+  letter-spacing: var(--tracking-tight);
+  max-width: 20ch;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+}
+
+.page-hero-full__lead {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(251, 248, 243, 0.92);
+  max-width: 60ch;
+  margin: 0;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.page-hero-full__byline {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: rgba(251, 248, 243, 0.78);
+  margin: var(--space-5) 0 0 0;
+}
+
+.page-hero-full__byline a {
+  color: var(--gold-500);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
