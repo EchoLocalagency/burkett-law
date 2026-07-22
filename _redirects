@@ -110,4 +110,19 @@
 # Blog root variants (blog.html was Justia's blog landing)
 /blog/index.html                                                                                                        /blog/                                                                       301!
 
-# Non-www -> canonical apex (Phase 7 T-14 adds host-based rule too; this is HTTP-path-only)
+# =============================================================================
+# HOST CANONICALIZATION — www -> apex (PRE-STAGED for DNS cutover, 2026-07-22)
+# =============================================================================
+# Justia canonicalized to www (apex 301s -> www). The new site canonicalizes to
+# apex, so cutover reverses the canonical host. These rules force any www request
+# -- including legacy Justia paths -- to the apex host while preserving the path,
+# so the path-specific 301s above still apply on the apex request.
+#
+# Safe to ship pre-cutover: the source host is the real domain, so these NEVER
+# match the *.netlify.app preview. Belt-and-suspenders alongside setting apex as
+# the Netlify primary domain at cutover (Netlify also auto-redirects www->apex
+# once apex is primary; this guarantees it regardless of that setting).
+# Netlify handles http->https automatically, but both schemes are listed for
+# explicitness.
+https://www.childcustodyanddivorce.com/*   https://childcustodyanddivorce.com/:splat   301!
+http://www.childcustodyanddivorce.com/*    https://childcustodyanddivorce.com/:splat   301!
