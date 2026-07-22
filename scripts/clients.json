@@ -3,7 +3,7 @@
     "domain": "childcustodyanddivorce.com",
     "brand_name": "Law Office of Brian Burkett",
     "attorney_name": "Brian Burkett",
-    "ga4_id": "G-BURKETTXX0",
+    "ga4_id": "G-41TDD435K3",
     "phone_e164": "+16192502683",
     "phone_display": "(619) 250-2683",
     "address_full": "591 Camino De La Reina, Suite 821, San Diego, CA 92108",
@@ -15,7 +15,7 @@
     },
     "hours_display": "Mon-Fri 9am-6pm",
     "allowed_ga4_ids": [
-      "G-BURKETTXX0"
+      "G-41TDD435K3"
     ],
     "banned_cross_client_strings": [
       "Mr Green",
