@@ -426,6 +426,7 @@
 .practice-hub__icon[data-icon="domestic-violence"] { --icon-src: url("/assets/img/practice/domestic-violence.svg"); }
 .practice-hub__icon[data-icon="guardianship"]      { --icon-src: url("/assets/img/practice/guardianship.svg"); }
 .practice-hub__icon[data-icon="family-court"]      { --icon-src: url("/assets/img/practice/family-court.svg"); }
+.practice-hub__icon[data-icon="paternity"]         { --icon-src: url("/assets/img/practice/paternity.svg"); }
 
 .practice-hub__card:hover .practice-hub__icon {
   background-color: var(--color-accent);
